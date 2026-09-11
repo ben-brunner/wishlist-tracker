@@ -6,14 +6,14 @@ le consulter. Pas de serveur, pas de base de données, pas de compte à créer.
 ```
 track.py                      le relevé et tous les calculs
 history.csv                   l'historique (une ligne par changement de prix)
-public/index.html             la page
-public/data.json              ce que lit la page, régénéré à chaque relevé
+docs/index.html               la page
+docs/data.json                ce que lit la page, régénéré à chaque relevé
 .github/workflows/releve.yml  le cron quotidien
 ```
 
 ## Mise en place
 
-**1. Créer le dépôt.** Un dépôt GitHub privé, avec ces fichiers à la racine.
+**1. Créer le dépôt.** Un dépôt GitHub, avec ces fichiers à la racine.
 
 **2. Déclarer l'URL de la wishlist.** Dans le dépôt, *Settings → Secrets and
 variables → Actions → New repository secret* :
@@ -22,19 +22,21 @@ variables → Actions → New repository secret* :
 - valeur : `https://imusic.fr/page/wishlist/VOTRE_JETON?sort=price&dir=asc&format=csv`
 
 Cette URL est un secret plutôt qu'une constante du code parce que le jeton
-qu'elle contient donne accès à la wishlist sans authentification.
+qu'elle contient donne accès à la wishlist sans authentification. Pour la même
+raison, `data.json` ne la recopie pas : la page publiée serait sinon un moyen
+commode de la lire.
 
 **3. Lancer un premier relevé.** Onglet *Actions → Relevé des prix → Run
 workflow*. Ça vérifie que tout marche sans attendre le cron.
 
-**4. Publier la page.** Sur Cloudflare Pages, *Create a project → Connect to
-Git*, choisir le dépôt puis :
+**4. Publier la page.** Sur un dépôt public, *Settings → Pages*, source
+*Deploy from a branch*, branche `master` et répertoire `/docs`. Chaque commit du
+robot redéploie la page. C'est le nom `docs` qui rend ce choix possible : Pages
+n'accepte que la racine ou ce répertoire-là.
 
-- commande de build : aucune
-- répertoire de sortie : `public`
-
-Chaque commit du robot redéploie la page. Cloudflare accepte les dépôts privés,
-contrairement à GitHub Pages qui exigerait de rendre la wishlist publique.
+Sur un dépôt privé, Pages demande un plan payant. L'alternative est Cloudflare
+Pages (*Create a project → Connect to Git*, aucune commande de build,
+répertoire de sortie `docs`), qui accepte les dépôts privés.
 
 ## Au quotidien
 

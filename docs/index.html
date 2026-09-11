@@ -398,8 +398,7 @@ function resumer(data) {
   $('#meta').innerHTML =
     `${articles.length} articles · ${euro.format(total)} au total · ` +
     `dernier relevé le ${jourAn.format(releve)} à ` +
-    releve.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }) +
-    (data.wishlist_url ? ` · <a href="${data.wishlist_url.replace('&format=csv', '').replace('?format=csv', '')}" target="_blank" rel="noopener">la wishlist</a>` : '');
+    releve.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
 }
 
 fetch('data.json?v=' + Date.now())
@@ -417,7 +416,7 @@ fetch('data.json?v=' + Date.now())
   .catch(() => {
     $('#resume').textContent = 'Pas encore de relevé.';
     $('#meta').innerHTML =
-      'Lance <code>python3 track.py</code> pour créer le premier <code>public/data.json</code>.';
+      'Lance <code>python3 track.py</code> pour créer le premier <code>docs/data.json</code>.';
   });
 </script>
 </body>

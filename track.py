@@ -4,7 +4,7 @@
 Une exécution =
   1. télécharge l'export CSV de la wishlist,
   2. ajoute une ligne dans history.csv pour chaque prix qui a bougé,
-  3. régénère public/data.json que lit la page web.
+  3. régénère docs/data.json que lit la page web.
 
 Aucune dépendance : bibliothèque standard uniquement.
 """
@@ -24,7 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 HISTORY = ROOT / "history.csv"
-OUTPUT = ROOT / "public" / "data.json"
+OUTPUT = ROOT / "docs" / "data.json"
 
 WISHLIST_URL = os.environ.get("WISHLIST_URL", "").strip()
 
@@ -337,7 +337,6 @@ def main() -> int:
         json.dumps(
             {
                 "genere_le": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                "wishlist_url": WISHLIST_URL,
                 "articles": sorted(analyses, key=lambda a: (a["prix"] is None, a["prix"] or 0)),
             },
             ensure_ascii=False,

@@ -1,7 +1,7 @@
 # Contexte du projet
 
 Suivi du prix des articles d'une wishlist imusic. Un relevé par jour via GitHub
-Actions, historique dans `history.csv`, page statique dans `public/`.
+Actions, historique dans `history.csv`, page statique dans `docs/`.
 
 Contrainte directrice : **rester simple**. Un seul utilisateur, pas de besoin de
 montée en charge. Pas de base de données, pas de framework, pas de dépendance
@@ -68,7 +68,7 @@ re.split(r"(?m)^(?=\d{4}-\d{2}-\d{2} \d{2}:\d{2};)", corps)
 
 ## Interface
 
-`public/index.html` est autonome : un seul fichier, pas de build, pas de
-dépendance hors les polices Google. Il lit `public/data.json` et ne calcule
+`docs/index.html` est autonome : un seul fichier, pas de build, pas de
+dépendance hors les polices Google. Il lit `docs/data.json` et ne calcule
 rien — minimums, maximums et variations sont produits par `track.py`. Garder
 cette séparation.
