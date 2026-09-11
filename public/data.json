@@ -1,0 +1,725 @@
+{
+ "genere_le": "2026-09-10T13:00:00+02:00",
+ "wishlist_url": "https://imusic.fr/page/wishlist/2c3a599d4000fa057640f5cc73d58781?sort=price&dir=asc&format=csv",
+ "articles": [
+  {
+   "id": "9781401294052",
+   "titre": "Batman: The Killing Joke Deluxe",
+   "artiste": "Alan Moore",
+   "media": "Hardcover BookDC Black Label edition",
+   "image": "https://imusic.b-cdn.net/images/item/original/052/9781401294052.jpg",
+   "url": "https://imusic.fr/books/9781401294052/alan-moore-2019-batman-the-killing-joke-deluxe-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 13.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 13.49,
+   "max_12m": 13.49,
+   "min_total": 13.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     13.49
+    ]
+   ]
+  },
+  {
+   "id": "9781684159161",
+   "titre": "The Many Deaths of Laila Starr Deluxe Edition",
+   "artiste": "V. Ram",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/161/9781684159161.jpg",
+   "url": "https://imusic.fr/books/9781684159161/v-ram-2023-the-many-deaths-of-laila-starr-deluxe-edition-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 18.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 18.99,
+   "max_12m": 18.99,
+   "min_total": 18.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     18.99
+    ]
+   ]
+  },
+  {
+   "id": "9781779513441",
+   "titre": "All Star Superman: The Deluxe Edition",
+   "artiste": "Grant Morrison",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/441/9781779513441.jpg",
+   "url": "https://imusic.fr/books/9781779513441/grant-morrison-2022-all-star-superman-the-deluxe-edition-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 30.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 30.49,
+   "max_12m": 30.49,
+   "min_total": 30.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     30.49
+    ]
+   ]
+  },
+  {
+   "id": "9781799513032",
+   "titre": "Kingdom Come: 30th Anniversary Deluxe Edition",
+   "artiste": "Mark Waid",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/032/9781799513032.jpg",
+   "url": "https://imusic.fr/books/9781799513032/mark-waid-2026-kingdom-come-30th-anniversary-deluxe-edition-hardcover-book",
+   "statut": "precommande",
+   "livraison": "Livraison prevue 2026-11-25 - 2026-11-30",
+   "prix": 33.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 33.49,
+   "max_12m": 33.49,
+   "min_total": 33.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     33.49
+    ]
+   ]
+  },
+  {
+   "id": "9781684157648",
+   "titre": "Something is Killing the Children Book One Deluxe Edition - Something is Killing the Children",
+   "artiste": "James Tynion IV",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/648/9781684157648.jpg",
+   "url": "https://imusic.fr/books/9781684157648/james-tynion-iv-2021-something-is-killing-the-children-book-one-deluxe-edition-something-is-killing-the-children-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-22 - 2026-09-29",
+   "prix": 34.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 34.99,
+   "max_12m": 34.99,
+   "min_total": 34.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     34.99
+    ]
+   ]
+  },
+  {
+   "id": "9781799508199",
+   "titre": "Batman / Superman: World's Finest: Deluxe Edition Vol. 1",
+   "artiste": "Mark Waid",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/199/9781799508199.jpg",
+   "url": "https://imusic.fr/books/9781799508199/mark-waid-2026-batman-superman-world-s-finest-deluxe-edition-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-08",
+   "prix": 39.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 39.49,
+   "max_12m": 39.49,
+   "min_total": 39.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     39.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779506955",
+   "titre": "Absolute Swamp Thing by Alan Moore Volume 1",
+   "artiste": "Alan Moore",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/955/9781779506955.jpg",
+   "url": "https://imusic.fr/books/9781779506955/alan-moore-2020-absolute-swamp-thing-by-alan-moore-volume-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 52.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 52.49,
+   "max_12m": 52.49,
+   "min_total": 52.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     52.49
+    ]
+   ]
+  },
+  {
+   "id": "9781506722443",
+   "titre": "Madman Library Edition Volume 1",
+   "artiste": "Michael Allred",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/443/9781506722443.jpg",
+   "url": "https://imusic.fr/books/9781506722443/michael-allred-2021-madman-library-edition-volume-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 52.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 52.49,
+   "max_12m": 52.49,
+   "min_total": 52.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     52.49
+    ]
+   ]
+  },
+  {
+   "id": "9781401242381",
+   "titre": "The Planetary Omnibus",
+   "artiste": "Warren Ellis",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/381/9781401242381.jpg",
+   "url": "https://imusic.fr/books/9781401242381/warren-ellis-2014-the-planetary-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 52.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 52.99,
+   "max_12m": 52.99,
+   "min_total": 52.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     52.99
+    ]
+   ]
+  },
+  {
+   "id": "9781779502711",
+   "titre": "Batman by Grant Morrison Omnibus Volume 3",
+   "artiste": "Grant Morrison",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/711/9781779502711.jpg",
+   "url": "https://imusic.fr/books/9781779502711/grant-morrison-2020-batman-by-grant-morrison-omnibus-volume-3-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-22 - 2026-09-29",
+   "prix": 59.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 59.99,
+   "max_12m": 59.99,
+   "min_total": 59.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     59.99
+    ]
+   ]
+  },
+  {
+   "id": "9781799502937",
+   "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
+   "artiste": "Gail Simone",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
+   "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 63.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 63.99,
+   "max_12m": 63.99,
+   "min_total": 63.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     63.99
+    ]
+   ]
+  },
+  {
+   "id": "9781799502029",
+   "titre": "Superman by Phillip Kennedy Johnson Omnibus Vol. 1",
+   "artiste": "Michael Conrad",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
+   "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 63.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 63.99,
+   "max_12m": 63.99,
+   "min_total": 63.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     63.99
+    ]
+   ]
+  },
+  {
+   "id": "9781779525956",
+   "titre": "Secret Six by Gail Simone Omnibus Vol. 1",
+   "artiste": "Gail Simone",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/956/9781779525956.jpg",
+   "url": "https://imusic.fr/books/9781779525956/gail-simone-2024-secret-six-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 63.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 63.99,
+   "max_12m": 63.99,
+   "min_total": 63.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     63.99
+    ]
+   ]
+  },
+  {
+   "id": "9781401298845",
+   "titre": "Batman by Scott Snyder and Greg Capullo Omnibus Volume 1",
+   "artiste": "Scott Snyder",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/845/9781401298845.jpg",
+   "url": "https://imusic.fr/books/9781401298845/scott-snyder-2019-batman-by-scott-snyder-and-greg-capullo-omnibus-volume-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 64.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 64.49,
+   "max_12m": 64.49,
+   "min_total": 64.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     64.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779509253",
+   "titre": "Superman by Peter J. Tomasi and Patrick Gleason Omnibus",
+   "artiste": "Peter J. Tomasi",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/253/9781779509253.jpg",
+   "url": "https://imusic.fr/books/9781779509253/peter-j-tomasi-2021-superman-by-peter-j-tomasi-and-patrick-gleason-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 65.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 65.49,
+   "max_12m": 65.49,
+   "min_total": 65.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     65.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779527448",
+   "titre": "Batman by Paul Dini Omnibus",
+   "artiste": "Paul Dini",
+   "media": "Hardcover BookNew edition",
+   "image": "https://imusic.b-cdn.net/images/item/original/448/9781779527448.jpg",
+   "url": "https://imusic.fr/books/9781779527448/paul-dini-2024-batman-by-paul-dini-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 65.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 65.49,
+   "max_12m": 65.49,
+   "min_total": 65.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     65.49
+    ]
+   ]
+  },
+  {
+   "id": "9781401294762",
+   "titre": "Lucifer Omnibus Volume 1",
+   "artiste": "Mike Carey",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/762/9781401294762.jpg",
+   "url": "https://imusic.fr/books/9781401294762/mike-carey-2019-lucifer-omnibus-volume-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 65.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 65.49,
+   "max_12m": 65.49,
+   "min_total": 65.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     65.49
+    ]
+   ]
+  },
+  {
+   "id": "9781799505112",
+   "titre": "Superman: Action Comics by Dan Jurgens Omnibus Vol. 1",
+   "artiste": "Dan Jurgens",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/112/9781799505112.jpg",
+   "url": "https://imusic.fr/books/9781799505112/dan-jurgens-2025-superman-action-comics-by-dan-jurgens-omnibus-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 67.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 67.99,
+   "max_12m": 67.99,
+   "min_total": 67.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     67.99
+    ]
+   ]
+  },
+  {
+   "id": "9781401245627",
+   "titre": "The Doom Patrol Omnibus",
+   "artiste": "Grant Morrison",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/627/9781401245627.jpg",
+   "url": "https://imusic.fr/books/9781401245627/grant-morrison-2014-the-doom-patrol-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 76.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 76.49,
+   "max_12m": 76.49,
+   "min_total": 76.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     76.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779504999",
+   "titre": "JLA by Grant Morrison Omnibus",
+   "artiste": "Grant Morriso",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/999/9781779504999.jpg",
+   "url": "https://imusic.fr/books/9781779504999/grant-morriso-2020-jla-by-grant-morrison-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 77.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 77.49,
+   "max_12m": 77.49,
+   "min_total": 77.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779517043",
+   "titre": "Batman & Robin By Tomasi and Gleason Omnibus (2022 Edition)",
+   "artiste": "Peter J. Tomasi",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/043/9781779517043.jpg",
+   "url": "https://imusic.fr/books/9781779517043/peter-j-tomasi-2023-batman-robin-by-tomasi-and-gleason-omnibus-2022-edition-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 77.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 77.49,
+   "max_12m": 77.49,
+   "min_total": 77.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779506658",
+   "titre": "Batman: Detective Comics Omnibus",
+   "artiste": "James Tynion IV",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/658/9781779506658.jpg",
+   "url": "https://imusic.fr/books/9781779506658/james-tynion-iv-2020-batman-detective-comics-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 77.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 77.49,
+   "max_12m": 77.49,
+   "min_total": 77.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779524713",
+   "titre": "Absolute Superman by Geoff Johns & Gary Frank",
+   "artiste": "Geoff Johns",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/713/9781779524713.jpg",
+   "url": "https://imusic.fr/books/9781779524713/geoff-johns-2024-absolute-superman-by-geoff-johns-gary-frank-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prevue 2026-09-24 - 2026-10-19",
+   "prix": 77.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 77.49,
+   "max_12m": 77.49,
+   "min_total": 77.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ]
+   ]
+  },
+  {
+   "id": "9781799508755",
+   "titre": "Batwoman Omnibus (2026 Edition)",
+   "artiste": "Greg Rucka",
+   "media": "Hardcover BookNew edition",
+   "image": "https://imusic.b-cdn.net/images/item/original/755/9781799508755.jpg",
+   "url": "https://imusic.fr/books/9781799508755/greg-rucka-2026-batwoman-omnibus-2026-edition-hardcover-book",
+   "statut": "precommande",
+   "livraison": "Livraison prevue 2026-10-07 - 2026-10-12",
+   "prix": 97.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 97.49,
+   "max_12m": 97.49,
+   "min_total": 97.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     97.49
+    ]
+   ]
+  },
+  {
+   "id": "9781302969837",
+   "titre": "Silver Surfer: The Infinity Gauntlet Omnibus",
+   "artiste": "Jim Starlin",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/837/9781302969837.jpg",
+   "url": "https://imusic.fr/books/9781302969837/jim-starlin-2026-silver-surfer-the-infinity-gauntlet-omnibus-hardcover-book",
+   "statut": "precommande",
+   "livraison": "Livraison prevue 2026-11-11 - 2026-11-16",
+   "prix": 110.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 110.49,
+   "max_12m": 110.49,
+   "min_total": 110.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     110.49
+    ]
+   ]
+  },
+  {
+   "id": "9781632159038",
+   "titre": "Saga Book Two - Saga",
+   "artiste": "Brian K Vaughan",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/038/9781632159038.jpg",
+   "url": "https://imusic.fr/books/9781632159038/brian-k-vaughan-2017-saga-book-two-saga-hardcover-book",
+   "statut": "indisponible",
+   "livraison": "Date de livraison prevue inconnue",
+   "prix": null,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": null,
+   "max_12m": null,
+   "min_total": null,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": null,
+   "releves": 0,
+   "series": []
+  },
+  {
+   "id": "9781799501855",
+   "titre": "DCeased Omnibus",
+   "artiste": "Dceased Omnibus",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/855/9781799501855.jpg",
+   "url": "https://imusic.fr/books/9781799501855/dceased-omnibus-2025-dceased-omnibus-hardcover-book",
+   "statut": "indisponible",
+   "livraison": "Date de livraison prevue inconnue",
+   "prix": null,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": null,
+   "max_12m": null,
+   "min_total": null,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": null,
+   "releves": 0,
+   "series": []
+  }
+ ]
+}

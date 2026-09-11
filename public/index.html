@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Suivi des prix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:  #e9eae6;
+    --card:   #ffffff;
+    --ink:    #191a17;
+    --muted:  #6d7069;
+    --rule:   #d4d6cf;
+    --baisse: #1f6f4a;
+    --hausse: #9e2b25;
+    --repere: #b8892b;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 5rem;
+    background: var(--paper);
+    color: var(--ink);
+    font: 400 16px/1.5 Archivo, system-ui, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .page { max-width: 62rem; margin: 0 auto; }
+
+  /* ---- en-tête ---- */
+  header { margin-bottom: 2rem; }
+
+  h1 {
+    font: 500 1.05rem/1.2 Archivo, sans-serif;
+    margin: 0 0 .75rem;
+    letter-spacing: .01em;
+  }
+
+  .resume {
+    font: 400 1.75rem/1.25 Newsreader, Georgia, serif;
+    margin: 0;
+    max-width: 34ch;
+  }
+  .resume b { font-weight: 500; }
+  .resume .b { color: var(--baisse); }
+  .resume .h { color: var(--hausse); }
+
+  .meta {
+    margin: .6rem 0 0;
+    color: var(--muted);
+    font-size: .8125rem;
+  }
+  .meta a { color: inherit; }
+
+  /* ---- filtres ---- */
+  .barre[hidden] { display: none; }
+
+  .barre {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .375rem;
+    align-items: center;
+    margin: 1.75rem 0 .875rem;
+    padding-bottom: .875rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .chip {
+    font: 500 .8125rem/1 Archivo, sans-serif;
+    color: var(--muted);
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: .45rem .75rem;
+    cursor: pointer;
+  }
+  .chip:hover { color: var(--ink); }
+  .chip[aria-pressed="true"] {
+    color: var(--ink);
+    background: var(--card);
+    border-color: var(--rule);
+  }
+  .chip .n { color: var(--muted); font-weight: 400; }
+  .chip[aria-pressed="true"] .n { color: var(--muted); }
+
+  .tri { margin-left: auto; display: flex; align-items: center; gap: .5rem; }
+  .tri label { font-size: .8125rem; color: var(--muted); }
+  select {
+    font: 400 .8125rem Archivo, sans-serif;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: .4rem .5rem;
+  }
+
+  :focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  /* ---- liste ---- */
+  ol { list-style: none; margin: 0; padding: 0; }
+
+  li {
+    display: grid;
+    grid-template-columns: 3rem 1fr auto;
+    grid-template-areas: "cover meta prix" "cover histo prix";
+    gap: 0 1rem;
+    align-items: start;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .pochette { grid-area: cover; }
+  .meta     { grid-area: meta; }
+  .prix     { grid-area: prix; }
+  .histo    { grid-area: histo; }
+  .histo:empty { display: none; }
+
+  .pochette {
+    position: relative;
+    align-self: start;
+    width: 3rem;
+    aspect-ratio: 2 / 3;
+    background: var(--rule);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .pochette img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* Signet : plus bas prix observé. */
+  .signet {
+    position: absolute;
+    top: 0; right: .28rem;
+    width: .5rem; height: 1.05rem;
+    background: var(--repere);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 72%, 0 100%);
+  }
+
+  .titre {
+    font: 400 1.0625rem/1.3 Newsreader, Georgia, serif;
+    margin: 0 0 .15rem;
+  }
+  .titre a { color: inherit; text-decoration: none; }
+  .titre a:hover { text-decoration: underline; text-underline-offset: 2px; }
+
+  .artiste { color: var(--muted); font-size: .8125rem; margin: 0; }
+
+  .histo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin: .5rem 0 0;
+    font-size: .75rem;
+    color: var(--muted);
+  }
+  .histo svg { display: block; flex: none; }
+  .histo span { min-width: 0; }
+
+  .etat { font-size: .75rem; margin-top: .4rem; }
+  .etat.precommande { color: var(--repere); }
+  .etat.indisponible { color: var(--muted); }
+
+  /* ---- colonne prix ---- */
+  .prix { text-align: right; white-space: nowrap; }
+
+  .montant {
+    font: 500 1.375rem/1.1 Archivo, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+  .montant.absent { color: var(--muted); font-size: 1rem; font-weight: 400; }
+
+  .delta {
+    display: inline-block;
+    margin-top: .3rem;
+    font-size: .8125rem;
+    font-weight: 500;
+  }
+  .delta.b { color: var(--baisse); }
+  .delta.h { color: var(--hausse); }
+  .delta small { font-weight: 400; opacity: .75; }
+
+  .stable { margin-top: .3rem; font-size: .8125rem; color: var(--muted); }
+
+  .vide, .erreur {
+    padding: 2.5rem 0;
+    color: var(--muted);
+    font: 400 1.0625rem/1.5 Newsreader, Georgia, serif;
+    max-width: 46ch;
+  }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: .875em;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: .1em .35em;
+  }
+
+  @media (max-width: 34rem) {
+    body { padding-top: 1.75rem; }
+    .resume { font-size: 1.4rem; }
+    li {
+      grid-template-columns: 2.5rem 1fr;
+      grid-template-areas: "cover meta" "cover prix" "histo histo";
+    }
+    .pochette { width: 2.5rem; }
+    .prix { text-align: left; margin-top: .5rem; }
+    .montant { font-size: 1.25rem; }
+    .delta { margin-left: .5rem; }
+    .tri { margin-left: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Suivi des prix</h1>
+    <p class="resume" id="resume">Chargement…</p>
+    <p class="meta" id="meta"></p>
+  </header>
+
+  <div class="barre" id="barre" hidden>
+    <button class="chip" data-filtre="tout" aria-pressed="true">Tout <span class="n"></span></button>
+    <button class="chip" data-filtre="baisses" aria-pressed="false">Baisses <span class="n"></span></button>
+    <button class="chip" data-filtre="planchers" aria-pressed="false">Au plus bas <span class="n"></span></button>
+    <button class="chip" data-filtre="indispo" aria-pressed="false">Indisponibles <span class="n"></span></button>
+    <div class="tri">
+      <label for="tri">Trier par</label>
+      <select id="tri">
+        <option value="mouvement">mouvement récent</option>
+        <option value="prix">prix croissant</option>
+        <option value="ecart">écart au plus bas</option>
+        <option value="titre">titre</option>
+      </select>
+    </div>
+  </div>
+
+  <ol id="liste"></ol>
+</div>
+
+<script>
+const euro = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' });
+const jour = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long' });
+const jourAn = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+const JOUR_MS = 86400000;
+
+const $ = (s) => document.querySelector(s);
+let articles = [];
+let filtre = 'tout';
+
+function quand(iso) {
+  const j = joursDepuis(iso);
+  if (j <= 0) return "aujourd'hui";
+  if (j === 1) return 'hier';
+  return 'le ' + jour.format(new Date(iso));
+}
+
+const joursDepuis = (iso) => Math.floor((Date.now() - new Date(iso)) / JOUR_MS);
+const recent = (a) => a.variation !== null && joursDepuis(a.variation_depuis) <= 7;
+
+/* Courbe en escalier : le prix tient jusqu'au relevé suivant. */
+function sparkline(series) {
+  const L = 88, H = 26, P = 3;
+  const prix = series.map((p) => p[1]);
+  const bas = Math.min(...prix), haut = Math.max(...prix);
+  const etendue = haut - bas || 1;
+  const t = series.map((p) => new Date(p[0]).getTime());
+  const t0 = t[0], t1 = Math.max(Date.now(), t[t.length - 1]);
+  const duree = t1 - t0 || 1;
+
+  const x = (v) => P + ((v - t0) / duree) * (L - 2 * P);
+  const y = (v) => H - P - ((v - bas) / etendue) * (H - 2 * P);
+
+  let d = `M ${x(t0).toFixed(1)} ${y(prix[0]).toFixed(1)}`;
+  for (let i = 1; i < series.length; i++) {
+    d += ` H ${x(t[i]).toFixed(1)} V ${y(prix[i]).toFixed(1)}`;
+  }
+  d += ` H ${(L - P).toFixed(1)}`;
+
+  const cy = y(prix[prix.length - 1]).toFixed(1);
+  return `<svg width="${L}" height="${H}" viewBox="0 0 ${L} ${H}" aria-hidden="true">
+    <path d="${d}" fill="none" stroke="currentColor" stroke-width="1.25"
+          stroke-linejoin="round" opacity=".7"/>
+    <circle cx="${(L - P).toFixed(1)}" cy="${cy}" r="1.9" fill="currentColor"/>
+  </svg>`;
+}
+
+function libelleplancher(a) {
+  const suivi = joursDepuis(a.suivi_depuis);
+  return suivi >= 360
+    ? 'plus bas sur 1 an'
+    : 'plus bas depuis le ' + jour.format(new Date(a.suivi_depuis));
+}
+
+function ligne(a) {
+  const plancher = a.plus_bas_12m && a.releves >= 2;
+
+  let prixHTML;
+  if (a.prix === null) {
+    prixHTML = '<div class="montant absent">—</div>';
+  } else {
+    prixHTML = `<div class="montant">${euro.format(a.prix)}</div>`;
+    if (a.variation !== null) {
+      const sens = a.variation < 0 ? 'b' : 'h';
+      const signe = a.variation < 0 ? '−' : '+';
+      prixHTML += `<div class="delta ${sens}">${signe}${euro.format(Math.abs(a.variation))}
+        <small>${quand(a.variation_depuis)}</small></div>`;
+    } else if (a.releves >= 2) {
+      prixHTML += `<div class="stable">inchangé</div>`;
+    }
+  }
+
+  let histo = '';
+  if (a.releves >= 2) {
+    histo = `<p class="histo">${sparkline(a.series)}
+      <span>${plancher ? libelleplancher(a) : 'plus bas ' + euro.format(a.min_12m)}
+      · plus haut ${euro.format(a.max_12m)}</span></p>`;
+  } else if (a.suivi_depuis) {
+    histo = `<p class="histo"><span>suivi depuis le ${jour.format(new Date(a.suivi_depuis))}</span></p>`;
+  }
+
+  let etat = '';
+  if (a.statut === 'precommande') etat = '<p class="etat precommande">en précommande</p>';
+  if (a.statut === 'indisponible') etat = '<p class="etat indisponible">indisponible</p>';
+
+  return `<li>
+    <div class="pochette">
+      <img src="${a.image}" alt="" loading="lazy" referrerpolicy="no-referrer"
+           onerror="this.remove()">
+      ${plancher ? `<span class="signet" title="${libelleplancher(a)}"></span>` : ''}
+    </div>
+    <div class="meta">
+      <p class="titre"><a href="${a.url}" target="_blank" rel="noopener">${a.titre}</a></p>
+      <p class="artiste">${a.artiste}</p>
+      ${etat}
+    </div>
+    <div class="prix">${prixHTML}</div>
+    ${histo}
+  </li>`;
+}
+
+const filtres = {
+  tout: () => true,
+  baisses: (a) => a.variation !== null && a.variation < 0,
+  planchers: (a) => a.plus_bas_12m && a.releves >= 2,
+  indispo: (a) => a.statut === 'indisponible',
+};
+
+const tris = {
+  mouvement: (x, y) =>
+    (recent(y) - recent(x)) ||
+    ((x.variation ?? 0) - (y.variation ?? 0)) ||
+    ((x.prix ?? 1e9) - (y.prix ?? 1e9)),
+  prix: (x, y) => (x.prix ?? 1e9) - (y.prix ?? 1e9),
+  ecart: (x, y) =>
+    ((y.prix ?? 0) - (y.min_12m ?? y.prix ?? 0)) - ((x.prix ?? 0) - (x.min_12m ?? x.prix ?? 0)),
+  titre: (x, y) => x.titre.localeCompare(y.titre, 'fr'),
+};
+
+function rendre() {
+  const visibles = articles.filter(filtres[filtre]).sort(tris[$('#tri').value]);
+  $('#liste').innerHTML = visibles.length
+    ? visibles.map(ligne).join('')
+    : '<p class="vide">Aucun article dans cette sélection.</p>';
+
+  for (const chip of document.querySelectorAll('.chip')) {
+    const f = chip.dataset.filtre;
+    chip.setAttribute('aria-pressed', String(f === filtre));
+    chip.querySelector('.n').textContent = articles.filter(filtres[f]).length;
+  }
+}
+
+function resumer(data) {
+  const baisses = articles.filter((a) => recent(a) && a.variation < 0);
+  const hausses = articles.filter((a) => recent(a) && a.variation > 0);
+  const mot = (n, s, p) => `<b>${n}</b> ${n > 1 ? p : s}`;
+
+  let phrase;
+  if (baisses.length || hausses.length) {
+    const bouts = [];
+    if (baisses.length) bouts.push(`<span class="b">${mot(baisses.length, 'baisse', 'baisses')}</span>`);
+    if (hausses.length) bouts.push(`<span class="h">${mot(hausses.length, 'hausse', 'hausses')}</span>`);
+    phrase = bouts.join(' et ') + ' cette semaine.';
+  } else {
+    const dates = articles.map((a) => a.variation_depuis).filter(Boolean).sort();
+    phrase = dates.length
+      ? `Rien n'a bougé depuis le ${jour.format(new Date(dates[dates.length - 1]))}.`
+      : 'Aucun mouvement de prix pour l’instant.';
+  }
+  $('#resume').innerHTML = phrase;
+
+  const releve = new Date(data.genere_le);
+  const total = articles.reduce((s, a) => s + (a.prix ?? 0), 0);
+  $('#meta').innerHTML =
+    `${articles.length} articles · ${euro.format(total)} au total · ` +
+    `dernier relevé le ${jourAn.format(releve)} à ` +
+    releve.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }) +
+    (data.wishlist_url ? ` · <a href="${data.wishlist_url.replace('&format=csv', '').replace('?format=csv', '')}" target="_blank" rel="noopener">la wishlist</a>` : '');
+}
+
+fetch('data.json?v=' + Date.now())
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then((data) => {
+    articles = data.articles;
+    resumer(data);
+    $('#barre').hidden = false;
+    $('#tri').addEventListener('change', rendre);
+    for (const chip of document.querySelectorAll('.chip')) {
+      chip.addEventListener('click', () => { filtre = chip.dataset.filtre; rendre(); });
+    }
+    rendre();
+  })
+  .catch(() => {
+    $('#resume').textContent = 'Pas encore de relevé.';
+    $('#meta').innerHTML =
+      'Lance <code>python3 track.py</code> pour créer le premier <code>public/data.json</code>.';
+  });
+</script>
+</body>
+</html>
