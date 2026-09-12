@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-11T14:05:28+00:00",
+ "genere_le": "2026-09-12T11:35:54+00:00",
  "articles": [
   {
    "id": "9781401294052",
@@ -10,21 +10,25 @@
    "url": "https://imusic.fr/books/9781401294052/alan-moore-2019-batman-the-killing-joke-deluxe-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 13.49,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
+   "prix": 13.99,
+   "variation": 0.5,
+   "variation_pct": 3.7,
+   "variation_depuis": "2026-09-12T11:35+00:00",
    "min_12m": 13.49,
-   "max_12m": 13.49,
+   "max_12m": 13.99,
    "min_total": 13.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 1,
+   "releves": 2,
    "series": [
     [
      "2026-09-10T13:00+02:00",
      13.49
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     13.99
     ]
    ]
   },
@@ -37,21 +41,25 @@
    "url": "https://imusic.fr/books/9781684159161/v-ram-2023-the-many-deaths-of-laila-starr-deluxe-edition-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 18.99,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
+   "prix": 19.49,
+   "variation": 0.5,
+   "variation_pct": 2.6,
+   "variation_depuis": "2026-09-12T11:35+00:00",
    "min_12m": 18.99,
-   "max_12m": 18.99,
+   "max_12m": 19.49,
    "min_total": 18.99,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 1,
+   "releves": 2,
    "series": [
     [
      "2026-09-10T13:00+02:00",
      18.99
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     19.49
     ]
    ]
   },
@@ -118,21 +126,52 @@
    "url": "https://imusic.fr/books/9781684157648/james-tynion-iv-2021-something-is-killing-the-children-book-one-deluxe-edition-something-is-killing-the-children-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-09-23 - 2026-09-30",
-   "prix": 34.99,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
+   "prix": 35.49,
+   "variation": 0.5,
+   "variation_pct": 1.4,
+   "variation_depuis": "2026-09-12T11:35+00:00",
    "min_12m": 34.99,
-   "max_12m": 34.99,
+   "max_12m": 35.49,
    "min_total": 34.99,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 1,
+   "releves": 2,
    "series": [
     [
      "2026-09-10T13:00+02:00",
      34.99
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     35.49
+    ]
+   ]
+  },
+  {
+   "id": "9781632159038",
+   "titre": "Saga Book Two - Saga",
+   "artiste": "Brian K Vaughan",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/038/9781632159038.jpg",
+   "url": "https://imusic.fr/books/9781632159038/brian-k-vaughan-2017-saga-book-two-saga-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-09",
+   "prix": 39.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 39.49,
+   "max_12m": 39.49,
+   "min_total": 39.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-12",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-12T11:35+00:00",
+     39.49
     ]
    ]
   },
@@ -160,6 +199,37 @@
     [
      "2026-09-10T13:00+02:00",
      39.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779502711",
+   "titre": "Batman by Grant Morrison Omnibus Volume 3",
+   "artiste": "Grant Morrison",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/711/9781779502711.jpg",
+   "url": "https://imusic.fr/books/9781779502711/grant-morrison-2020-batman-by-grant-morrison-omnibus-volume-3-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
+   "prix": 41.99,
+   "variation": -18.0,
+   "variation_pct": -30.0,
+   "variation_depuis": "2026-09-12T11:35+00:00",
+   "min_12m": 41.99,
+   "max_12m": 59.99,
+   "min_total": 41.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 2,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     59.99
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     41.99
     ]
    ]
   },
@@ -245,114 +315,6 @@
    ]
   },
   {
-   "id": "9781779502711",
-   "titre": "Batman by Grant Morrison Omnibus Volume 3",
-   "artiste": "Grant Morrison",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/711/9781779502711.jpg",
-   "url": "https://imusic.fr/books/9781779502711/grant-morrison-2020-batman-by-grant-morrison-omnibus-volume-3-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-23 - 2026-09-30",
-   "prix": 59.99,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 59.99,
-   "max_12m": 59.99,
-   "min_total": 59.99,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     59.99
-    ]
-   ]
-  },
-  {
-   "id": "9781799502937",
-   "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
-   "artiste": "Gail Simone",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
-   "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 63.99,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 63.99,
-   "max_12m": 63.99,
-   "min_total": 63.99,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     63.99
-    ]
-   ]
-  },
-  {
-   "id": "9781799502029",
-   "titre": "Superman by Phillip Kennedy Johnson Omnibus Vol. 1",
-   "artiste": "Michael Conrad",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
-   "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 63.99,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 63.99,
-   "max_12m": 63.99,
-   "min_total": 63.99,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     63.99
-    ]
-   ]
-  },
-  {
-   "id": "9781779525956",
-   "titre": "Secret Six by Gail Simone Omnibus Vol. 1",
-   "artiste": "Gail Simone",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/956/9781779525956.jpg",
-   "url": "https://imusic.fr/books/9781779525956/gail-simone-2024-secret-six-by-gail-simone-omnibus-vol-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 63.99,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 63.99,
-   "max_12m": 63.99,
-   "min_total": 63.99,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     63.99
-    ]
-   ]
-  },
-  {
    "id": "9781401298845",
    "titre": "Batman by Scott Snyder and Greg Capullo Omnibus Volume 1",
    "artiste": "Scott Snyder",
@@ -375,6 +337,126 @@
    "series": [
     [
      "2026-09-10T13:00+02:00",
+     64.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779525956",
+   "titre": "Secret Six by Gail Simone Omnibus Vol. 1",
+   "artiste": "Gail Simone",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/956/9781779525956.jpg",
+   "url": "https://imusic.fr/books/9781779525956/gail-simone-2024-secret-six-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
+   "prix": 64.49,
+   "variation": 0.5,
+   "variation_pct": 0.8,
+   "variation_depuis": "2026-09-12T11:35+00:00",
+   "min_12m": 63.99,
+   "max_12m": 64.49,
+   "min_total": 63.99,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 2,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     63.99
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     64.49
+    ]
+   ]
+  },
+  {
+   "id": "9781799502937",
+   "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
+   "artiste": "Gail Simone",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
+   "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
+   "prix": 64.49,
+   "variation": 0.5,
+   "variation_pct": 0.8,
+   "variation_depuis": "2026-09-12T11:35+00:00",
+   "min_12m": 63.99,
+   "max_12m": 64.49,
+   "min_total": 63.99,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 2,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     63.99
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     64.49
+    ]
+   ]
+  },
+  {
+   "id": "9781799502029",
+   "titre": "Superman by Phillip Kennedy Johnson Omnibus Vol. 1",
+   "artiste": "Michael Conrad",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
+   "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
+   "prix": 64.49,
+   "variation": 0.5,
+   "variation_pct": 0.8,
+   "variation_depuis": "2026-09-12T11:35+00:00",
+   "min_12m": 63.99,
+   "max_12m": 64.49,
+   "min_total": 63.99,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 2,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     63.99
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     64.49
+    ]
+   ]
+  },
+  {
+   "id": "9781799501855",
+   "titre": "DCeased Omnibus",
+   "artiste": "Dceased Omnibus",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/855/9781799501855.jpg",
+   "url": "https://imusic.fr/books/9781799501855/dceased-omnibus-2025-dceased-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
+   "prix": 64.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 64.49,
+   "max_12m": 64.49,
+   "min_total": 64.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-12",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-12T11:35+00:00",
      64.49
     ]
    ]
@@ -469,21 +551,25 @@
    "url": "https://imusic.fr/books/9781799505112/dan-jurgens-2025-superman-action-comics-by-dan-jurgens-omnibus-vol-1-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 67.99,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 67.99,
+   "prix": 67.49,
+   "variation": -0.5,
+   "variation_pct": -0.7,
+   "variation_depuis": "2026-09-12T11:35+00:00",
+   "min_12m": 67.49,
    "max_12m": 67.99,
-   "min_total": 67.99,
+   "min_total": 67.49,
    "plus_bas_12m": true,
    "plus_bas_total": true,
    "suivi_depuis": "2026-09-10",
-   "releves": 1,
+   "releves": 2,
    "series": [
     [
      "2026-09-10T13:00+02:00",
      67.99
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     67.49
     ]
    ]
   },
@@ -675,50 +761,6 @@
      110.49
     ]
    ]
-  },
-  {
-   "id": "9781632159038",
-   "titre": "Saga Book Two - Saga",
-   "artiste": "Brian K Vaughan",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/038/9781632159038.jpg",
-   "url": "https://imusic.fr/books/9781632159038/brian-k-vaughan-2017-saga-book-two-saga-hardcover-book",
-   "statut": "indisponible",
-   "livraison": "Date de livraison prévue inconnue",
-   "prix": null,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": null,
-   "max_12m": null,
-   "min_total": null,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": null,
-   "releves": 0,
-   "series": []
-  },
-  {
-   "id": "9781799501855",
-   "titre": "DCeased Omnibus",
-   "artiste": "Dceased Omnibus",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/855/9781799501855.jpg",
-   "url": "https://imusic.fr/books/9781799501855/dceased-omnibus-2025-dceased-omnibus-hardcover-book",
-   "statut": "indisponible",
-   "livraison": "Date de livraison prévue inconnue",
-   "prix": null,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": null,
-   "max_12m": null,
-   "min_total": null,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": null,
-   "releves": 0,
-   "series": []
   }
  ]
 }
