@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-12T11:35:54+00:00",
+ "genere_le": "2026-09-13T12:42:52+00:00",
  "articles": [
   {
    "id": "9781401294052",
@@ -203,37 +203,6 @@
    ]
   },
   {
-   "id": "9781779502711",
-   "titre": "Batman by Grant Morrison Omnibus Volume 3",
-   "artiste": "Grant Morrison",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/711/9781779502711.jpg",
-   "url": "https://imusic.fr/books/9781779502711/grant-morrison-2020-batman-by-grant-morrison-omnibus-volume-3-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 41.99,
-   "variation": -18.0,
-   "variation_pct": -30.0,
-   "variation_depuis": "2026-09-12T11:35+00:00",
-   "min_12m": 41.99,
-   "max_12m": 59.99,
-   "min_total": 41.99,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 2,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     59.99
-    ],
-    [
-     "2026-09-12T11:35+00:00",
-     41.99
-    ]
-   ]
-  },
-  {
    "id": "9781779506955",
    "titre": "Absolute Swamp Thing by Alan Moore Volume 1",
    "artiste": "Alan Moore",
@@ -315,60 +284,37 @@
    ]
   },
   {
-   "id": "9781401298845",
-   "titre": "Batman by Scott Snyder and Greg Capullo Omnibus Volume 1",
-   "artiste": "Scott Snyder",
+   "id": "9781779502711",
+   "titre": "Batman by Grant Morrison Omnibus Volume 3",
+   "artiste": "Grant Morrison",
    "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/845/9781401298845.jpg",
-   "url": "https://imusic.fr/books/9781401298845/scott-snyder-2019-batman-by-scott-snyder-and-greg-capullo-omnibus-volume-1-hardcover-book",
+   "image": "https://imusic.b-cdn.net/images/item/original/711/9781779502711.jpg",
+   "url": "https://imusic.fr/books/9781779502711/grant-morrison-2020-batman-by-grant-morrison-omnibus-volume-3-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 64.49,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 64.49,
-   "max_12m": 64.49,
-   "min_total": 64.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     64.49
-    ]
-   ]
-  },
-  {
-   "id": "9781779525956",
-   "titre": "Secret Six by Gail Simone Omnibus Vol. 1",
-   "artiste": "Gail Simone",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/956/9781779525956.jpg",
-   "url": "https://imusic.fr/books/9781779525956/gail-simone-2024-secret-six-by-gail-simone-omnibus-vol-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 64.49,
-   "variation": 0.5,
-   "variation_pct": 0.8,
-   "variation_depuis": "2026-09-12T11:35+00:00",
-   "min_12m": 63.99,
-   "max_12m": 64.49,
-   "min_total": 63.99,
+   "livraison": "Livraison prévue 2026-09-23 - 2026-09-30",
+   "prix": 59.99,
+   "variation": 18.0,
+   "variation_pct": 42.9,
+   "variation_depuis": "2026-09-13T12:42+00:00",
+   "min_12m": 41.99,
+   "max_12m": 59.99,
+   "min_total": 41.99,
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 2,
+   "releves": 3,
    "series": [
     [
      "2026-09-10T13:00+02:00",
-     63.99
+     59.99
     ],
     [
      "2026-09-12T11:35+00:00",
-     64.49
+     41.99
+    ],
+    [
+     "2026-09-13T12:42+00:00",
+     59.99
     ]
    ]
   },
@@ -455,6 +401,64 @@
    "suivi_depuis": "2026-09-12",
    "releves": 1,
    "series": [
+    [
+     "2026-09-12T11:35+00:00",
+     64.49
+    ]
+   ]
+  },
+  {
+   "id": "9781401298845",
+   "titre": "Batman by Scott Snyder and Greg Capullo Omnibus Volume 1",
+   "artiste": "Scott Snyder",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/845/9781401298845.jpg",
+   "url": "https://imusic.fr/books/9781401298845/scott-snyder-2019-batman-by-scott-snyder-and-greg-capullo-omnibus-volume-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
+   "prix": 64.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 64.49,
+   "max_12m": 64.49,
+   "min_total": 64.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     64.49
+    ]
+   ]
+  },
+  {
+   "id": "9781779525956",
+   "titre": "Secret Six by Gail Simone Omnibus Vol. 1",
+   "artiste": "Gail Simone",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/956/9781779525956.jpg",
+   "url": "https://imusic.fr/books/9781779525956/gail-simone-2024-secret-six-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
+   "prix": 64.49,
+   "variation": 0.5,
+   "variation_pct": 0.8,
+   "variation_depuis": "2026-09-12T11:35+00:00",
+   "min_12m": 63.99,
+   "max_12m": 64.49,
+   "min_total": 63.99,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 2,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     63.99
+    ],
     [
      "2026-09-12T11:35+00:00",
      64.49
@@ -574,6 +578,37 @@
    ]
   },
   {
+   "id": "9781779524713",
+   "titre": "Absolute Superman by Geoff Johns & Gary Frank",
+   "artiste": "Geoff Johns",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/713/9781779524713.jpg",
+   "url": "https://imusic.fr/books/9781779524713/geoff-johns-2024-absolute-superman-by-geoff-johns-gary-frank-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
+   "prix": 76.49,
+   "variation": -1.0,
+   "variation_pct": -1.3,
+   "variation_depuis": "2026-09-13T12:42+00:00",
+   "min_12m": 76.49,
+   "max_12m": 77.49,
+   "min_total": 76.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 2,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ],
+    [
+     "2026-09-13T12:42+00:00",
+     76.49
+    ]
+   ]
+  },
+  {
    "id": "9781401245627",
    "titre": "The Doom Patrol Omnibus",
    "artiste": "Grant Morrison",
@@ -661,33 +696,6 @@
    "media": "Hardcover Book",
    "image": "https://imusic.b-cdn.net/images/item/original/658/9781779506658.jpg",
    "url": "https://imusic.fr/books/9781779506658/james-tynion-iv-2020-batman-detective-comics-omnibus-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
-   "prix": 77.49,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 77.49,
-   "max_12m": 77.49,
-   "min_total": 77.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     77.49
-    ]
-   ]
-  },
-  {
-   "id": "9781779524713",
-   "titre": "Absolute Superman by Geoff Johns & Gary Frank",
-   "artiste": "Geoff Johns",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/713/9781779524713.jpg",
-   "url": "https://imusic.fr/books/9781779524713/geoff-johns-2024-absolute-superman-by-geoff-johns-gary-frank-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-09-25 - 2026-10-20",
    "prix": 77.49,
