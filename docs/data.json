@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-09-15T09:45:28+00:00",
- "verifie_le": "2026-09-15T09:45:28+00:00",
+ "genere_le": "2026-09-15T12:39:32+00:00",
+ "verifie_le": "2026-09-15T12:39:32+00:00",
  "alertes": [],
  "articles": [
   {
@@ -204,22 +204,26 @@
    "url": "https://imusic.fr/books/9781799513032/mark-waid-2026-kingdom-come-30th-anniversary-deluxe-edition-hardcover-book",
    "statut": "precommande",
    "livraison": "Livraison prévue 2026-11-25 - 2026-11-30",
-   "prix": 33.49,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
+   "prix": 33.99,
+   "variation": 0.5,
+   "variation_pct": 1.5,
+   "variation_depuis": "2026-09-15T12:39+00:00",
    "min_12m": 33.49,
-   "max_12m": 33.49,
+   "max_12m": 33.99,
    "min_total": 33.49,
-   "max_total": 33.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
+   "max_total": 33.99,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 1,
+   "releves": 2,
    "series": [
     [
      "2026-09-10T13:00+02:00",
      33.49
+    ],
+    [
+     "2026-09-15T12:39+00:00",
+     33.99
     ]
    ],
    "a_saisir": false,
@@ -230,6 +234,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-09-15T12:39+00:00",
+     "prix": 33.99,
+     "precedent": 33.49,
+     "variation": 0.5,
+     "variation_pct": 1.5,
+     "statut": "precommande"
+    },
     {
      "date": "2026-09-10T13:00+02:00",
      "prix": 33.49,
@@ -1500,22 +1512,26 @@
    "url": "https://imusic.fr/books/9781799508755/greg-rucka-2026-batwoman-omnibus-2026-edition-hardcover-book",
    "statut": "precommande",
    "livraison": "Livraison prévue 2026-10-07 - 2026-10-12",
-   "prix": 97.49,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
+   "prix": 97.99,
+   "variation": 0.5,
+   "variation_pct": 0.5,
+   "variation_depuis": "2026-09-15T12:39+00:00",
    "min_12m": 97.49,
-   "max_12m": 97.49,
+   "max_12m": 97.99,
    "min_total": 97.49,
-   "max_total": 97.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
+   "max_total": 97.99,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 1,
+   "releves": 2,
    "series": [
     [
      "2026-09-10T13:00+02:00",
      97.49
+    ],
+    [
+     "2026-09-15T12:39+00:00",
+     97.99
     ]
    ],
    "a_saisir": false,
@@ -1526,6 +1542,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-09-15T12:39+00:00",
+     "prix": 97.99,
+     "precedent": 97.49,
+     "variation": 0.5,
+     "variation_pct": 0.5,
+     "statut": "precommande"
+    },
     {
      "date": "2026-09-10T13:00+02:00",
      "prix": 97.49,
