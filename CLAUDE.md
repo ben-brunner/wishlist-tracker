@@ -153,8 +153,9 @@ les trahirait.
 ## Garde-fous
 
 Le script refuse d'écrire si l'export revient vide, pour ne pas interpréter un
-incident réseau comme une wishlist vidée. Il signale sur stderr les lignes dont
-le nombre de colonnes est inattendu.
+incident réseau comme une wishlist vidée. Il signale les lignes dont le nombre
+de colonnes est inattendu, les articles sans ISBN et ceux dont le prix n'a pas
+pu être lu — voir « Un refus d'écrire ne doit pas être un refus de le dire ».
 
 Il refuse aussi un export *tronqué* — `export_suspect()`, plus d'un tiers des
 articles perdus d'un coup. Ce garde-fou n'était qu'envisagé tant que les
@@ -166,6 +167,56 @@ Comme un refus n'écrit rien, l'état auquel il compare ne bouge pas : après un
 vrai grand ménage, tous les relevés suivants seraient refusés. D'où
 `FORCER_RELEVE=1`, qui lève le garde-fou le temps d'une exécution. Un garde-fou
 qui ne peut pas être levé est un piège, pas une protection.
+
+## Un refus d'écrire ne doit pas être un refus de le dire
+
+Les garde-fous ci-dessus laissent `data.json` intact — c'est leur raison
+d'être. Mais la page affichait alors les prix de la veille avec l'aplomb de
+ceux du jour, et l'incident n'existait que dans le journal d'Actions, que
+personne ne lit. D'où `ANOMALIES` et `signaler()` : ce que le relevé constate
+part sur stderr **et** dans `data.json`, sous la clé `alertes`.
+
+`publier_alerte()` est ce qui rend la chose possible un jour de refus : il
+réécrit `data.json` à l'identique — mêmes articles, même `genere_le` — en ne
+remplaçant que `alertes` et `verifie_le`. Ne pas y bouger `genere_le` : c'est
+lui qui date les prix affichés, et le jour où le relevé refuse d'écrire, ces
+prix sont ceux d'avant. Le rafraîchir reviendrait à effacer la seule trace de
+l'incident.
+
+**Deux horodatages, deux questions différentes.** `genere_le` date les prix,
+`verifie_le` date la dernière tentative. Les voir s'écarter, c'est voir un
+relevé qui tourne encore mais n'écrit plus. Les voir vieillir ensemble, c'est
+un relevé qui ne tourne plus du tout.
+
+**Les niveaux ne sont pas une échelle d'humeur.** `grave` veut dire une chose
+précise : rien n'a été écrit, donc les prix affichés ne sont pas ceux
+d'aujourd'hui. Un avertissement dit que le relevé a bien eu lieu mais que
+l'export avait quelque chose d'anormal. La page en tire deux couleurs et deux
+titres ; leur sens vient d'ici.
+
+Les anomalies de lecture se **comptent avant de se dire** : quatre lignes mal
+découpées font une phrase, pas quatre bannières. Une bannière qu'on apprend à
+ignorer ne sert plus à rien, et c'est le principal risque de ce dispositif.
+
+Le workflow commite avec `if: ${{ !cancelled() }}`, donc **même quand le relevé
+échoue** — surtout quand il échoue, puisque c'est le seul moment où l'alerte a
+quelque chose à dire. L'étape ne masque pas l'échec : le job reste rouge.
+
+## `data.json` ne se commet pas à la main
+
+C'est un fichier généré, publié par le workflow. Le committer depuis un poste,
+c'est publier l'état de son arbre de travail : le 14 septembre 2026, une
+branche partie de l'avant-veille et rebasée par-dessus le relevé du jour a
+remis en ligne le JSON de la veille, et la page a affiché des prix périmés
+jusqu'au relevé suivant. `history.csv` n'avait rien perdu — c'est bien le JSON
+publié, et lui seul, qui avait reculé.
+
+`.githooks/pre-commit` refuse ce commit ; il se pose avec
+`git config core.hooksPath .githooks`, à refaire dans chaque clone. Il sort
+sans rien faire si `$CI` est défini : le relevé, lui, doit pouvoir commiter.
+
+Ne pas « régler » ça en sortant `data.json` du dépôt : Pages sert le répertoire
+`/docs` d'une branche, le fichier doit donc y être commité.
 
 ## Tester
 
@@ -228,6 +279,25 @@ disparaissait. Ne pas élargir ce passage en lui faisant traverser un article.
 `preremplir()` **ne lance pas** la recherche : neuf onglets qui s'ouvrent sont
 une décision, pas une conséquence de la navigation. Et un `#recherche` nu ne
 touche pas au champ, pour que revenir par l'onglet retrouve ce qu'on y tapait.
+
+**La bannière d'alerte vit hors des écrans**, entre le titre et celui qui est
+affiché : une alerte qu'on rate parce qu'on était sur l'autre onglet n'est pas
+une alerte. C'est donc le seul élément en dehors du suivi qui lise
+`data.json` — l'écran de recherche, lui, continue de l'ignorer et marcherait
+tel quel si le suivi disparaissait.
+
+`alerter()` affiche ce que `track.py` a rédigé, sauf sur un point : **le retard
+du relevé, la page le constate elle-même**, et c'est la seule exception à
+« track.py calcule, la page dessine ». Un drapeau « le relevé ne tourne plus »
+posé par `track.py` ne se lèverait jamais, puisque le jour où il faudrait le
+lever, `track.py` ne tourne pas. Seule l'horloge du navigateur peut constater
+un silence — et ce n'est pas une statistique sur les prix, la page ne se met
+pas à interpréter l'historique.
+
+`RETARD_MAX_H` vaut 36 heures, et ce nombre vient d'une mesure, pas d'un goût :
+GitHub sert les crons planifiés avec plusieurs heures de retard, si bien que
+l'écart réel entre deux relevés monte à 25-27 heures. Un seuil plus serré
+crierait au loup une fois par semaine.
 
 Le suivi et la fiche, eux, lisent le même `data.json` : la fiche cherche son
 article par `id` dans le tableau déjà chargé. Un identifiant absent affiche un

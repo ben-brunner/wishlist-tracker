@@ -1,0 +1,26 @@
+#!/bin/sh
+# docs/data.json est produit par track.py et publié par le workflow « Relevé
+# des prix ». Le commettre à la main, c'est publier l'état de son arbre de
+# travail : le 14 septembre 2026, une branche partie de l'avant-veille a été
+# rebasée par-dessus le relevé du jour, et la page a réaffiché les prix de la
+# veille jusqu'au relevé suivant. L'historique, lui, n'avait rien perdu — c'est
+# bien le JSON publié, et lui seul, qui avait reculé.
+#
+# Le relevé tourne sur un runner fraîchement cloné, où core.hooksPath n'est pas
+# posé : ce crochet ne le gêne pas. $CI est une sécurité en plus.
+[ -n "$CI" ] && exit 0
+
+if git diff --cached --name-only | grep -qx 'docs/data.json'; then
+    cat >&2 <<'FIN'
+
+  docs/data.json est un fichier généré : il ne se commet pas à la main.
+
+    git restore --staged --worktree docs/data.json   revenir à la version publiée
+    gh workflow run "Relevé des prix"                le régénérer et le publier
+
+  Si c'est délibéré (nouveau champ produit par track.py, par exemple) :
+  git commit --no-verify
+
+FIN
+    exit 1
+fi

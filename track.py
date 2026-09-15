@@ -81,6 +81,34 @@ ENTITY_RE = re.compile(r"&(?:amp|quot|apos|lt|gt|nbsp|#\d+|#x[0-9a-fA-F]+);")
 
 
 # --------------------------------------------------------------------------
+# Ce que le relevé constate
+# --------------------------------------------------------------------------
+
+# Un incident qu'il faut aller chercher dans les logs d'Actions n'est pas
+# signalé : personne ne lit le journal d'un job terminé, et un job qui échoue
+# n'envoie rien d'autre qu'un mail vite classé. Ce que le relevé constate part
+# donc aussi dans data.json, que la page affiche en bannière — là où on le
+# verra, c'est-à-dire devant les prix qu'il faut cesser de croire.
+#
+# Deux niveaux, et la différence n'est pas d'humeur : « grave » dit que rien
+# n'a été écrit, donc que les prix affichés sont ceux d'un relevé précédent.
+# Un avertissement dit que le relevé a eu lieu mais que l'export avait quelque
+# chose d'anormal — les prix sont du jour, ils méritent juste un œil.
+ANOMALIES: list[dict] = []
+
+
+def signaler(message: str, grave: bool = False) -> None:
+    ANOMALIES.append(
+        {"niveau": "grave" if grave else "avertissement", "message": message}
+    )
+    print(("! " if grave else "  ") + message, file=sys.stderr)
+
+
+def pluriel(n: int, singulier: str, pluriel_: str) -> str:
+    return f"{n} {singulier if n == 1 else pluriel_}"
+
+
+# --------------------------------------------------------------------------
 # Téléchargement et lecture de l'export
 # --------------------------------------------------------------------------
 
@@ -179,13 +207,18 @@ def parse_export(text: str) -> list[dict]:
 
     ncols = len(header_row)
     items: list[dict] = []
+    # Trois façons dont l'export peut être lisible et faux à la fois. Elles se
+    # comptent avant de se dire : « quatre lignes mal découpées » se lit, quatre
+    # bannières l'une sous l'autre ne se lisent plus.
+    bancales: list[str] = []
+    sans_isbn: list[str] = []
+    sans_prix: list[str] = []
     for row in read_rows(text, ncols)[1:]:
         titre = cell(row, idx["titre"])
         if not titre:
             continue
         if len(row) != ncols:
-            print(f"  ligne à {len(row)} colonnes au lieu de {ncols} : {titre[:40]}",
-                  file=sys.stderr)
+            bancales.append(f"{titre[:40]} ({len(row)} colonnes au lieu de {ncols})")
 
         pochette = cell(row, idx["pochette"])
         image = pochette.split("?", 1)[0]
@@ -204,6 +237,11 @@ def parse_export(text: str) -> list[dict]:
             url = WISHLIST_URL
 
         prix_cell = find_price_cell(row, idx["prix"])
+        if not isbn:
+            sans_isbn.append(titre[:40])
+        if parse_status(prix_cell) == "inconnu":
+            sans_prix.append(titre[:40])
+
         items.append(
             {
                 "id": isbn or slug or titre,
@@ -217,6 +255,27 @@ def parse_export(text: str) -> list[dict]:
                 "livraison": cell(row, idx["livraison"]),
             }
         )
+
+    if bancales:
+        signaler(f"{pluriel(len(bancales), 'ligne mal découpée', 'lignes mal découpées')} "
+                 f"dans l'export : {' ; '.join(bancales[:3])}"
+                 + (" …" if len(bancales) > 3 else ""))
+    # Sans ISBN, la clé retombe sur le slug ou le titre : l'article existe, mais
+    # sous une autre identité que ses relevés précédents. Son historique paraît
+    # perdu alors qu'il est juste à côté, sous l'ancienne clé.
+    if sans_isbn:
+        possessif = "son" if len(sans_isbn) == 1 else "leur"
+        signaler(f"{pluriel(len(sans_isbn), 'article sans ISBN', 'articles sans ISBN')} "
+                 f"— {possessif} historique repart de zéro : {' ; '.join(sans_isbn[:3])}"
+                 + (" …" if len(sans_isbn) > 3 else ""))
+    # Ni prix, ni « indisponible », ni « pré-commande » : la colonne Prix n'a pas
+    # été comprise. Un relevé sans prix coupe le palier de l'article — c'est
+    # exact si l'article est vraiment indisponible, faux si on a mal lu.
+    if sans_prix:
+        signaler(f"{pluriel(len(sans_prix), 'article dont le prix', 'articles dont le prix')} "
+                 f"n'a pas pu être lu : {' ; '.join(sans_prix[:3])}"
+                 + (" …" if len(sans_prix) > 3 else ""))
+
     return items
 
 
@@ -677,10 +736,59 @@ def analyse(items: list[dict], history: list[dict], today: date,
 
 
 # --------------------------------------------------------------------------
+# Écriture de data.json
+# --------------------------------------------------------------------------
 
-def main() -> int:
+def ecrire_json(genere_le: str, articles: list[dict]) -> None:
+    """Deux horodatages, et ils ne disent pas la même chose.
+
+    `genere_le` date les prix : c'est le dernier relevé qui a abouti.
+    `verifie_le` date la dernière tentative, réussie ou non. Les voir s'écarter,
+    c'est voir un relevé qui tourne toujours mais n'écrit plus — et `alertes`
+    dit alors pourquoi.
+    """
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(
+        json.dumps(
+            {
+                "genere_le": genere_le,
+                "verifie_le": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "alertes": ANOMALIES,
+                "articles": articles,
+            },
+            ensure_ascii=False,
+            indent=1,
+        ),
+        encoding="utf-8",
+    )
+
+
+def publier_alerte() -> None:
+    """Fait remonter les anomalies dans data.json sans toucher aux prix.
+
+    Quand un garde-fou refuse le relevé, data.json n'est pas régénéré : c'est
+    tout l'intérêt du garde-fou. Mais un refus silencieux laisse la page
+    afficher les prix de la veille avec l'aplomb de ceux du jour. On réécrit
+    donc le fichier à l'identique — mêmes articles, même `genere_le`, qui
+    continue de dater les prix affichés — en ne remplaçant que ce qui vient
+    d'arriver : `verifie_le` et `alertes`.
+    """
+    if not OUTPUT.exists():
+        return
+    try:
+        ancien = json.loads(OUTPUT.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return
+    ecrire_json(ancien.get("genere_le", ""), ancien.get("articles", []))
+
+
+# --------------------------------------------------------------------------
+
+def releve() -> int:
     if not WISHLIST_URL:
-        print("Variable d'environnement WISHLIST_URL absente.", file=sys.stderr)
+        signaler("Variable d'environnement WISHLIST_URL absente : "
+                 "aucun relevé n'est possible.", grave=True)
+        publier_alerte()
         return 1
 
     maintenant = datetime.now().astimezone()
@@ -689,7 +797,9 @@ def main() -> int:
 
     items = parse_export(download(WISHLIST_URL))
     if not items:
-        print("L'export ne contient aucun article : on ne touche à rien.", file=sys.stderr)
+        signaler("L'export ne contient aucun article : rien n'a été écrit, "
+                 "les prix affichés sont ceux du dernier relevé réussi.", grave=True)
+        publier_alerte()
         return 1
 
     history = load_history()
@@ -698,10 +808,12 @@ def main() -> int:
     # dans l'historique et couperaient les paliers. On préfère sauter un relevé.
     suivis = roster(history)
     if export_suspect(items, suivis) and not FORCER:
-        print(f"Export suspect : {len(items)} articles là où le dernier relevé "
-              f"en suivait {len(suivis)}. On ne touche à rien.\n"
-              f"Si la wishlist a vraiment fondu, relancez avec FORCER_RELEVE=1.",
+        signaler(f"Export suspect : {len(items)} articles là où le dernier relevé "
+                 f"en suivait {len(suivis)}. Rien n'a été écrit, les prix "
+                 f"affichés sont ceux du dernier relevé réussi.", grave=True)
+        print("Si la wishlist a vraiment fondu, relancez avec FORCER_RELEVE=1.",
               file=sys.stderr)
+        publier_alerte()
         return 1
 
     connus = {row["id"] for row in history}
@@ -713,17 +825,9 @@ def main() -> int:
     changes = [a for a in analyses
                if a["id"] in bouges and a["id"] in connus and a["variation"] is not None]
 
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(
-        json.dumps(
-            {
-                "genere_le": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                "articles": sorted(analyses, key=lambda a: (a["prix"] is None, a["prix"] or 0)),
-            },
-            ensure_ascii=False,
-            indent=1,
-        ),
-        encoding="utf-8",
+    ecrire_json(
+        datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        sorted(analyses, key=lambda a: (a["prix"] is None, a["prix"] or 0)),
     )
 
     print(f"{len(items)} articles relevés, {len(nouveaux)} nouveaux, "
@@ -734,6 +838,23 @@ def main() -> int:
     for ident in partis:
         print(f"  retiré de la wishlist : {ident}")
     return 0
+
+
+def main() -> int:
+    """Aucune panne ne doit pouvoir passer sans laisser de trace sur la page.
+
+    Les refus prévus (export vide, export tronqué) publient leur alerte
+    eux-mêmes. Reste l'imprévu — réseau coupé, colonnes renommées, bug — qui
+    autrement se contenterait de rougir dans Actions pendant que la page
+    afficherait ses prix d'un air parfaitement serein.
+    """
+    try:
+        return releve()
+    except (Exception, SystemExit) as exc:
+        signaler(f"Le relevé s'est interrompu : {type(exc).__name__} — {exc}",
+                 grave=True)
+        publier_alerte()
+        raise
 
 
 if __name__ == "__main__":

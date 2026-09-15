@@ -25,15 +25,26 @@ jobs:
           python-version: "3.12"
 
       - name: Relever les prix
+        id: releve
         env:
           WISHLIST_URL: ${{ secrets.WISHLIST_URL }}
         run: python track.py
 
+      # Même quand le relevé échoue — surtout quand il échoue. track.py a
+      # inscrit dans docs/data.json de quoi afficher la bannière d'alerte sans
+      # toucher aux prix, et c'est ce jour-là qu'il faut la publier : une alerte
+      # qui attend le retour à la normale pour s'afficher ne sert à rien.
+      # L'étape ne masque pas l'échec, le job reste rouge.
       - name: Enregistrer les changements
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "releve-des-prix"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add history.csv docs/data.json
           git diff --staged --quiet && echo "Rien de neuf." && exit 0
-          git commit -m "Relevé du $(date -u +%F)"
+          if [ "${{ steps.releve.outcome }}" = "success" ]; then
+            git commit -m "Relevé du $(date -u +%F)"
+          else
+            git commit -m "Relevé du $(date -u +%F) en échec : alerte publiée"
+          fi
           git push

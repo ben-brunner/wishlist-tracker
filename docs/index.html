@@ -121,6 +121,48 @@
   .ecran[hidden] { display: none; }
 
   /* Encadré de narration : le texte gris est illisible sur la trame de points. */
+  /* ---------- bannière d'alerte ---------- */
+
+  /* Posée sur la trame de points, hors de toute planche : c'est donc un
+     encadré de narration — fond plein, bord franc, ombre décalée — et non du
+     texte nu, qui serait illisible sur les points. */
+  .alerte {
+    background: #FCE9E5;
+    border: 3px solid var(--red);
+    border-radius: 8px;
+    box-shadow: 6px 6px 0 var(--ink);
+    padding: 14px 18px 16px;
+    margin: 0 0 28px;
+    font-size: 14.5px;
+    line-height: 1.45;
+  }
+
+  /* L'avertissement dit « le relevé a eu lieu, mais regarde » : il se distingue
+     sans crier. Le jaune reste un remplissage, le titre prend --or. */
+  .alerte.douce { background: #FFF4D9; border-color: var(--or); }
+
+  .alerte .titre {
+    display: block;
+    font-family: var(--titre);
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: .6px;
+    line-height: 1.1;
+    color: var(--red);
+    margin-bottom: 6px;
+  }
+  .alerte.douce .titre { color: var(--or); }
+
+  .alerte p { margin: 0; }
+  .alerte p + p { margin-top: 7px; }
+
+  .alerte .quand {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--grey);
+    margin-top: 10px;
+  }
+
   .accroche {
     text-align: center;
     font-size: 14.5px;
@@ -954,6 +996,13 @@
     </nav>
   </header>
 
+  <!-- La bannière vit hors des écrans, entre le titre et celui qui est
+       affiché : une alerte qu'on rate parce qu'on était sur l'autre onglet
+       n'est pas une alerte. C'est le seul élément de la page en dehors du
+       suivi qui lise data.json — l'écran de recherche, lui, continue de
+       l'ignorer et marcherait tel quel si le suivi disparaissait. -->
+  <div class="alerte" id="alerte" role="alert" hidden></div>
+
   <!-- ============ écran 1 : suivi des prix ============ -->
   <section class="ecran" data-ecran="suivi" hidden>
 
@@ -1037,6 +1086,73 @@ const $ = (s) => document.querySelector(s);
    dans du HTML. */
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
   (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+/* ================= la bannière d'alerte =================
+
+   Ce que track.py constate — export tronqué, colonnes décalées, prix
+   illisible — arrive tout rédigé dans `data.alertes`, y compris les jours où
+   il refuse d'écrire les prix : la page n'a qu'à l'afficher.
+
+   L'absence de relevé, elle, ne peut venir que d'ici, et c'est la seule
+   exception à « track.py calcule, la page dessine ». Un drapeau « le relevé ne
+   tourne plus » posé par track.py ne se lèverait jamais : le jour où il
+   faudrait le lever, track.py ne tourne pas. Comparer `genere_le` à l'horloge
+   du navigateur est le seul moyen de constater un silence — et ce n'est pas
+   une statistique sur les prix, la page ne se met pas à interpréter
+   l'historique. */
+
+/* Le relevé est quotidien, mais GitHub sert les crons planifiés avec des heures
+   de retard : pour un cron de 7 h 17 UTC, les relevés du 12 au 14 septembre
+   2026 sont tombés à 11 h 35, 12 h 42 puis 14 h 01, soit 25 à 27 h entre deux
+   relevés. En dessous de 36 h, le retard est la normale de cette maison ;
+   au-delà, un relevé a sauté. Un seuil plus serré crierait au loup une fois par
+   semaine, et une bannière qu'on apprend à ignorer ne sert plus à rien. */
+const RETARD_MAX_H = 36;
+
+const duree = (h) => (h < 48 ? `${Math.round(h)} h` : `${Math.floor(h / 24)} jours`);
+
+/* `data` à null : data.json n'a pas pu être chargé. */
+function alerter(data) {
+  const el = $('#alerte');
+  const messages = [];
+  let grave = false;
+
+  if (!data) {
+    messages.push('Impossible de charger <code>data.json</code> : le suivi ne peut rien '
+      + 'afficher. La recherche multi-boutiques, elle, fonctionne toujours.');
+    grave = true;
+  } else {
+    for (const a of data.alertes || []) {
+      messages.push(esc(a.message));
+      if (a.niveau === 'grave') grave = true;
+    }
+    const t = Date.parse(data.genere_le);
+    const h = (Date.now() - t) / 3600000;
+    if (Number.isNaN(t)) {
+      messages.push("Aucun relevé n'a encore abouti : la page n'a pas de prix à dater.");
+      grave = true;
+    } else if (h > RETARD_MAX_H) {
+      messages.push(`Aucun relevé depuis ${duree(h)} : le dernier date du `
+        + `${jourAn.format(new Date(t))}, et c'est de ce jour-là que sont les prix affichés.`);
+      grave = true;
+    }
+  }
+
+  if (!messages.length) { el.hidden = true; return; }
+
+  /* Le titre dit de quoi il retourne avant qu'on lise le détail : « grave »
+     veut dire que les prix affichés ne sont pas ceux d'aujourd'hui. */
+  el.className = 'alerte' + (grave ? '' : ' douce');
+  el.innerHTML = `<span class="titre">${grave
+      ? 'Les prix ne sont plus à jour'
+      : 'Le dernier relevé mérite un œil'}</span>`
+    + messages.map((m) => `<p>${m}</p>`).join('')
+    + (data && data.verifie_le
+        ? `<p class="quand">dernière tentative de relevé : ${jourAn.format(new Date(data.verifie_le))} à `
+          + `${new Date(data.verifie_le).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}</p>`
+        : '');
+  el.hidden = false;
+}
 
 /* ================= navigation entre les deux écrans ================= */
 
@@ -1295,6 +1411,7 @@ fetch('data.json?v=' + Date.now())
   .then((data) => {
     articles = data.articles;
     charge = true;
+    alerter(data);
     resumer(data);
     $('#barre').hidden = false;
     $('#tri').addEventListener('change', rendre);
@@ -1306,6 +1423,7 @@ fetch('data.json?v=' + Date.now())
   })
   .catch(() => {
     charge = true;
+    alerter(null);
     $('#resume').textContent = 'Pas encore de relevé.';
     $('#releve').innerHTML =
       'Lance <code>python3 track.py</code> pour créer le premier <code>docs/data.json</code>.';

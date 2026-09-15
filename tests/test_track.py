@@ -11,7 +11,9 @@ d'anormal.
 Bibliothèque standard uniquement, comme le reste du projet.
 """
 
+import contextlib
 import csv
+import io
 import sys
 import tempfile
 import unittest
@@ -28,6 +30,14 @@ EXPORTS = Path(__file__).resolve().parent / "exports"
 # et un test qui dépend de l'heure qu'il est ne prouve rien deux mois plus tard.
 MAINTENANT = datetime.fromisoformat("2026-09-14T12:00+02:00")
 TODAY = MAINTENANT.date()
+
+
+def taire_stderr(test):
+    """signaler() double ses messages sur stderr : précieux dans le journal
+    d'Actions, bruyant au milieu d'une suite de tests."""
+    silence = contextlib.redirect_stderr(io.StringIO())
+    silence.__enter__()
+    test.addCleanup(silence.__exit__, None, None, None)
 
 
 def journal(*releves, ident="X", titre="Un titre"):
@@ -440,6 +450,120 @@ class TestSortie(unittest.TestCase):
             self.assertIn("journal", a)
             self.assertIsNone(a["affaire"])          # un seul relevé : on se tait
             self.assertFalse(a["a_saisir"])
+
+
+# --------------------------------------------------------------------------
+# Les alertes
+# --------------------------------------------------------------------------
+
+EN_TETE = "Pochette;Artiste;Titre;Prix;Média;Livraison\n"
+LIGNE_OK = "https://img/9781401294052.jpg?v=1;Alan Moore;Killing Joke;€ 13.49 Acheter;Hardcover;24h\n"
+
+
+class TestAlertes(unittest.TestCase):
+    """Ce que le relevé constate doit atterrir sur la page.
+
+    Un incident qui ne se voit que dans les logs d'Actions n'est pas signalé :
+    le suivi continue d'afficher ses prix avec l'aplomb de ceux du jour.
+    """
+
+    def setUp(self):
+        track.ANOMALIES.clear()
+        taire_stderr(self)
+
+    def test_un_export_sain_ne_signale_rien(self):
+        """La bannière ne doit s'allumer que quand il y a vraiment quelque
+        chose : une alerte qu'on apprend à ignorer ne sert plus à rien."""
+        track.parse_export((EXPORTS / "wishlist.csv").read_text(encoding="utf-8"))
+        self.assertEqual(track.ANOMALIES, [])
+
+    def test_ligne_mal_decoupee(self):
+        track.parse_export(EN_TETE + LIGNE_OK
+                           + "https://img/9781632159038.jpg?v=2;Vaughan;Saga;"
+                             "€ 39.49 Acheter;Hardcover;24h;en trop\n")
+        self.assertEqual(len(track.ANOMALIES), 1)
+        self.assertIn("mal découpée", track.ANOMALIES[0]["message"])
+        self.assertEqual(track.ANOMALIES[0]["niveau"], "avertissement")
+
+    def test_article_sans_isbn(self):
+        """Sans ISBN la clé retombe sur le slug ou le titre : l'article perd
+        son historique sans que rien ne le dise."""
+        track.parse_export(EN_TETE + LIGNE_OK
+                           + "https://img/maison.jpg?v=2;X;Sans ISBN;€ 9.99 Acheter;Hardcover;24h\n")
+        self.assertEqual(len(track.ANOMALIES), 1)
+        self.assertIn("sans ISBN", track.ANOMALIES[0]["message"])
+        self.assertIn("Sans ISBN", track.ANOMALIES[0]["message"])
+
+    def test_prix_illisible(self):
+        """Ni prix, ni « indisponible », ni « pré-commande » : la colonne n'a pas
+        été comprise. Le relevé sans prix couperait le palier à tort."""
+        track.parse_export(EN_TETE + LIGNE_OK
+                           + "https://img/9781632159038.jpg?v=2;X;Saga;Nous consulter;Hardcover;24h\n")
+        self.assertEqual(len(track.ANOMALIES), 1)
+        self.assertIn("prix n'a pas pu être lu", track.ANOMALIES[0]["message"])
+
+    def test_les_anomalies_se_comptent_avant_de_se_dire(self):
+        """Quatre lignes cassées font une phrase, pas quatre bannières."""
+        lignes = "".join(
+            f"https://img/978140129405{n}.jpg?v={n};X;Titre {n};Nous consulter;Hardcover;24h\n"
+            for n in range(4))
+        track.parse_export(EN_TETE + lignes)
+        self.assertEqual(len(track.ANOMALIES), 1)
+        self.assertTrue(track.ANOMALIES[0]["message"].startswith("4 articles"))
+        self.assertTrue(track.ANOMALIES[0]["message"].endswith("…"))
+
+
+class TestPublierAlerte(unittest.TestCase):
+    """Un refus d'écrire ne doit pas être un refus de le dire.
+
+    Les garde-fous (export vide, export tronqué) laissent data.json intact —
+    c'est leur raison d'être. Mais la page afficherait alors les prix de la
+    veille sans rien en laisser paraître.
+    """
+
+    def setUp(self):
+        track.ANOMALIES.clear()
+        taire_stderr(self)
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.sortie = Path(self.tmp.name) / "data.json"
+        precedent = track.OUTPUT
+        track.OUTPUT = self.sortie
+        self.addCleanup(lambda: setattr(track, "OUTPUT", precedent))
+
+    def lire(self):
+        import json
+        return json.loads(self.sortie.read_text(encoding="utf-8"))
+
+    def test_les_prix_et_leur_date_ne_bougent_pas(self):
+        track.ecrire_json("2026-09-14T14:01:03+00:00", [{"id": "X", "prix": 12.0}])
+        avant = self.lire()
+
+        track.ANOMALIES.clear()
+        track.signaler("Export suspect : 4 articles là où on en suivait 27.", grave=True)
+        track.publier_alerte()
+        apres = self.lire()
+
+        # `genere_le` date les prix : il ne bouge pas, puisqu'ils n'ont pas bougé.
+        self.assertEqual(apres["genere_le"], avant["genere_le"])
+        self.assertEqual(apres["articles"], avant["articles"])
+        # `verifie_le` date la tentative : elle, elle a eu lieu.
+        self.assertGreaterEqual(apres["verifie_le"], avant["verifie_le"])
+        self.assertEqual(apres["alertes"][0]["niveau"], "grave")
+
+    def test_un_releve_reussi_repart_sans_alerte(self):
+        track.signaler("Quelque chose clochait la fois d'avant.")
+        track.ecrire_json("2026-09-15T09:00:00+00:00", [])
+        track.ANOMALIES.clear()
+        track.ecrire_json("2026-09-15T10:00:00+00:00", [])
+        self.assertEqual(self.lire()["alertes"], [])
+
+    def test_sans_data_json_il_ne_se_passe_rien(self):
+        """Premier lancement du projet : il n'y a pas encore de fichier à
+        annoter, et l'absence d'alerte n'est pas une erreur."""
+        track.signaler("Panne.", grave=True)
+        track.publier_alerte()
+        self.assertFalse(self.sortie.exists())
 
 
 if __name__ == "__main__":

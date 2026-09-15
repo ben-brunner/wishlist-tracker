@@ -47,6 +47,16 @@ Sur un dépôt privé, Pages demande un plan payant. L'alternative est Cloudflar
 Pages (*Create a project → Connect to Git*, aucune commande de build,
 répertoire de sortie `docs`), qui accepte les dépôts privés.
 
+**5. Poser le crochet git.** À faire dans chaque clone — la configuration git
+ne se clone pas :
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Il empêche de commettre `docs/data.json` à la main. Voir
+« Ne pas commettre `data.json` » plus bas.
+
 ## Au quotidien
 
 Le workflow tourne vers 7h17 UTC. Il télécharge l'export, **n'ajoute une ligne
@@ -67,6 +77,54 @@ WISHLIST_URL="https://imusic.fr/page/wishlist/…&format=csv" python3 track.py
 
 Le script n'a besoin que de Python 3.10 ou plus récent. Aucune dépendance.
 
+### Le cron arrive en retard, et c'est normal
+
+GitHub sert les workflows planifiés quand il a de la place, pas à l'heure dite.
+Pour un cron de 7h17 UTC, les relevés du 12 au 14 septembre 2026 sont tombés à
+11h35, 12h42 puis 14h01 — des retards de 4 à 7 heures, croissants. L'écart réel
+entre deux relevés reste de 25 à 27 heures. Ne pas s'inquiéter avant d'avoir
+passé une matinée sans commit : c'est la bannière de la page qui décide de ce
+qui est anormal, à 36 heures sans relevé.
+
+### Ne pas commettre `data.json`
+
+`docs/data.json` est produit par `track.py` et publié par le workflow. Le
+commettre à la main, c'est publier l'état de son arbre de travail — et le
+14 septembre 2026, une branche partie de l'avant-veille, rebasée par-dessus le
+relevé du jour, a remis en ligne le JSON de la veille. La page a réaffiché des
+prix périmés jusqu'au relevé suivant ; `history.csv`, lui, n'avait rien perdu.
+
+Le crochet `.githooks/pre-commit` refuse désormais ce commit. Pour publier un
+`data.json` régénéré exprès — après avoir ajouté un champ dans `track.py`, par
+exemple — `git commit --no-verify`, ou plus simplement *Run workflow*.
+
+## La bannière d'alerte
+
+En haut de la page, au-dessus de l'écran affiché, quand il y a quelque chose à
+dire — et rien du tout le reste du temps.
+
+**Rouge : les prix affichés ne sont pas ceux d'aujourd'hui.** Aucun relevé
+depuis plus de 36 heures, ou un relevé qui a refusé d'écrire (export vide,
+export tronqué, `WISHLIST_URL` absente, panne imprévue), ou `data.json`
+injoignable.
+
+**Jaune : le relevé a eu lieu, mais l'export avait quelque chose d'anormal.**
+Des lignes mal découpées, un article sans ISBN — dont l'historique repart donc
+de zéro —, un prix que la colonne Prix n'a pas permis de lire.
+
+Ces deux niveaux se partagent le travail selon qui peut constater quoi.
+`track.py` rédige tout ce qui se voit pendant un relevé et le dépose dans
+`data.json`, **y compris les jours où il refuse d'écrire les prix** : il
+réécrit alors le fichier à l'identique en ne changeant que `alertes` et
+`verifie_le`, si bien que `genere_le` continue de dater les prix réellement
+affichés. Le workflow commite même quand le relevé échoue, sans quoi l'alerte
+resterait sur le runner.
+
+L'absence de relevé, elle, ne peut être constatée que par la page : un drapeau
+« le relevé ne tourne plus » posé par `track.py` ne se lèverait jamais, puisque
+le jour où il faudrait le lever, `track.py` ne tourne pas. C'est la seule chose
+que la page calcule elle-même.
+
 ## Les tests
 
 ```bash
@@ -76,9 +134,10 @@ python3 -m unittest discover tests
 Bibliothèque standard, aucune installation. Ils couvrent ce qui casse sans
 prévenir : les entités HTML qui décalent les colonnes de l'export, les retours
 à la ligne de la colonne Prix, la courbe en escalier, la médiane pondérée par
-la durée, les seuils du signal « à saisir » et le garde-fou contre les exports
-tronqués. `tests/exports/wishlist.csv` est un export figé qui contient chacun
-de ces pièges — c'est le fichier à enrichir quand iMusic en invente un nouveau.
+la durée, les seuils du signal « à saisir », le garde-fou contre les exports
+tronqués et les alertes qu'il publie. `tests/exports/wishlist.csv` est un export
+figé qui contient chacun de ces pièges — c'est le fichier à enrichir quand
+iMusic en invente un nouveau.
 
 ## Ce que montre l'écran de suivi
 
