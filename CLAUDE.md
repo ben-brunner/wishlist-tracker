@@ -294,6 +294,25 @@ lever, `track.py` ne tourne pas. Seule l'horloge du navigateur peut constater
 un silence — et ce n'est pas une statistique sur les prix, la page ne se met
 pas à interpréter l'historique.
 
+**Le bouton « Relancer un relevé » est un lien, et ça ne peut pas être autre
+chose.** Déclencher le workflow depuis la page demanderait un `POST` sur l'API
+GitHub, donc un jeton ayant droit d'écriture sur le dépôt — or la page est
+publique, et tout ce qu'elle contient l'est aussi. Le lien ouvre la page du
+workflow sur GitHub, qui sait déjà qui vous êtes : deux clics au lieu d'un, et
+aucun identifiant nulle part. Ne pas « améliorer » ça en y glissant un jeton,
+même restreint : `ben-brunner.github.io` est une seule origine pour toutes les
+pages du compte, et ce qu'on met dans son `localStorage` est lisible par
+n'importe laquelle d'entre elles.
+
+L'URL du dépôt est écrite dans le HTML et non construite en JS, pour que le
+lien marche même quand `data.json` ne répond pas — c'est-à-dire précisément
+quand on en a besoin. `alerter()` la relit depuis l'ancre plutôt que de la
+redéclarer : une seule URL dans le fichier.
+
+Le lien reparaît **dans la bannière, et seulement en rouge**. Le rouge est le
+seul niveau qui appelle un geste, et la fiche d'un article n'a pas de bulle :
+sans ce rappel, l'alerte y annoncerait un problème sans dire par où le prendre.
+
 `RETARD_MAX_H` vaut 36 heures, et ce nombre vient d'une mesure, pas d'un goût :
 GitHub sert les crons planifiés avec plusieurs heures de retard, si bien que
 l'écart réel entre deux relevés monte à 25-27 heures. Un seuil plus serré

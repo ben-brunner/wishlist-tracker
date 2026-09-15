@@ -125,6 +125,18 @@ L'absence de relevé, elle, ne peut être constatée que par la page : un drapea
 le jour où il faudrait le lever, `track.py` ne tourne pas. C'est la seule chose
 que la page calcule elle-même.
 
+### Relancer un relevé depuis la page
+
+Sous la ligne « dernier relevé le… », un bouton **Relancer un relevé** ouvre la
+page du workflow sur GitHub, où le bouton *Run workflow* fait le reste. Il
+reparaît dans la bannière quand elle est rouge. Comptez deux minutes avant de
+recharger : le relevé, puis la republication de la page.
+
+C'est un lien et non un vrai déclencheur, et ce n'est pas un raccourci de
+paresse : appeler l'API GitHub depuis la page demanderait un jeton ayant droit
+d'écriture sur le dépôt, dans une page publique. Le détour par GitHub évite
+d'avoir un identifiant quelque part.
+
 ## Les tests
 
 ```bash
