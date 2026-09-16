@@ -4,7 +4,7 @@ on:
   schedule:
     # 07h17 UTC. Une heure « décalée » passe mieux : GitHub retarde les crons
     # lancés pile à l'heure ronde, quand tout le monde en programme un.
-    - cron: "17 7 * * *"
+    - cron: "17 5 * * *"
   workflow_dispatch: # bouton « Run workflow » pour un relevé à la demande
 
 permissions:
