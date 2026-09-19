@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-09-18T09:48:37+00:00",
- "verifie_le": "2026-09-18T09:48:37+00:00",
+ "genere_le": "2026-09-19T07:19:37+00:00",
+ "verifie_le": "2026-09-19T07:19:37+00:00",
  "alertes": [],
  "articles": [
   {
@@ -204,18 +204,18 @@
    "url": "https://imusic.fr/books/9781799513032/mark-waid-2026-kingdom-come-30th-anniversary-deluxe-edition-hardcover-book",
    "statut": "precommande",
    "livraison": "Livraison prévue 2026-11-25 - 2026-11-30",
-   "prix": 33.99,
-   "variation": 0.5,
-   "variation_pct": 1.5,
-   "variation_depuis": "2026-09-15T12:39+00:00",
+   "prix": 33.49,
+   "variation": -0.5,
+   "variation_pct": -1.5,
+   "variation_depuis": "2026-09-19T07:19+00:00",
    "min_12m": 33.49,
    "max_12m": 33.99,
    "min_total": 33.49,
    "max_total": 33.99,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
    "suivi_depuis": "2026-09-10",
-   "releves": 2,
+   "releves": 3,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -224,6 +224,10 @@
     [
      "2026-09-15T12:39+00:00",
      33.99
+    ],
+    [
+     "2026-09-19T07:19+00:00",
+     33.49
     ]
    ],
    "a_saisir": false,
@@ -234,6 +238,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-09-19T07:19+00:00",
+     "prix": 33.49,
+     "precedent": 33.99,
+     "variation": -0.5,
+     "variation_pct": -1.5,
+     "statut": "precommande"
+    },
     {
      "date": "2026-09-15T12:39+00:00",
      "prix": 33.99,
@@ -272,18 +284,18 @@
    "url": "https://imusic.fr/books/9781684157648/james-tynion-iv-2021-something-is-killing-the-children-book-one-deluxe-edition-something-is-killing-the-children-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-09-30 - 2026-10-07",
-   "prix": 34.99,
-   "variation": -0.5,
-   "variation_pct": -1.4,
-   "variation_depuis": "2026-09-18T09:48+00:00",
+   "prix": 35.49,
+   "variation": 0.5,
+   "variation_pct": 1.4,
+   "variation_depuis": "2026-09-19T07:19+00:00",
    "min_12m": 34.99,
    "max_12m": 35.49,
    "min_total": 34.99,
    "max_total": 35.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 3,
+   "releves": 4,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -296,6 +308,10 @@
     [
      "2026-09-18T09:48+00:00",
      34.99
+    ],
+    [
+     "2026-09-19T07:19+00:00",
+     35.49
     ]
    ],
    "a_saisir": false,
@@ -306,6 +322,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-09-19T07:19+00:00",
+     "prix": 35.49,
+     "precedent": 34.99,
+     "variation": 0.5,
+     "variation_pct": 1.4,
+     "statut": "disponible"
+    },
     {
      "date": "2026-09-18T09:48+00:00",
      "prix": 34.99,
@@ -684,95 +708,43 @@
    "min_mensuel": null
   },
   {
-   "id": "9781779502711",
-   "titre": "Batman by Grant Morrison Omnibus Volume 3",
-   "artiste": "Grant Morrison",
+   "id": "9781799509073",
+   "titre": "Wonder Woman: Rebirth by Greg Rucka Omnibus",
+   "artiste": "Greg Rucka",
    "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/711/9781779502711.jpg",
-   "url": "https://imusic.fr/books/9781779502711/grant-morrison-2020-batman-by-grant-morrison-omnibus-volume-3-hardcover-book",
+   "image": "https://imusic.b-cdn.net/images/item/original/073/9781799509073.jpg",
+   "url": "https://imusic.fr/books/9781799509073/greg-rucka-2026-wonder-woman-rebirth-by-greg-rucka-omnibus-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-09-30 - 2026-10-07",
-   "prix": 59.99,
-   "variation": 18.0,
-   "variation_pct": 42.9,
-   "variation_depuis": "2026-09-18T09:48+00:00",
-   "min_12m": 41.99,
-   "max_12m": 59.99,
-   "min_total": 41.99,
-   "max_total": 59.99,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 4,
+   "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
+   "prix": 52.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 52.99,
+   "max_12m": 52.99,
+   "min_total": 52.99,
+   "max_total": 52.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-19",
+   "releves": 1,
    "series": [
     [
-     "2026-09-10T13:00+02:00",
-     59.99
-    ],
-    [
-     "2026-09-12T11:35+00:00",
-     41.99
-    ],
-    [
-     "2026-09-13T12:42+00:00",
-     59.99
-    ],
-    [
-     "2026-09-18T09:48+00:00",
-     59.99
+     "2026-09-19T07:19+00:00",
+     52.99
     ]
    ],
    "a_saisir": false,
    "statuts": [
     [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ],
-    [
-     "2026-09-15T09:45+00:00",
-     "indisponible"
-    ],
-    [
-     "2026-09-18T09:48+00:00",
+     "2026-09-19T07:19+00:00",
      "disponible"
     ]
    ],
    "journal": [
     {
-     "date": "2026-09-18T09:48+00:00",
-     "prix": 59.99,
-     "precedent": 59.99,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-15T09:45+00:00",
-     "prix": null,
-     "precedent": 59.99,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "indisponible"
-    },
-    {
-     "date": "2026-09-13T12:42+00:00",
-     "prix": 59.99,
-     "precedent": 41.99,
-     "variation": 18.0,
-     "variation_pct": 42.9,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-12T11:35+00:00",
-     "prix": 41.99,
-     "precedent": 59.99,
-     "variation": -18.0,
-     "variation_pct": -30.0,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 59.99,
+     "date": "2026-09-19T07:19+00:00",
+     "prix": 52.99,
      "precedent": null,
      "variation": null,
      "variation_pct": null,
@@ -792,12 +764,12 @@
    "min_mensuel": null
   },
   {
-   "id": "9781799502937",
-   "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
-   "artiste": "Gail Simone",
+   "id": "9781799502029",
+   "titre": "Superman by Phillip Kennedy Johnson Omnibus Vol. 1",
+   "artiste": "Michael Conrad",
    "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
-   "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
+   "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
    "prix": 64.99,
@@ -872,12 +844,80 @@
    "min_mensuel": null
   },
   {
-   "id": "9781799502029",
-   "titre": "Superman by Phillip Kennedy Johnson Omnibus Vol. 1",
-   "artiste": "Michael Conrad",
+   "id": "9781401298845",
+   "titre": "Batman by Scott Snyder and Greg Capullo Omnibus Volume 1",
+   "artiste": "Scott Snyder",
    "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
-   "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
+   "image": "https://imusic.b-cdn.net/images/item/original/845/9781401298845.jpg",
+   "url": "https://imusic.fr/books/9781401298845/scott-snyder-2019-batman-by-scott-snyder-and-greg-capullo-omnibus-volume-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
+   "prix": 64.99,
+   "variation": 0.5,
+   "variation_pct": 0.8,
+   "variation_depuis": "2026-09-18T09:48+00:00",
+   "min_12m": 64.49,
+   "max_12m": 64.99,
+   "min_total": 64.49,
+   "max_total": 64.99,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 2,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     64.49
+    ],
+    [
+     "2026-09-18T09:48+00:00",
+     64.99
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-09-18T09:48+00:00",
+     "prix": 64.99,
+     "precedent": 64.49,
+     "variation": 0.5,
+     "variation_pct": 0.8,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 64.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": null,
+    "jours_observes": null,
+    "jours_moins_cher": null,
+    "position_pct": null,
+    "rythme_jours": null,
+    "amplitude_moyenne": null,
+    "mouvements": null
+   },
+   "affaire": null,
+   "min_mensuel": null
+  },
+  {
+   "id": "9781799502937",
+   "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
+   "artiste": "Gail Simone",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
+   "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
    "prix": 64.99,
@@ -1017,74 +1057,6 @@
      "variation": null,
      "variation_pct": null,
      "statut": "indisponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": null,
-    "jours_observes": null,
-    "jours_moins_cher": null,
-    "position_pct": null,
-    "rythme_jours": null,
-    "amplitude_moyenne": null,
-    "mouvements": null
-   },
-   "affaire": null,
-   "min_mensuel": null
-  },
-  {
-   "id": "9781401298845",
-   "titre": "Batman by Scott Snyder and Greg Capullo Omnibus Volume 1",
-   "artiste": "Scott Snyder",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/845/9781401298845.jpg",
-   "url": "https://imusic.fr/books/9781401298845/scott-snyder-2019-batman-by-scott-snyder-and-greg-capullo-omnibus-volume-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
-   "prix": 64.99,
-   "variation": 0.5,
-   "variation_pct": 0.8,
-   "variation_depuis": "2026-09-18T09:48+00:00",
-   "min_12m": 64.49,
-   "max_12m": 64.99,
-   "min_total": 64.49,
-   "max_total": 64.99,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 2,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     64.49
-    ],
-    [
-     "2026-09-18T09:48+00:00",
-     64.99
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-18T09:48+00:00",
-     "prix": 64.99,
-     "precedent": 64.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 64.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
     }
    ],
    "indicateurs": {
@@ -1889,6 +1861,126 @@
      "variation": null,
      "variation_pct": null,
      "statut": "precommande"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": null,
+    "jours_observes": null,
+    "jours_moins_cher": null,
+    "position_pct": null,
+    "rythme_jours": null,
+    "amplitude_moyenne": null,
+    "mouvements": null
+   },
+   "affaire": null,
+   "min_mensuel": null
+  },
+  {
+   "id": "9781779502711",
+   "titre": "Batman by Grant Morrison Omnibus Volume 3",
+   "artiste": "Grant Morrison",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/711/9781779502711.jpg",
+   "url": "https://imusic.fr/books/9781779502711/grant-morrison-2020-batman-by-grant-morrison-omnibus-volume-3-hardcover-book",
+   "statut": "indisponible",
+   "livraison": "Date de livraison prévue inconnue",
+   "prix": null,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 41.99,
+   "max_12m": 59.99,
+   "min_total": 41.99,
+   "max_total": 59.99,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 4,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     59.99
+    ],
+    [
+     "2026-09-12T11:35+00:00",
+     41.99
+    ],
+    [
+     "2026-09-13T12:42+00:00",
+     59.99
+    ],
+    [
+     "2026-09-18T09:48+00:00",
+     59.99
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ],
+    [
+     "2026-09-15T09:45+00:00",
+     "indisponible"
+    ],
+    [
+     "2026-09-18T09:48+00:00",
+     "disponible"
+    ],
+    [
+     "2026-09-19T07:19+00:00",
+     "indisponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-09-19T07:19+00:00",
+     "prix": null,
+     "precedent": 59.99,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "indisponible"
+    },
+    {
+     "date": "2026-09-18T09:48+00:00",
+     "prix": 59.99,
+     "precedent": 59.99,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-15T09:45+00:00",
+     "prix": null,
+     "precedent": 59.99,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "indisponible"
+    },
+    {
+     "date": "2026-09-13T12:42+00:00",
+     "prix": 59.99,
+     "precedent": 41.99,
+     "variation": 18.0,
+     "variation_pct": 42.9,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-12T11:35+00:00",
+     "prix": 41.99,
+     "precedent": 59.99,
+     "variation": -18.0,
+     "variation_pct": -30.0,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 59.99,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
     }
    ],
    "indicateurs": {
