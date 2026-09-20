@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-09-19T07:19:37+00:00",
- "verifie_le": "2026-09-19T07:19:37+00:00",
+ "genere_le": "2026-09-20T07:43:29+00:00",
+ "verifie_le": "2026-09-20T07:43:29+00:00",
  "alertes": [],
  "articles": [
   {
@@ -708,68 +708,12 @@
    "min_mensuel": null
   },
   {
-   "id": "9781799509073",
-   "titre": "Wonder Woman: Rebirth by Greg Rucka Omnibus",
-   "artiste": "Greg Rucka",
+   "id": "9781799502937",
+   "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
+   "artiste": "Gail Simone",
    "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/073/9781799509073.jpg",
-   "url": "https://imusic.fr/books/9781799509073/greg-rucka-2026-wonder-woman-rebirth-by-greg-rucka-omnibus-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
-   "prix": 52.99,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 52.99,
-   "max_12m": 52.99,
-   "min_total": 52.99,
-   "max_total": 52.99,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-19",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-19T07:19+00:00",
-     52.99
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-19T07:19+00:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-19T07:19+00:00",
-     "prix": 52.99,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": null,
-    "jours_observes": null,
-    "jours_moins_cher": null,
-    "position_pct": null,
-    "rythme_jours": null,
-    "amplitude_moyenne": null,
-    "mouvements": null
-   },
-   "affaire": null,
-   "min_mensuel": null
-  },
-  {
-   "id": "9781799502029",
-   "titre": "Superman by Phillip Kennedy Johnson Omnibus Vol. 1",
-   "artiste": "Michael Conrad",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
-   "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
+   "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
+   "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
    "prix": 64.99,
@@ -844,80 +788,12 @@
    "min_mensuel": null
   },
   {
-   "id": "9781401298845",
-   "titre": "Batman by Scott Snyder and Greg Capullo Omnibus Volume 1",
-   "artiste": "Scott Snyder",
+   "id": "9781799502029",
+   "titre": "Superman by Phillip Kennedy Johnson Omnibus Vol. 1",
+   "artiste": "Michael Conrad",
    "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/845/9781401298845.jpg",
-   "url": "https://imusic.fr/books/9781401298845/scott-snyder-2019-batman-by-scott-snyder-and-greg-capullo-omnibus-volume-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
-   "prix": 64.99,
-   "variation": 0.5,
-   "variation_pct": 0.8,
-   "variation_depuis": "2026-09-18T09:48+00:00",
-   "min_12m": 64.49,
-   "max_12m": 64.99,
-   "min_total": 64.49,
-   "max_total": 64.99,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 2,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     64.49
-    ],
-    [
-     "2026-09-18T09:48+00:00",
-     64.99
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-18T09:48+00:00",
-     "prix": 64.99,
-     "precedent": 64.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 64.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": null,
-    "jours_observes": null,
-    "jours_moins_cher": null,
-    "position_pct": null,
-    "rythme_jours": null,
-    "amplitude_moyenne": null,
-    "mouvements": null
-   },
-   "affaire": null,
-   "min_mensuel": null
-  },
-  {
-   "id": "9781799502937",
-   "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
-   "artiste": "Gail Simone",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
-   "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
+   "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
    "prix": 64.99,
@@ -1158,62 +1034,6 @@
    "media": "Hardcover Book",
    "image": "https://imusic.b-cdn.net/images/item/original/253/9781779509253.jpg",
    "url": "https://imusic.fr/books/9781779509253/peter-j-tomasi-2021-superman-by-peter-j-tomasi-and-patrick-gleason-omnibus-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
-   "prix": 65.49,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 65.49,
-   "max_12m": 65.49,
-   "min_total": 65.49,
-   "max_total": 65.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     65.49
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 65.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": null,
-    "jours_observes": null,
-    "jours_moins_cher": null,
-    "position_pct": null,
-    "rythme_jours": null,
-    "amplitude_moyenne": null,
-    "mouvements": null
-   },
-   "affaire": null,
-   "min_mensuel": null
-  },
-  {
-   "id": "9781779527448",
-   "titre": "Batman by Paul Dini Omnibus",
-   "artiste": "Paul Dini",
-   "media": "Hardcover BookNew edition",
-   "image": "https://imusic.b-cdn.net/images/item/original/448/9781779527448.jpg",
-   "url": "https://imusic.fr/books/9781779527448/paul-dini-2024-batman-by-paul-dini-omnibus-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-10-02 - 2026-10-27",
    "prix": 65.49,
