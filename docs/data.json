@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-09-25T07:45:02+00:00",
- "verifie_le": "2026-09-25T07:45:02+00:00",
+ "genere_le": "2026-09-26T07:38:14+00:00",
+ "verifie_le": "2026-09-26T07:38:14+00:00",
  "alertes": [],
  "articles": [
   {
@@ -300,8 +300,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 15,
-    "jours_observes": 15,
+    "jours_suivi": 16,
+    "jours_observes": 16,
     "jours_moins_cher": 0,
     "position_pct": 0,
     "rythme_jours": 4,
@@ -511,8 +511,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 15,
-    "jours_observes": 7,
+    "jours_suivi": 16,
+    "jours_observes": 8,
     "jours_moins_cher": 0,
     "position_pct": 0,
     "rythme_jours": 5,
@@ -526,6 +526,105 @@
     "part_moins_cher_pct": 0.0,
     "deja_moins_cher": false,
     "saisir": true
+   },
+   "min_mensuel": null
+  },
+  {
+   "id": "9781779506955",
+   "titre": "Absolute Swamp Thing by Alan Moore Volume 1",
+   "artiste": "Alan Moore",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/955/9781779506955.jpg",
+   "url": "https://imusic.fr/books/9781779506955/alan-moore-2020-absolute-swamp-thing-by-alan-moore-volume-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
+   "prix": 52.99,
+   "variation": -0.5,
+   "variation_pct": -0.9,
+   "variation_depuis": "2026-09-26T07:38+00:00",
+   "min_12m": 52.49,
+   "max_12m": 53.49,
+   "min_total": 52.49,
+   "max_total": 53.49,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 4,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     52.49
+    ],
+    [
+     "2026-09-18T09:48+00:00",
+     52.99
+    ],
+    [
+     "2026-09-24T07:34+00:00",
+     53.49
+    ],
+    [
+     "2026-09-26T07:38+00:00",
+     52.99
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-09-26T07:38+00:00",
+     "prix": 52.99,
+     "precedent": 53.49,
+     "variation": -0.5,
+     "variation_pct": -0.9,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-24T07:34+00:00",
+     "prix": 53.49,
+     "precedent": 52.99,
+     "variation": 0.5,
+     "variation_pct": 0.9,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-18T09:48+00:00",
+     "prix": 52.99,
+     "precedent": 52.49,
+     "variation": 0.5,
+     "variation_pct": 1.0,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 52.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": 16,
+    "jours_observes": 16,
+    "jours_moins_cher": 8,
+    "position_pct": 50,
+    "rythme_jours": 5,
+    "amplitude_moyenne": 0.5,
+    "mouvements": 3
+   },
+   "affaire": {
+    "prix_habituel": 52.49,
+    "ecart": -0.5,
+    "ecart_pct": -1.0,
+    "part_moins_cher_pct": 50.1,
+    "deja_moins_cher": true,
+    "saisir": false
    },
    "min_mensuel": null
   },
@@ -579,86 +678,6 @@
     {
      "date": "2026-09-10T13:00+02:00",
      "prix": 52.99,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": null,
-    "jours_observes": null,
-    "jours_moins_cher": null,
-    "position_pct": null,
-    "rythme_jours": null,
-    "amplitude_moyenne": null,
-    "mouvements": null
-   },
-   "affaire": null,
-   "min_mensuel": null
-  },
-  {
-   "id": "9781779506955",
-   "titre": "Absolute Swamp Thing by Alan Moore Volume 1",
-   "artiste": "Alan Moore",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/955/9781779506955.jpg",
-   "url": "https://imusic.fr/books/9781779506955/alan-moore-2020-absolute-swamp-thing-by-alan-moore-volume-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
-   "prix": 53.49,
-   "variation": 0.5,
-   "variation_pct": 0.9,
-   "variation_depuis": "2026-09-24T07:34+00:00",
-   "min_12m": 52.49,
-   "max_12m": 53.49,
-   "min_total": 52.49,
-   "max_total": 53.49,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 3,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     52.49
-    ],
-    [
-     "2026-09-18T09:48+00:00",
-     52.99
-    ],
-    [
-     "2026-09-24T07:34+00:00",
-     53.49
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-24T07:34+00:00",
-     "prix": 53.49,
-     "precedent": 52.99,
-     "variation": 0.5,
-     "variation_pct": 0.9,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-18T09:48+00:00",
-     "prix": 52.99,
-     "precedent": 52.49,
-     "variation": 0.5,
-     "variation_pct": 1.0,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 52.49,
      "precedent": null,
      "variation": null,
      "variation_pct": null,
@@ -758,62 +777,6 @@
    "min_mensuel": null
   },
   {
-   "id": "9781779509253",
-   "titre": "Superman by Peter J. Tomasi and Patrick Gleason Omnibus",
-   "artiste": "Peter J. Tomasi",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/253/9781779509253.jpg",
-   "url": "https://imusic.fr/books/9781779509253/peter-j-tomasi-2021-superman-by-peter-j-tomasi-and-patrick-gleason-omnibus-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
-   "prix": 65.49,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 65.49,
-   "max_12m": 65.49,
-   "min_total": 65.49,
-   "max_total": 65.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     65.49
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 65.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": null,
-    "jours_observes": null,
-    "jours_moins_cher": null,
-    "position_pct": null,
-    "rythme_jours": null,
-    "amplitude_moyenne": null,
-    "mouvements": null
-   },
-   "affaire": null,
-   "min_mensuel": null
-  },
-  {
    "id": "9781799502937",
    "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
    "artiste": "Gail Simone",
@@ -894,8 +857,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 15,
-    "jours_observes": 15,
+    "jours_suivi": 16,
+    "jours_observes": 16,
     "jours_moins_cher": 14,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -906,7 +869,7 @@
     "prix_habituel": 64.49,
     "ecart": -1.0,
     "ecart_pct": -1.6,
-    "part_moins_cher_pct": 93.2,
+    "part_moins_cher_pct": 87.4,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -993,8 +956,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 15,
-    "jours_observes": 15,
+    "jours_suivi": 16,
+    "jours_observes": 16,
     "jours_moins_cher": 14,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -1005,7 +968,7 @@
     "prix_habituel": 64.49,
     "ecart": -1.0,
     "ecart_pct": -1.6,
-    "part_moins_cher_pct": 93.2,
+    "part_moins_cher_pct": 87.4,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1184,8 +1147,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 15,
-    "jours_observes": 15,
+    "jours_suivi": 16,
+    "jours_observes": 16,
     "jours_moins_cher": 14,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -1196,10 +1159,66 @@
     "prix_habituel": 64.49,
     "ecart": -1.0,
     "ecart_pct": -1.6,
-    "part_moins_cher_pct": 93.2,
+    "part_moins_cher_pct": 87.4,
     "deja_moins_cher": true,
     "saisir": false
    },
+   "min_mensuel": null
+  },
+  {
+   "id": "9781779509253",
+   "titre": "Superman by Peter J. Tomasi and Patrick Gleason Omnibus",
+   "artiste": "Peter J. Tomasi",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/253/9781779509253.jpg",
+   "url": "https://imusic.fr/books/9781779509253/peter-j-tomasi-2021-superman-by-peter-j-tomasi-and-patrick-gleason-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
+   "prix": 65.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 65.49,
+   "max_12m": 65.49,
+   "min_total": 65.49,
+   "max_total": 65.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     65.49
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 65.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": null,
+    "jours_observes": null,
+    "jours_moins_cher": null,
+    "position_pct": null,
+    "rythme_jours": null,
+    "amplitude_moyenne": null,
+    "mouvements": null
+   },
+   "affaire": null,
    "min_mensuel": null
   },
   {
@@ -1327,62 +1346,6 @@
    "min_mensuel": null
   },
   {
-   "id": "9781779504999",
-   "titre": "JLA by Grant Morrison Omnibus",
-   "artiste": "Grant Morriso",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/999/9781779504999.jpg",
-   "url": "https://imusic.fr/books/9781779504999/grant-morriso-2020-jla-by-grant-morrison-omnibus-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
-   "prix": 77.49,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
-   "min_12m": 77.49,
-   "max_12m": 77.49,
-   "min_total": 77.49,
-   "max_total": 77.49,
-   "plus_bas_12m": true,
-   "plus_bas_total": true,
-   "suivi_depuis": "2026-09-10",
-   "releves": 1,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     77.49
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 77.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": null,
-    "jours_observes": null,
-    "jours_moins_cher": null,
-    "position_pct": null,
-    "rythme_jours": null,
-    "amplitude_moyenne": null,
-    "mouvements": null
-   },
-   "affaire": null,
-   "min_mensuel": null
-  },
-  {
    "id": "9781401245627",
    "titre": "The Doom Patrol Omnibus",
    "artiste": "Grant Morrison",
@@ -1444,6 +1407,185 @@
     {
      "date": "2026-09-10T13:00+02:00",
      "prix": 76.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": null,
+    "jours_observes": null,
+    "jours_moins_cher": null,
+    "position_pct": null,
+    "rythme_jours": null,
+    "amplitude_moyenne": null,
+    "mouvements": null
+   },
+   "affaire": null,
+   "min_mensuel": null
+  },
+  {
+   "id": "9781779524713",
+   "titre": "Absolute Superman by Geoff Johns & Gary Frank",
+   "artiste": "Geoff Johns",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/713/9781779524713.jpg",
+   "url": "https://imusic.fr/books/9781779524713/geoff-johns-2024-absolute-superman-by-geoff-johns-gary-frank-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
+   "prix": 77.49,
+   "variation": 0.5,
+   "variation_pct": 0.6,
+   "variation_depuis": "2026-09-24T07:34+00:00",
+   "min_12m": 75.99,
+   "max_12m": 77.49,
+   "min_total": 75.99,
+   "max_total": 77.49,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 6,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ],
+    [
+     "2026-09-13T12:42+00:00",
+     76.49
+    ],
+    [
+     "2026-09-14T14:01+00:00",
+     75.99
+    ],
+    [
+     "2026-09-15T09:45+00:00",
+     76.49
+    ],
+    [
+     "2026-09-18T09:48+00:00",
+     76.99
+    ],
+    [
+     "2026-09-24T07:34+00:00",
+     77.49
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-09-24T07:34+00:00",
+     "prix": 77.49,
+     "precedent": 76.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-18T09:48+00:00",
+     "prix": 76.99,
+     "precedent": 76.49,
+     "variation": 0.5,
+     "variation_pct": 0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-15T09:45+00:00",
+     "prix": 76.49,
+     "precedent": 75.99,
+     "variation": 0.5,
+     "variation_pct": 0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-14T14:01+00:00",
+     "prix": 75.99,
+     "precedent": 76.49,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-13T12:42+00:00",
+     "prix": 76.49,
+     "precedent": 77.49,
+     "variation": -1.0,
+     "variation_pct": -1.3,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 77.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": 16,
+    "jours_observes": 16,
+    "jours_moins_cher": 11,
+    "position_pct": 100,
+    "rythme_jours": 3,
+    "amplitude_moyenne": 0.6,
+    "mouvements": 5
+   },
+   "affaire": {
+    "prix_habituel": 76.99,
+    "ecart": -0.5,
+    "ecart_pct": -0.6,
+    "part_moins_cher_pct": 68.0,
+    "deja_moins_cher": true,
+    "saisir": false
+   },
+   "min_mensuel": null
+  },
+  {
+   "id": "9781779504999",
+   "titre": "JLA by Grant Morrison Omnibus",
+   "artiste": "Grant Morriso",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/999/9781779504999.jpg",
+   "url": "https://imusic.fr/books/9781779504999/grant-morriso-2020-jla-by-grant-morrison-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
+   "prix": 77.49,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 77.49,
+   "max_12m": 77.49,
+   "min_total": 77.49,
+   "max_total": 77.49,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-09-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 77.49,
      "precedent": null,
      "variation": null,
      "variation_pct": null,
@@ -1575,129 +1717,6 @@
    "min_mensuel": null
   },
   {
-   "id": "9781779524713",
-   "titre": "Absolute Superman by Geoff Johns & Gary Frank",
-   "artiste": "Geoff Johns",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/713/9781779524713.jpg",
-   "url": "https://imusic.fr/books/9781779524713/geoff-johns-2024-absolute-superman-by-geoff-johns-gary-frank-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
-   "prix": 77.49,
-   "variation": 0.5,
-   "variation_pct": 0.6,
-   "variation_depuis": "2026-09-24T07:34+00:00",
-   "min_12m": 75.99,
-   "max_12m": 77.49,
-   "min_total": 75.99,
-   "max_total": 77.49,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 6,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     77.49
-    ],
-    [
-     "2026-09-13T12:42+00:00",
-     76.49
-    ],
-    [
-     "2026-09-14T14:01+00:00",
-     75.99
-    ],
-    [
-     "2026-09-15T09:45+00:00",
-     76.49
-    ],
-    [
-     "2026-09-18T09:48+00:00",
-     76.99
-    ],
-    [
-     "2026-09-24T07:34+00:00",
-     77.49
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-24T07:34+00:00",
-     "prix": 77.49,
-     "precedent": 76.99,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-18T09:48+00:00",
-     "prix": 76.99,
-     "precedent": 76.49,
-     "variation": 0.5,
-     "variation_pct": 0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-15T09:45+00:00",
-     "prix": 76.49,
-     "precedent": 75.99,
-     "variation": 0.5,
-     "variation_pct": 0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-14T14:01+00:00",
-     "prix": 75.99,
-     "precedent": 76.49,
-     "variation": -0.5,
-     "variation_pct": -0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-13T12:42+00:00",
-     "prix": 76.49,
-     "precedent": 77.49,
-     "variation": -1.0,
-     "variation_pct": -1.3,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 77.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": 15,
-    "jours_observes": 15,
-    "jours_moins_cher": 11,
-    "position_pct": 100,
-    "rythme_jours": 3,
-    "amplitude_moyenne": 0.6,
-    "mouvements": 5
-   },
-   "affaire": {
-    "prix_habituel": 76.99,
-    "ecart": -0.5,
-    "ecart_pct": -0.6,
-    "part_moins_cher_pct": 72.6,
-    "deja_moins_cher": true,
-    "saisir": false
-   },
-   "min_mensuel": null
-  },
-  {
    "id": "9781799508755",
    "titre": "Batwoman Omnibus (2026 Edition)",
    "artiste": "Greg Rucka",
@@ -1778,8 +1797,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 15,
-    "jours_observes": 15,
+    "jours_suivi": 16,
+    "jours_observes": 16,
     "jours_moins_cher": 7,
     "position_pct": 5,
     "rythme_jours": 5,
@@ -1790,7 +1809,7 @@
     "prix_habituel": 87.99,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 46.4,
+    "part_moins_cher_pct": 43.5,
     "deja_moins_cher": true,
     "saisir": false
    },
