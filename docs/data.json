@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-09-26T07:38:14+00:00",
- "verifie_le": "2026-09-26T07:38:14+00:00",
+ "genere_le": "2026-09-27T08:06:21+00:00",
+ "verifie_le": "2026-09-27T08:06:21+00:00",
  "alertes": [],
  "articles": [
   {
@@ -300,8 +300,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 16,
-    "jours_observes": 16,
+    "jours_suivi": 17,
+    "jours_observes": 17,
     "jours_moins_cher": 0,
     "position_pct": 0,
     "rythme_jours": 4,
@@ -511,11 +511,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 16,
-    "jours_observes": 8,
+    "jours_suivi": 17,
+    "jours_observes": 9,
     "jours_moins_cher": 0,
     "position_pct": 0,
-    "rythme_jours": 5,
+    "rythme_jours": 6,
     "amplitude_moyenne": 18.0,
     "mouvements": 3
    },
@@ -526,105 +526,6 @@
     "part_moins_cher_pct": 0.0,
     "deja_moins_cher": false,
     "saisir": true
-   },
-   "min_mensuel": null
-  },
-  {
-   "id": "9781779506955",
-   "titre": "Absolute Swamp Thing by Alan Moore Volume 1",
-   "artiste": "Alan Moore",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/955/9781779506955.jpg",
-   "url": "https://imusic.fr/books/9781779506955/alan-moore-2020-absolute-swamp-thing-by-alan-moore-volume-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
-   "prix": 52.99,
-   "variation": -0.5,
-   "variation_pct": -0.9,
-   "variation_depuis": "2026-09-26T07:38+00:00",
-   "min_12m": 52.49,
-   "max_12m": 53.49,
-   "min_total": 52.49,
-   "max_total": 53.49,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 4,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     52.49
-    ],
-    [
-     "2026-09-18T09:48+00:00",
-     52.99
-    ],
-    [
-     "2026-09-24T07:34+00:00",
-     53.49
-    ],
-    [
-     "2026-09-26T07:38+00:00",
-     52.99
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-09-26T07:38+00:00",
-     "prix": 52.99,
-     "precedent": 53.49,
-     "variation": -0.5,
-     "variation_pct": -0.9,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-24T07:34+00:00",
-     "prix": 53.49,
-     "precedent": 52.99,
-     "variation": 0.5,
-     "variation_pct": 0.9,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-18T09:48+00:00",
-     "prix": 52.99,
-     "precedent": 52.49,
-     "variation": 0.5,
-     "variation_pct": 1.0,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 52.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": 16,
-    "jours_observes": 16,
-    "jours_moins_cher": 8,
-    "position_pct": 50,
-    "rythme_jours": 5,
-    "amplitude_moyenne": 0.5,
-    "mouvements": 3
-   },
-   "affaire": {
-    "prix_habituel": 52.49,
-    "ecart": -0.5,
-    "ecart_pct": -1.0,
-    "part_moins_cher_pct": 50.1,
-    "deja_moins_cher": true,
-    "saisir": false
    },
    "min_mensuel": null
   },
@@ -694,6 +595,117 @@
     "mouvements": null
    },
    "affaire": null,
+   "min_mensuel": null
+  },
+  {
+   "id": "9781779506955",
+   "titre": "Absolute Swamp Thing by Alan Moore Volume 1",
+   "artiste": "Alan Moore",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/955/9781779506955.jpg",
+   "url": "https://imusic.fr/books/9781779506955/alan-moore-2020-absolute-swamp-thing-by-alan-moore-volume-1-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-10-09 - 2026-11-03",
+   "prix": 53.49,
+   "variation": 0.5,
+   "variation_pct": 0.9,
+   "variation_depuis": "2026-09-27T08:06+00:00",
+   "min_12m": 52.49,
+   "max_12m": 53.49,
+   "min_total": 52.49,
+   "max_total": 53.49,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 5,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     52.49
+    ],
+    [
+     "2026-09-18T09:48+00:00",
+     52.99
+    ],
+    [
+     "2026-09-24T07:34+00:00",
+     53.49
+    ],
+    [
+     "2026-09-26T07:38+00:00",
+     52.99
+    ],
+    [
+     "2026-09-27T08:06+00:00",
+     53.49
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-09-27T08:06+00:00",
+     "prix": 53.49,
+     "precedent": 52.99,
+     "variation": 0.5,
+     "variation_pct": 0.9,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-26T07:38+00:00",
+     "prix": 52.99,
+     "precedent": 53.49,
+     "variation": -0.5,
+     "variation_pct": -0.9,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-24T07:34+00:00",
+     "prix": 53.49,
+     "precedent": 52.99,
+     "variation": 0.5,
+     "variation_pct": 0.9,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-18T09:48+00:00",
+     "prix": 52.99,
+     "precedent": 52.49,
+     "variation": 0.5,
+     "variation_pct": 1.0,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 52.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": 17,
+    "jours_observes": 17,
+    "jours_moins_cher": 15,
+    "position_pct": 100,
+    "rythme_jours": 4,
+    "amplitude_moyenne": 0.5,
+    "mouvements": 4
+   },
+   "affaire": {
+    "prix_habituel": 52.99,
+    "ecart": -0.5,
+    "ecart_pct": -0.9,
+    "part_moins_cher_pct": 88.1,
+    "deja_moins_cher": true,
+    "saisir": false
+   },
    "min_mensuel": null
   },
   {
@@ -857,19 +869,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 16,
-    "jours_observes": 16,
+    "jours_suivi": 17,
+    "jours_observes": 17,
     "jours_moins_cher": 14,
     "position_pct": 100,
-    "rythme_jours": 5,
+    "rythme_jours": 6,
     "amplitude_moyenne": 0.5,
     "mouvements": 3
    },
    "affaire": {
-    "prix_habituel": 64.49,
-    "ecart": -1.0,
-    "ecart_pct": -1.6,
-    "part_moins_cher_pct": 87.4,
+    "prix_habituel": 64.99,
+    "ecart": -0.5,
+    "ecart_pct": -0.8,
+    "part_moins_cher_pct": 82.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -956,19 +968,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 16,
-    "jours_observes": 16,
+    "jours_suivi": 17,
+    "jours_observes": 17,
     "jours_moins_cher": 14,
     "position_pct": 100,
-    "rythme_jours": 5,
+    "rythme_jours": 6,
     "amplitude_moyenne": 0.5,
     "mouvements": 3
    },
    "affaire": {
-    "prix_habituel": 64.49,
-    "ecart": -1.0,
-    "ecart_pct": -1.6,
-    "part_moins_cher_pct": 87.4,
+    "prix_habituel": 64.99,
+    "ecart": -0.5,
+    "ecart_pct": -0.8,
+    "part_moins_cher_pct": 82.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1147,19 +1159,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 16,
-    "jours_observes": 16,
+    "jours_suivi": 17,
+    "jours_observes": 17,
     "jours_moins_cher": 14,
     "position_pct": 100,
-    "rythme_jours": 5,
+    "rythme_jours": 6,
     "amplitude_moyenne": 0.5,
     "mouvements": 3
    },
    "affaire": {
-    "prix_habituel": 64.49,
-    "ecart": -1.0,
-    "ecart_pct": -1.6,
-    "part_moins_cher_pct": 87.4,
+    "prix_habituel": 64.99,
+    "ecart": -0.5,
+    "ecart_pct": -0.8,
+    "part_moins_cher_pct": 82.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1530,8 +1542,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 16,
-    "jours_observes": 16,
+    "jours_suivi": 17,
+    "jours_observes": 17,
     "jours_moins_cher": 11,
     "position_pct": 100,
     "rythme_jours": 3,
@@ -1542,7 +1554,7 @@
     "prix_habituel": 76.99,
     "ecart": -0.5,
     "ecart_pct": -0.6,
-    "part_moins_cher_pct": 68.0,
+    "part_moins_cher_pct": 63.9,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1797,11 +1809,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 16,
-    "jours_observes": 16,
+    "jours_suivi": 17,
+    "jours_observes": 17,
     "jours_moins_cher": 7,
     "position_pct": 5,
-    "rythme_jours": 5,
+    "rythme_jours": 6,
     "amplitude_moyenne": 3.83,
     "mouvements": 3
    },
@@ -1809,7 +1821,7 @@
     "prix_habituel": 87.99,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 43.5,
+    "part_moins_cher_pct": 40.9,
     "deja_moins_cher": true,
     "saisir": false
    },
