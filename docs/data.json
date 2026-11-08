@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-11-07T08:44:07+00:00",
- "verifie_le": "2026-11-07T08:44:07+00:00",
+ "genere_le": "2026-11-08T08:57:03+00:00",
+ "verifie_le": "2026-11-08T08:57:03+00:00",
  "alertes": [],
  "articles": [
   {
@@ -84,11 +84,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 2,
     "position_pct": 50,
-    "rythme_jours": 19,
+    "rythme_jours": 20,
     "amplitude_moyenne": 0.5,
     "mouvements": 3
    },
@@ -96,7 +96,7 @@
     "prix_habituel": 13.99,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 3.5,
+    "part_moins_cher_pct": 3.4,
     "deja_moins_cher": false,
     "saisir": false
    },
@@ -199,11 +199,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 50,
+    "jours_suivi": 59,
+    "jours_observes": 51,
     "jours_moins_cher": 1,
     "position_pct": 6,
-    "rythme_jours": 19,
+    "rythme_jours": 20,
     "amplitude_moyenne": 3.0,
     "mouvements": 3
    },
@@ -418,8 +418,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 37,
+    "jours_suivi": 59,
+    "jours_observes": 38,
     "jours_moins_cher": 0,
     "position_pct": 0,
     "rythme_jours": 8,
@@ -529,8 +529,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 38,
-    "jours_observes": 38,
+    "jours_suivi": 39,
+    "jours_observes": 39,
     "jours_moins_cher": 32,
     "position_pct": 100,
     "rythme_jours": 10,
@@ -541,7 +541,7 @@
     "prix_habituel": 29.49,
     "ecart": -0.5,
     "ecart_pct": -1.7,
-    "part_moins_cher_pct": 84.3,
+    "part_moins_cher_pct": 82.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -628,8 +628,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 23,
-    "jours_observes": 23,
+    "jours_suivi": 24,
+    "jours_observes": 24,
     "jours_moins_cher": 17,
     "position_pct": 100,
     "rythme_jours": 8,
@@ -640,7 +640,7 @@
     "prix_habituel": 29.49,
     "ecart": -0.5,
     "ecart_pct": -1.7,
-    "part_moins_cher_pct": 74.1,
+    "part_moins_cher_pct": 71.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -739,11 +739,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 42,
     "position_pct": 100,
-    "rythme_jours": 14,
+    "rythme_jours": 15,
     "amplitude_moyenne": 0.5,
     "mouvements": 4
    },
@@ -751,7 +751,7 @@
     "prix_habituel": 33.99,
     "ecart": -0.5,
     "ecart_pct": -1.5,
-    "part_moins_cher_pct": 72.3,
+    "part_moins_cher_pct": 71.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -766,10 +766,10 @@
    "url": "https://imusic.fr/books/9781632159038/brian-k-vaughan-2017-saga-book-two-saga-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-11-20 - 2026-12-04",
-   "prix": 40.49,
-   "variation": -0.5,
-   "variation_pct": -1.2,
-   "variation_depuis": "2026-11-07T08:44+00:00",
+   "prix": 40.99,
+   "variation": 0.5,
+   "variation_pct": 1.2,
+   "variation_depuis": "2026-11-08T08:57+00:00",
    "min_12m": 39.49,
    "max_12m": 41.99,
    "min_total": 39.49,
@@ -777,7 +777,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-12",
-   "releves": 8,
+   "releves": 9,
    "series": [
     [
      "2026-09-12T11:35+00:00",
@@ -810,6 +810,10 @@
     [
      "2026-11-07T08:44+00:00",
      40.49
+    ],
+    [
+     "2026-11-08T08:57+00:00",
+     40.99
     ]
    ],
    "a_saisir": false,
@@ -832,6 +836,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-08T08:57+00:00",
+     "prix": 40.99,
+     "precedent": 40.49,
+     "variation": 0.5,
+     "variation_pct": 1.2,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-07T08:44+00:00",
      "prix": 40.49,
@@ -914,19 +926,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 56,
-    "jours_observes": 38,
-    "jours_moins_cher": 11,
-    "position_pct": 40,
-    "rythme_jours": 8,
-    "amplitude_moyenne": 0.71,
-    "mouvements": 7
+    "jours_suivi": 57,
+    "jours_observes": 39,
+    "jours_moins_cher": 14,
+    "position_pct": 60,
+    "rythme_jours": 7,
+    "amplitude_moyenne": 0.69,
+    "mouvements": 8
    },
    "affaire": {
     "prix_habituel": 40.99,
-    "ecart": 0.5,
-    "ecart_pct": 1.2,
-    "part_moins_cher_pct": 28.6,
+    "ecart": 0.0,
+    "ecart_pct": 0.0,
+    "part_moins_cher_pct": 35.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -941,10 +953,10 @@
    "url": "https://imusic.fr/books/9781799508199/mark-waid-2026-batman-superman-world-s-finest-deluxe-edition-vol-1-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-11-20 - 2026-12-04",
-   "prix": 40.49,
-   "variation": -0.5,
-   "variation_pct": -1.2,
-   "variation_depuis": "2026-11-06T09:20+00:00",
+   "prix": 40.99,
+   "variation": 0.5,
+   "variation_pct": 1.2,
+   "variation_depuis": "2026-11-08T08:57+00:00",
    "min_12m": 39.49,
    "max_12m": 41.99,
    "min_total": 39.49,
@@ -952,7 +964,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 9,
+   "releves": 10,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -989,6 +1001,10 @@
     [
      "2026-11-06T09:20+00:00",
      40.49
+    ],
+    [
+     "2026-11-08T08:57+00:00",
+     40.99
     ]
    ],
    "a_saisir": false,
@@ -999,6 +1015,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-08T08:57+00:00",
+     "prix": 40.99,
+     "precedent": 40.49,
+     "variation": 0.5,
+     "variation_pct": 1.2,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-06T09:20+00:00",
      "prix": 40.49,
@@ -1073,19 +1097,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
-    "jours_moins_cher": 21,
-    "position_pct": 40,
+    "jours_suivi": 59,
+    "jours_observes": 59,
+    "jours_moins_cher": 33,
+    "position_pct": 60,
     "rythme_jours": 7,
-    "amplitude_moyenne": 0.62,
-    "mouvements": 8
+    "amplitude_moyenne": 0.61,
+    "mouvements": 9
    },
    "affaire": {
     "prix_habituel": 40.49,
-    "ecart": 0.0,
-    "ecart_pct": 0.0,
-    "part_moins_cher_pct": 36.1,
+    "ecart": -0.5,
+    "ecart_pct": -1.2,
+    "part_moins_cher_pct": 55.9,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1184,8 +1208,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 15,
-    "jours_observes": 15,
+    "jours_suivi": 16,
+    "jours_observes": 16,
     "jours_moins_cher": 4,
     "position_pct": 92,
     "rythme_jours": 4,
@@ -1196,7 +1220,7 @@
     "prix_habituel": 40.99,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 26.9,
+    "part_moins_cher_pct": 25.2,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1379,8 +1403,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 48,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -1391,7 +1415,7 @@
     "prix_habituel": 53.99,
     "ecart": -0.5,
     "ecart_pct": -0.9,
-    "part_moins_cher_pct": 82.9,
+    "part_moins_cher_pct": 81.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1538,8 +1562,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 46,
     "position_pct": 100,
     "rythme_jours": 7,
@@ -1550,7 +1574,7 @@
     "prix_habituel": 53.99,
     "ecart": -0.5,
     "ecart_pct": -0.9,
-    "part_moins_cher_pct": 79.4,
+    "part_moins_cher_pct": 78.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1781,8 +1805,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 58,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -1793,7 +1817,7 @@
     "prix_habituel": 53.99,
     "ecart": -1.0,
     "ecart_pct": -1.9,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.3,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1928,8 +1952,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 52,
     "position_pct": 100,
     "rythme_jours": 8,
@@ -1940,7 +1964,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 89.6,
+    "part_moins_cher_pct": 88.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2171,8 +2195,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 45,
     "position_pct": 8,
     "rythme_jours": 4,
@@ -2183,7 +2207,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 77.4,
+    "part_moins_cher_pct": 76.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2378,8 +2402,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 51,
     "position_pct": 67,
     "rythme_jours": 5,
@@ -2390,7 +2414,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 88.0,
+    "part_moins_cher_pct": 86.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2585,8 +2609,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 56,
-    "jours_observes": 56,
+    "jours_suivi": 57,
+    "jours_observes": 57,
     "jours_moins_cher": 50,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -2597,7 +2621,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 89.3,
+    "part_moins_cher_pct": 87.7,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2816,8 +2840,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 51,
     "position_pct": 86,
     "rythme_jours": 4,
@@ -2828,7 +2852,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 88.0,
+    "part_moins_cher_pct": 86.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2963,8 +2987,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 54,
     "position_pct": 100,
     "rythme_jours": 8,
@@ -2975,7 +2999,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 93.1,
+    "part_moins_cher_pct": 91.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3170,8 +3194,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 56,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -3182,7 +3206,7 @@
     "prix_habituel": 78.49,
     "ecart": -1.0,
     "ecart_pct": -1.3,
-    "part_moins_cher_pct": 96.5,
+    "part_moins_cher_pct": 94.9,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3377,8 +3401,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 56,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -3389,7 +3413,7 @@
     "prix_habituel": 78.49,
     "ecart": -1.0,
     "ecart_pct": -1.3,
-    "part_moins_cher_pct": 96.5,
+    "part_moins_cher_pct": 94.9,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3584,8 +3608,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 56,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -3596,7 +3620,7 @@
     "prix_habituel": 78.49,
     "ecart": -1.0,
     "ecart_pct": -1.3,
-    "part_moins_cher_pct": 96.5,
+    "part_moins_cher_pct": 94.9,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3863,8 +3887,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 56,
     "position_pct": 100,
     "rythme_jours": 3,
@@ -3875,7 +3899,7 @@
     "prix_habituel": 78.49,
     "ecart": -1.0,
     "ecart_pct": -1.3,
-    "part_moins_cher_pct": 96.5,
+    "part_moins_cher_pct": 94.9,
     "deja_moins_cher": true,
     "saisir": false
    },
