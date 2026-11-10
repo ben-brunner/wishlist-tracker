@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-11-09T09:44:12+00:00",
- "verifie_le": "2026-11-09T09:44:12+00:00",
+ "genere_le": "2026-11-10T09:43:59+00:00",
+ "verifie_le": "2026-11-10T09:43:59+00:00",
  "alertes": [],
  "articles": [
   {
@@ -11,7 +11,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/052/9781401294052.jpg",
    "url": "https://imusic.fr/books/9781401294052/alan-moore-2019-batman-the-killing-joke-deluxe-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-19 - 2026-11-26",
+   "livraison": "Livraison prévue 2026-11-20 - 2026-11-27",
    "prix": 13.99,
    "variation": -0.5,
    "variation_pct": -3.5,
@@ -84,8 +84,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
+    "jours_suivi": 61,
+    "jours_observes": 61,
     "jours_moins_cher": 2,
     "position_pct": 50,
     "rythme_jours": 20,
@@ -96,7 +96,7 @@
     "prix_habituel": 13.99,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 3.4,
+    "part_moins_cher_pct": 3.3,
     "deja_moins_cher": false,
     "saisir": false
    },
@@ -110,7 +110,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/441/9781779513441.jpg",
    "url": "https://imusic.fr/books/9781779513441/grant-morrison-2022-all-star-superman-the-deluxe-edition-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 22.49,
    "variation": 0.5,
    "variation_pct": 2.3,
@@ -199,8 +199,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 52,
+    "jours_suivi": 61,
+    "jours_observes": 53,
     "jours_moins_cher": 1,
     "position_pct": 6,
     "rythme_jours": 20,
@@ -225,7 +225,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/648/9781684157648.jpg",
    "url": "https://imusic.fr/books/9781684157648/james-tynion-iv-2021-something-is-killing-the-children-book-one-deluxe-edition-something-is-killing-the-children-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 29.99,
    "variation": -6.0,
    "variation_pct": -16.7,
@@ -418,8 +418,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 39,
+    "jours_suivi": 61,
+    "jours_observes": 40,
     "jours_moins_cher": 0,
     "position_pct": 0,
     "rythme_jours": 9,
@@ -444,7 +444,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/360/9781799500360.jpg",
    "url": "https://imusic.fr/books/9781799500360/n-k-jemisin-2025-far-sector-the-deluxe-edition-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 29.99,
    "variation": 0.5,
    "variation_pct": 1.7,
@@ -529,8 +529,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 40,
-    "jours_observes": 40,
+    "jours_suivi": 41,
+    "jours_observes": 41,
     "jours_moins_cher": 32,
     "position_pct": 100,
     "rythme_jours": 10,
@@ -541,7 +541,7 @@
     "prix_habituel": 29.49,
     "ecart": -0.5,
     "ecart_pct": -1.7,
-    "part_moins_cher_pct": 80.0,
+    "part_moins_cher_pct": 78.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -555,7 +555,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/219/9781799509219.jpg",
    "url": "https://imusic.fr/books/9781799509219/g-willow-wilson-2026-poison-ivy-deluxe-edition-vol-1-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 29.99,
    "variation": 0.5,
    "variation_pct": 1.7,
@@ -628,11 +628,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 25,
-    "jours_observes": 25,
+    "jours_suivi": 26,
+    "jours_observes": 26,
     "jours_moins_cher": 17,
     "position_pct": 100,
-    "rythme_jours": 8,
+    "rythme_jours": 9,
     "amplitude_moyenne": 0.5,
     "mouvements": 3
    },
@@ -640,7 +640,7 @@
     "prix_habituel": 29.49,
     "ecart": -0.5,
     "ecart_pct": -1.7,
-    "part_moins_cher_pct": 68.1,
+    "part_moins_cher_pct": 65.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -739,8 +739,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
+    "jours_suivi": 61,
+    "jours_observes": 61,
     "jours_moins_cher": 42,
     "position_pct": 100,
     "rythme_jours": 15,
@@ -751,7 +751,7 @@
     "prix_habituel": 33.99,
     "ecart": -0.5,
     "ecart_pct": -1.5,
-    "part_moins_cher_pct": 69.8,
+    "part_moins_cher_pct": 68.7,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -765,7 +765,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/038/9781632159038.jpg",
    "url": "https://imusic.fr/books/9781632159038/brian-k-vaughan-2017-saga-book-two-saga-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-07",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-08",
    "prix": 40.99,
    "variation": 0.5,
    "variation_pct": 1.2,
@@ -926,8 +926,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 40,
+    "jours_suivi": 59,
+    "jours_observes": 41,
     "jours_moins_cher": 14,
     "position_pct": 60,
     "rythme_jours": 7,
@@ -938,7 +938,7 @@
     "prix_habituel": 40.99,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 34.8,
+    "part_moins_cher_pct": 34.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -952,7 +952,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/199/9781799508199.jpg",
    "url": "https://imusic.fr/books/9781799508199/mark-waid-2026-batman-superman-world-s-finest-deluxe-edition-vol-1-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-07",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-08",
    "prix": 40.99,
    "variation": 0.5,
    "variation_pct": 1.2,
@@ -1097,8 +1097,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
+    "jours_suivi": 61,
+    "jours_observes": 61,
     "jours_moins_cher": 33,
     "position_pct": 60,
     "rythme_jours": 7,
@@ -1109,7 +1109,7 @@
     "prix_habituel": 40.49,
     "ecart": -0.5,
     "ecart_pct": -1.2,
-    "part_moins_cher_pct": 55.0,
+    "part_moins_cher_pct": 54.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1123,7 +1123,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/224/9781799503224.jpg",
    "url": "https://imusic.fr/books/9781799503224/tom-king-2025-the-human-target-by-tom-king-and-greg-smallwood-the-deluxe-edition-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-11 - 2026-11-16",
+   "livraison": "Livraison prévue 2026-11-12 - 2026-11-17",
    "prix": 40.99,
    "variation": 0.5,
    "variation_pct": 1.2,
@@ -1208,11 +1208,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 17,
-    "jours_observes": 17,
+    "jours_suivi": 18,
+    "jours_observes": 18,
     "jours_moins_cher": 4,
     "position_pct": 92,
-    "rythme_jours": 4,
+    "rythme_jours": 5,
     "amplitude_moyenne": 3.63,
     "mouvements": 4
    },
@@ -1220,7 +1220,7 @@
     "prix_habituel": 40.99,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 23.7,
+    "part_moins_cher_pct": 22.4,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1234,11 +1234,11 @@
    "image": "https://imusic.b-cdn.net/images/item/original/381/9781401242381.jpg",
    "url": "https://imusic.fr/books/9781401242381/warren-ellis-2014-the-planetary-omnibus-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
-   "prix": 54.99,
-   "variation": 0.5,
-   "variation_pct": 0.9,
-   "variation_depuis": "2026-11-09T09:44+00:00",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
+   "prix": 54.49,
+   "variation": -0.5,
+   "variation_pct": -0.9,
+   "variation_depuis": "2026-11-10T09:43+00:00",
    "min_12m": 52.99,
    "max_12m": 54.99,
    "min_total": 52.99,
@@ -1246,7 +1246,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 13,
+   "releves": 14,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -1299,6 +1299,10 @@
     [
      "2026-11-09T09:44+00:00",
      54.99
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     54.49
     ]
    ],
    "a_saisir": false,
@@ -1309,6 +1313,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 54.49,
+     "precedent": 54.99,
+     "variation": -0.5,
+     "variation_pct": -0.9,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-09T09:44+00:00",
      "prix": 54.99,
@@ -1415,19 +1427,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
-    "jours_moins_cher": 60,
-    "position_pct": 100,
+    "jours_suivi": 61,
+    "jours_observes": 61,
+    "jours_moins_cher": 48,
+    "position_pct": 75,
     "rythme_jours": 5,
     "amplitude_moyenne": 0.5,
-    "mouvements": 12
+    "mouvements": 13
    },
    "affaire": {
     "prix_habituel": 53.99,
-    "ecart": -1.0,
-    "ecart_pct": -1.9,
-    "part_moins_cher_pct": 100.0,
+    "ecart": -0.5,
+    "ecart_pct": -0.9,
+    "part_moins_cher_pct": 78.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1441,11 +1453,11 @@
    "image": "https://imusic.b-cdn.net/images/item/original/955/9781779506955.jpg",
    "url": "https://imusic.fr/books/9781779506955/alan-moore-2020-absolute-swamp-thing-by-alan-moore-volume-1-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
-   "prix": 54.99,
-   "variation": 0.5,
-   "variation_pct": 0.9,
-   "variation_depuis": "2026-11-07T08:44+00:00",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
+   "prix": 54.49,
+   "variation": -0.5,
+   "variation_pct": -0.9,
+   "variation_depuis": "2026-11-10T09:43+00:00",
    "min_12m": 52.49,
    "max_12m": 54.99,
    "min_total": 52.49,
@@ -1453,7 +1465,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 16,
+   "releves": 17,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -1518,6 +1530,10 @@
     [
      "2026-11-07T08:44+00:00",
      54.99
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     54.49
     ]
    ],
    "a_saisir": false,
@@ -1528,6 +1544,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 54.49,
+     "precedent": 54.99,
+     "variation": -0.5,
+     "variation_pct": -0.9,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-07T08:44+00:00",
      "prix": 54.99,
@@ -1658,19 +1682,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
-    "jours_moins_cher": 58,
-    "position_pct": 100,
+    "jours_suivi": 61,
+    "jours_observes": 61,
+    "jours_moins_cher": 48,
+    "position_pct": 80,
     "rythme_jours": 4,
     "amplitude_moyenne": 0.5,
-    "mouvements": 15
+    "mouvements": 16
    },
    "affaire": {
     "prix_habituel": 53.99,
-    "ecart": -1.0,
-    "ecart_pct": -1.9,
-    "part_moins_cher_pct": 96.6,
+    "ecart": -0.5,
+    "ecart_pct": -0.9,
+    "part_moins_cher_pct": 78.7,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1684,11 +1708,11 @@
    "image": "https://imusic.b-cdn.net/images/item/original/443/9781506722443.jpg",
    "url": "https://imusic.fr/books/9781506722443/michael-allred-2021-madman-library-edition-volume-1-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
-   "prix": 54.99,
-   "variation": 0.5,
-   "variation_pct": 0.9,
-   "variation_depuis": "2026-11-09T09:44+00:00",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
+   "prix": 54.49,
+   "variation": -0.5,
+   "variation_pct": -0.9,
+   "variation_depuis": "2026-11-10T09:43+00:00",
    "min_12m": 52.49,
    "max_12m": 54.99,
    "min_total": 52.49,
@@ -1696,7 +1720,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 10,
+   "releves": 11,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -1737,6 +1761,10 @@
     [
      "2026-11-09T09:44+00:00",
      54.99
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     54.49
     ]
    ],
    "a_saisir": false,
@@ -1747,6 +1775,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 54.49,
+     "precedent": 54.99,
+     "variation": -0.5,
+     "variation_pct": -0.9,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-09T09:44+00:00",
      "prix": 54.99,
@@ -1829,166 +1865,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
-    "jours_moins_cher": 60,
-    "position_pct": 100,
-    "rythme_jours": 7,
+    "jours_suivi": 61,
+    "jours_observes": 61,
+    "jours_moins_cher": 46,
+    "position_pct": 80,
+    "rythme_jours": 6,
     "amplitude_moyenne": 0.5,
-    "mouvements": 9
+    "mouvements": 10
    },
    "affaire": {
     "prix_habituel": 53.99,
-    "ecart": -1.0,
-    "ecart_pct": -1.9,
-    "part_moins_cher_pct": 100.0,
-    "deja_moins_cher": true,
-    "saisir": false
-   },
-   "min_mensuel": null
-  },
-  {
-   "id": "9781779509253",
-   "titre": "Superman by Peter J. Tomasi and Patrick Gleason Omnibus",
-   "artiste": "Peter J. Tomasi",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/253/9781779509253.jpg",
-   "url": "https://imusic.fr/books/9781779509253/peter-j-tomasi-2021-superman-by-peter-j-tomasi-and-patrick-gleason-omnibus-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
-   "prix": 66.99,
-   "variation": 0.5,
-   "variation_pct": 0.8,
-   "variation_depuis": "2026-11-07T08:44+00:00",
-   "min_12m": 65.49,
-   "max_12m": 66.99,
-   "min_total": 65.49,
-   "max_total": 66.99,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 8,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     65.49
-    ],
-    [
-     "2026-10-02T08:28+00:00",
-     65.99
-    ],
-    [
-     "2026-10-03T08:03+00:00",
-     66.49
-    ],
-    [
-     "2026-10-29T08:25+00:00",
-     66.99
-    ],
-    [
-     "2026-10-31T08:23+00:00",
-     66.49
-    ],
-    [
-     "2026-11-02T09:25+00:00",
-     66.99
-    ],
-    [
-     "2026-11-06T09:20+00:00",
-     66.49
-    ],
-    [
-     "2026-11-07T08:44+00:00",
-     66.99
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-11-07T08:44+00:00",
-     "prix": 66.99,
-     "precedent": 66.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-06T09:20+00:00",
-     "prix": 66.49,
-     "precedent": 66.99,
-     "variation": -0.5,
-     "variation_pct": -0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-02T09:25+00:00",
-     "prix": 66.99,
-     "precedent": 66.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-31T08:23+00:00",
-     "prix": 66.49,
-     "precedent": 66.99,
-     "variation": -0.5,
-     "variation_pct": -0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-29T08:25+00:00",
-     "prix": 66.99,
-     "precedent": 66.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-03T08:03+00:00",
-     "prix": 66.49,
-     "precedent": 65.99,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-02T08:28+00:00",
-     "prix": 65.99,
-     "precedent": 65.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 65.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
-    "jours_moins_cher": 52,
-    "position_pct": 100,
-    "rythme_jours": 9,
-    "amplitude_moyenne": 0.5,
-    "mouvements": 7
-   },
-   "affaire": {
-    "prix_habituel": 66.49,
     "ecart": -0.5,
-    "ecart_pct": -0.8,
-    "part_moins_cher_pct": 86.6,
+    "ecart_pct": -0.9,
+    "part_moins_cher_pct": 75.4,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2002,7 +1891,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
    "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 66.99,
    "variation": 0.5,
    "variation_pct": 0.8,
@@ -2219,8 +2108,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
+    "jours_suivi": 61,
+    "jours_observes": 61,
     "jours_moins_cher": 45,
     "position_pct": 8,
     "rythme_jours": 4,
@@ -2231,7 +2120,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 74.8,
+    "part_moins_cher_pct": 73.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2245,7 +2134,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
    "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 66.99,
    "variation": -1.5,
    "variation_pct": -2.2,
@@ -2426,8 +2315,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
+    "jours_suivi": 61,
+    "jours_observes": 61,
     "jours_moins_cher": 51,
     "position_pct": 67,
     "rythme_jours": 5,
@@ -2438,7 +2327,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 85.0,
+    "part_moins_cher_pct": 83.6,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2452,7 +2341,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/855/9781799501855.jpg",
    "url": "https://imusic.fr/books/9781799501855/dceased-omnibus-2025-dceased-omnibus-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 66.99,
    "variation": 0.5,
    "variation_pct": 0.8,
@@ -2633,8 +2522,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 58,
-    "jours_observes": 58,
+    "jours_suivi": 59,
+    "jours_observes": 59,
     "jours_moins_cher": 50,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -2645,7 +2534,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 86.1,
+    "part_moins_cher_pct": 84.7,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2659,7 +2548,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/956/9781779525956.jpg",
    "url": "https://imusic.fr/books/9781779525956/gail-simone-2024-secret-six-by-gail-simone-omnibus-vol-1-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 66.99,
    "variation": -0.5,
    "variation_pct": -0.7,
@@ -2864,8 +2753,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
+    "jours_suivi": 61,
+    "jours_observes": 61,
     "jours_moins_cher": 51,
     "position_pct": 86,
     "rythme_jours": 4,
@@ -2876,7 +2765,7 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 85.0,
+    "part_moins_cher_pct": 83.6,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2890,7 +2779,7 @@
    "image": "https://imusic.b-cdn.net/images/item/original/762/9781401294762.jpg",
    "url": "https://imusic.fr/books/9781401294762/mike-carey-2019-lucifer-omnibus-volume-1-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
    "prix": 66.99,
    "variation": 0.5,
    "variation_pct": 0.8,
@@ -3011,8 +2900,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
+    "jours_suivi": 61,
+    "jours_observes": 61,
     "jours_moins_cher": 54,
     "position_pct": 100,
     "rythme_jours": 9,
@@ -3023,292 +2912,65 @@
     "prix_habituel": 66.49,
     "ecart": -0.5,
     "ecart_pct": -0.8,
-    "part_moins_cher_pct": 89.9,
+    "part_moins_cher_pct": 88.5,
     "deja_moins_cher": true,
     "saisir": false
    },
    "min_mensuel": null
   },
   {
-   "id": "9781779504999",
-   "titre": "JLA by Grant Morrison Omnibus",
-   "artiste": "Grant Morriso",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/999/9781779504999.jpg",
-   "url": "https://imusic.fr/books/9781779504999/grant-morriso-2020-jla-by-grant-morrison-omnibus-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
-   "prix": 79.49,
-   "variation": 0.5,
-   "variation_pct": 0.6,
-   "variation_depuis": "2026-11-07T08:44+00:00",
-   "min_12m": 77.49,
-   "max_12m": 79.49,
-   "min_total": 77.49,
-   "max_total": 79.49,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 13,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     77.49
-    ],
-    [
-     "2026-09-30T08:30+00:00",
-     77.99
-    ],
-    [
-     "2026-10-03T08:03+00:00",
-     78.49
-    ],
-    [
-     "2026-10-08T08:55+00:00",
-     78.99
-    ],
-    [
-     "2026-10-10T08:27+00:00",
-     78.49
-    ],
-    [
-     "2026-10-13T09:22+00:00",
-     78.99
-    ],
-    [
-     "2026-10-16T07:06+00:00",
-     78.49
-    ],
-    [
-     "2026-10-24T07:15+00:00",
-     78.99
-    ],
-    [
-     "2026-10-30T08:35+00:00",
-     79.49
-    ],
-    [
-     "2026-10-31T08:23+00:00",
-     78.99
-    ],
-    [
-     "2026-11-04T09:06+00:00",
-     79.49
-    ],
-    [
-     "2026-11-05T09:26+00:00",
-     78.99
-    ],
-    [
-     "2026-11-07T08:44+00:00",
-     79.49
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-11-07T08:44+00:00",
-     "prix": 79.49,
-     "precedent": 78.99,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-05T09:26+00:00",
-     "prix": 78.99,
-     "precedent": 79.49,
-     "variation": -0.5,
-     "variation_pct": -0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-04T09:06+00:00",
-     "prix": 79.49,
-     "precedent": 78.99,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-31T08:23+00:00",
-     "prix": 78.99,
-     "precedent": 79.49,
-     "variation": -0.5,
-     "variation_pct": -0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-30T08:35+00:00",
-     "prix": 79.49,
-     "precedent": 78.99,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-24T07:15+00:00",
-     "prix": 78.99,
-     "precedent": 78.49,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-16T07:06+00:00",
-     "prix": 78.49,
-     "precedent": 78.99,
-     "variation": -0.5,
-     "variation_pct": -0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-13T09:22+00:00",
-     "prix": 78.99,
-     "precedent": 78.49,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-10T08:27+00:00",
-     "prix": 78.49,
-     "precedent": 78.99,
-     "variation": -0.5,
-     "variation_pct": -0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-08T08:55+00:00",
-     "prix": 78.99,
-     "precedent": 78.49,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-03T08:03+00:00",
-     "prix": 78.49,
-     "precedent": 77.99,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-30T08:30+00:00",
-     "prix": 77.99,
-     "precedent": 77.49,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 77.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
-    "jours_moins_cher": 56,
-    "position_pct": 100,
-    "rythme_jours": 5,
-    "amplitude_moyenne": 0.5,
-    "mouvements": 12
-   },
-   "affaire": {
-    "prix_habituel": 78.49,
-    "ecart": -1.0,
-    "ecart_pct": -1.3,
-    "part_moins_cher_pct": 93.2,
-    "deja_moins_cher": true,
-    "saisir": false
-   },
-   "min_mensuel": null
-  },
-  {
-   "id": "9781779517043",
-   "titre": "Batman & Robin By Tomasi and Gleason Omnibus (2022 Edition)",
+   "id": "9781779509253",
+   "titre": "Superman by Peter J. Tomasi and Patrick Gleason Omnibus",
    "artiste": "Peter J. Tomasi",
    "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/043/9781779517043.jpg",
-   "url": "https://imusic.fr/books/9781779517043/peter-j-tomasi-2023-batman-robin-by-tomasi-and-gleason-omnibus-2022-edition-hardcover-book",
+   "image": "https://imusic.b-cdn.net/images/item/original/253/9781779509253.jpg",
+   "url": "https://imusic.fr/books/9781779509253/peter-j-tomasi-2021-superman-by-peter-j-tomasi-and-patrick-gleason-omnibus-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
-   "prix": 79.49,
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
+   "prix": 66.99,
    "variation": 0.5,
-   "variation_pct": 0.6,
+   "variation_pct": 0.8,
    "variation_depuis": "2026-11-07T08:44+00:00",
-   "min_12m": 77.49,
-   "max_12m": 79.49,
-   "min_total": 77.49,
-   "max_total": 79.49,
+   "min_12m": 65.49,
+   "max_12m": 66.99,
+   "min_total": 65.49,
+   "max_total": 66.99,
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 13,
+   "releves": 8,
    "series": [
     [
      "2026-09-10T13:00+02:00",
-     77.49
+     65.49
     ],
     [
-     "2026-09-30T08:30+00:00",
-     77.99
+     "2026-10-02T08:28+00:00",
+     65.99
     ],
     [
      "2026-10-03T08:03+00:00",
-     78.49
+     66.49
     ],
     [
-     "2026-10-08T08:55+00:00",
-     78.99
-    ],
-    [
-     "2026-10-10T08:27+00:00",
-     78.49
-    ],
-    [
-     "2026-10-13T09:22+00:00",
-     78.99
-    ],
-    [
-     "2026-10-16T07:06+00:00",
-     78.49
-    ],
-    [
-     "2026-10-24T07:15+00:00",
-     78.99
-    ],
-    [
-     "2026-10-30T08:35+00:00",
-     79.49
+     "2026-10-29T08:25+00:00",
+     66.99
     ],
     [
      "2026-10-31T08:23+00:00",
-     78.99
+     66.49
     ],
     [
-     "2026-11-04T09:06+00:00",
-     79.49
+     "2026-11-02T09:25+00:00",
+     66.99
     ],
     [
-     "2026-11-05T09:26+00:00",
-     78.99
+     "2026-11-06T09:20+00:00",
+     66.49
     ],
     [
      "2026-11-07T08:44+00:00",
-     79.49
+     66.99
     ]
    ],
    "a_saisir": false,
@@ -3321,103 +2983,63 @@
    "journal": [
     {
      "date": "2026-11-07T08:44+00:00",
-     "prix": 79.49,
-     "precedent": 78.99,
+     "prix": 66.99,
+     "precedent": 66.49,
      "variation": 0.5,
-     "variation_pct": 0.6,
+     "variation_pct": 0.8,
      "statut": "disponible"
     },
     {
-     "date": "2026-11-05T09:26+00:00",
-     "prix": 78.99,
-     "precedent": 79.49,
+     "date": "2026-11-06T09:20+00:00",
+     "prix": 66.49,
+     "precedent": 66.99,
      "variation": -0.5,
-     "variation_pct": -0.6,
+     "variation_pct": -0.7,
      "statut": "disponible"
     },
     {
-     "date": "2026-11-04T09:06+00:00",
-     "prix": 79.49,
-     "precedent": 78.99,
+     "date": "2026-11-02T09:25+00:00",
+     "prix": 66.99,
+     "precedent": 66.49,
      "variation": 0.5,
-     "variation_pct": 0.6,
+     "variation_pct": 0.8,
      "statut": "disponible"
     },
     {
      "date": "2026-10-31T08:23+00:00",
-     "prix": 78.99,
-     "precedent": 79.49,
+     "prix": 66.49,
+     "precedent": 66.99,
      "variation": -0.5,
-     "variation_pct": -0.6,
+     "variation_pct": -0.7,
      "statut": "disponible"
     },
     {
-     "date": "2026-10-30T08:35+00:00",
-     "prix": 79.49,
-     "precedent": 78.99,
+     "date": "2026-10-29T08:25+00:00",
+     "prix": 66.99,
+     "precedent": 66.49,
      "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-24T07:15+00:00",
-     "prix": 78.99,
-     "precedent": 78.49,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-16T07:06+00:00",
-     "prix": 78.49,
-     "precedent": 78.99,
-     "variation": -0.5,
-     "variation_pct": -0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-13T09:22+00:00",
-     "prix": 78.99,
-     "precedent": 78.49,
-     "variation": 0.5,
-     "variation_pct": 0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-10T08:27+00:00",
-     "prix": 78.49,
-     "precedent": 78.99,
-     "variation": -0.5,
-     "variation_pct": -0.6,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-08T08:55+00:00",
-     "prix": 78.99,
-     "precedent": 78.49,
-     "variation": 0.5,
-     "variation_pct": 0.6,
+     "variation_pct": 0.8,
      "statut": "disponible"
     },
     {
      "date": "2026-10-03T08:03+00:00",
-     "prix": 78.49,
-     "precedent": 77.99,
+     "prix": 66.49,
+     "precedent": 65.99,
      "variation": 0.5,
-     "variation_pct": 0.6,
+     "variation_pct": 0.8,
      "statut": "disponible"
     },
     {
-     "date": "2026-09-30T08:30+00:00",
-     "prix": 77.99,
-     "precedent": 77.49,
+     "date": "2026-10-02T08:28+00:00",
+     "prix": 65.99,
+     "precedent": 65.49,
      "variation": 0.5,
-     "variation_pct": 0.6,
+     "variation_pct": 0.8,
      "statut": "disponible"
     },
     {
      "date": "2026-09-10T13:00+02:00",
-     "prix": 77.49,
+     "prix": 65.49,
      "precedent": null,
      "variation": null,
      "variation_pct": null,
@@ -3425,19 +3047,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
-    "jours_moins_cher": 56,
+    "jours_suivi": 61,
+    "jours_observes": 61,
+    "jours_moins_cher": 52,
     "position_pct": 100,
-    "rythme_jours": 5,
+    "rythme_jours": 9,
     "amplitude_moyenne": 0.5,
-    "mouvements": 12
+    "mouvements": 7
    },
    "affaire": {
-    "prix_habituel": 78.49,
-    "ecart": -1.0,
-    "ecart_pct": -1.3,
-    "part_moins_cher_pct": 93.2,
+    "prix_habituel": 66.49,
+    "ecart": -0.5,
+    "ecart_pct": -0.8,
+    "part_moins_cher_pct": 85.2,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3451,11 +3073,11 @@
    "image": "https://imusic.b-cdn.net/images/item/original/658/9781779506658.jpg",
    "url": "https://imusic.fr/books/9781779506658/james-tynion-iv-2020-batman-detective-comics-omnibus-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
-   "prix": 79.49,
-   "variation": 0.5,
-   "variation_pct": 0.6,
-   "variation_depuis": "2026-11-07T08:44+00:00",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
+   "prix": 78.99,
+   "variation": -0.5,
+   "variation_pct": -0.6,
+   "variation_depuis": "2026-11-10T09:43+00:00",
    "min_12m": 77.49,
    "max_12m": 79.49,
    "min_total": 77.49,
@@ -3463,7 +3085,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 13,
+   "releves": 14,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -3516,6 +3138,10 @@
     [
      "2026-11-07T08:44+00:00",
      79.49
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     78.99
     ]
    ],
    "a_saisir": false,
@@ -3526,6 +3152,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 78.99,
+     "precedent": 79.49,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-07T08:44+00:00",
      "prix": 79.49,
@@ -3632,19 +3266,457 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
-    "jours_moins_cher": 56,
-    "position_pct": 100,
+    "jours_suivi": 61,
+    "jours_observes": 61,
+    "jours_moins_cher": 39,
+    "position_pct": 75,
     "rythme_jours": 5,
     "amplitude_moyenne": 0.5,
-    "mouvements": 12
+    "mouvements": 13
    },
    "affaire": {
     "prix_habituel": 78.49,
-    "ecart": -1.0,
-    "ecart_pct": -1.3,
-    "part_moins_cher_pct": 93.2,
+    "ecart": -0.5,
+    "ecart_pct": -0.6,
+    "part_moins_cher_pct": 63.9,
+    "deja_moins_cher": true,
+    "saisir": false
+   },
+   "min_mensuel": null
+  },
+  {
+   "id": "9781779504999",
+   "titre": "JLA by Grant Morrison Omnibus",
+   "artiste": "Grant Morriso",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/999/9781779504999.jpg",
+   "url": "https://imusic.fr/books/9781779504999/grant-morriso-2020-jla-by-grant-morrison-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
+   "prix": 78.99,
+   "variation": -0.5,
+   "variation_pct": -0.6,
+   "variation_depuis": "2026-11-10T09:43+00:00",
+   "min_12m": 77.49,
+   "max_12m": 79.49,
+   "min_total": 77.49,
+   "max_total": 79.49,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 14,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ],
+    [
+     "2026-09-30T08:30+00:00",
+     77.99
+    ],
+    [
+     "2026-10-03T08:03+00:00",
+     78.49
+    ],
+    [
+     "2026-10-08T08:55+00:00",
+     78.99
+    ],
+    [
+     "2026-10-10T08:27+00:00",
+     78.49
+    ],
+    [
+     "2026-10-13T09:22+00:00",
+     78.99
+    ],
+    [
+     "2026-10-16T07:06+00:00",
+     78.49
+    ],
+    [
+     "2026-10-24T07:15+00:00",
+     78.99
+    ],
+    [
+     "2026-10-30T08:35+00:00",
+     79.49
+    ],
+    [
+     "2026-10-31T08:23+00:00",
+     78.99
+    ],
+    [
+     "2026-11-04T09:06+00:00",
+     79.49
+    ],
+    [
+     "2026-11-05T09:26+00:00",
+     78.99
+    ],
+    [
+     "2026-11-07T08:44+00:00",
+     79.49
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     78.99
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 78.99,
+     "precedent": 79.49,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-07T08:44+00:00",
+     "prix": 79.49,
+     "precedent": 78.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-05T09:26+00:00",
+     "prix": 78.99,
+     "precedent": 79.49,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-04T09:06+00:00",
+     "prix": 79.49,
+     "precedent": 78.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-31T08:23+00:00",
+     "prix": 78.99,
+     "precedent": 79.49,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-30T08:35+00:00",
+     "prix": 79.49,
+     "precedent": 78.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-24T07:15+00:00",
+     "prix": 78.99,
+     "precedent": 78.49,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-16T07:06+00:00",
+     "prix": 78.49,
+     "precedent": 78.99,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-13T09:22+00:00",
+     "prix": 78.99,
+     "precedent": 78.49,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-10T08:27+00:00",
+     "prix": 78.49,
+     "precedent": 78.99,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-08T08:55+00:00",
+     "prix": 78.99,
+     "precedent": 78.49,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-03T08:03+00:00",
+     "prix": 78.49,
+     "precedent": 77.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-30T08:30+00:00",
+     "prix": 77.99,
+     "precedent": 77.49,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 77.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": 61,
+    "jours_observes": 61,
+    "jours_moins_cher": 39,
+    "position_pct": 75,
+    "rythme_jours": 5,
+    "amplitude_moyenne": 0.5,
+    "mouvements": 13
+   },
+   "affaire": {
+    "prix_habituel": 78.49,
+    "ecart": -0.5,
+    "ecart_pct": -0.6,
+    "part_moins_cher_pct": 63.9,
+    "deja_moins_cher": true,
+    "saisir": false
+   },
+   "min_mensuel": null
+  },
+  {
+   "id": "9781779517043",
+   "titre": "Batman & Robin By Tomasi and Gleason Omnibus (2022 Edition)",
+   "artiste": "Peter J. Tomasi",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/043/9781779517043.jpg",
+   "url": "https://imusic.fr/books/9781779517043/peter-j-tomasi-2023-batman-robin-by-tomasi-and-gleason-omnibus-2022-edition-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
+   "prix": 78.99,
+   "variation": -0.5,
+   "variation_pct": -0.6,
+   "variation_depuis": "2026-11-10T09:43+00:00",
+   "min_12m": 77.49,
+   "max_12m": 79.49,
+   "min_total": 77.49,
+   "max_total": 79.49,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 14,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     77.49
+    ],
+    [
+     "2026-09-30T08:30+00:00",
+     77.99
+    ],
+    [
+     "2026-10-03T08:03+00:00",
+     78.49
+    ],
+    [
+     "2026-10-08T08:55+00:00",
+     78.99
+    ],
+    [
+     "2026-10-10T08:27+00:00",
+     78.49
+    ],
+    [
+     "2026-10-13T09:22+00:00",
+     78.99
+    ],
+    [
+     "2026-10-16T07:06+00:00",
+     78.49
+    ],
+    [
+     "2026-10-24T07:15+00:00",
+     78.99
+    ],
+    [
+     "2026-10-30T08:35+00:00",
+     79.49
+    ],
+    [
+     "2026-10-31T08:23+00:00",
+     78.99
+    ],
+    [
+     "2026-11-04T09:06+00:00",
+     79.49
+    ],
+    [
+     "2026-11-05T09:26+00:00",
+     78.99
+    ],
+    [
+     "2026-11-07T08:44+00:00",
+     79.49
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     78.99
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 78.99,
+     "precedent": 79.49,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-07T08:44+00:00",
+     "prix": 79.49,
+     "precedent": 78.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-05T09:26+00:00",
+     "prix": 78.99,
+     "precedent": 79.49,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-04T09:06+00:00",
+     "prix": 79.49,
+     "precedent": 78.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-31T08:23+00:00",
+     "prix": 78.99,
+     "precedent": 79.49,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-30T08:35+00:00",
+     "prix": 79.49,
+     "precedent": 78.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-24T07:15+00:00",
+     "prix": 78.99,
+     "precedent": 78.49,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-16T07:06+00:00",
+     "prix": 78.49,
+     "precedent": 78.99,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-13T09:22+00:00",
+     "prix": 78.99,
+     "precedent": 78.49,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-10T08:27+00:00",
+     "prix": 78.49,
+     "precedent": 78.99,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-08T08:55+00:00",
+     "prix": 78.99,
+     "precedent": 78.49,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-03T08:03+00:00",
+     "prix": 78.49,
+     "precedent": 77.99,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-30T08:30+00:00",
+     "prix": 77.99,
+     "precedent": 77.49,
+     "variation": 0.5,
+     "variation_pct": 0.6,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 77.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": 61,
+    "jours_observes": 61,
+    "jours_moins_cher": 39,
+    "position_pct": 75,
+    "rythme_jours": 5,
+    "amplitude_moyenne": 0.5,
+    "mouvements": 13
+   },
+   "affaire": {
+    "prix_habituel": 78.49,
+    "ecart": -0.5,
+    "ecart_pct": -0.6,
+    "part_moins_cher_pct": 63.9,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3658,11 +3730,11 @@
    "image": "https://imusic.b-cdn.net/images/item/original/713/9781779524713.jpg",
    "url": "https://imusic.fr/books/9781779524713/geoff-johns-2024-absolute-superman-by-geoff-johns-gary-frank-hardcover-book",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-11-23 - 2026-12-16",
-   "prix": 79.49,
-   "variation": 0.5,
-   "variation_pct": 0.6,
-   "variation_depuis": "2026-11-07T08:44+00:00",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-17",
+   "prix": 78.99,
+   "variation": -0.5,
+   "variation_pct": -0.6,
+   "variation_depuis": "2026-11-10T09:43+00:00",
    "min_12m": 75.99,
    "max_12m": 79.49,
    "min_total": 75.99,
@@ -3670,7 +3742,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 19,
+   "releves": 20,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -3747,6 +3819,10 @@
     [
      "2026-11-07T08:44+00:00",
      79.49
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     78.99
     ]
    ],
    "a_saisir": false,
@@ -3757,6 +3833,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 78.99,
+     "precedent": 79.49,
+     "variation": -0.5,
+     "variation_pct": -0.6,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-07T08:44+00:00",
      "prix": 79.49,
@@ -3911,22 +3995,78 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 60,
-    "jours_observes": 60,
-    "jours_moins_cher": 56,
-    "position_pct": 100,
+    "jours_suivi": 61,
+    "jours_observes": 61,
+    "jours_moins_cher": 40,
+    "position_pct": 86,
     "rythme_jours": 3,
-    "amplitude_moyenne": 0.56,
-    "mouvements": 18
+    "amplitude_moyenne": 0.55,
+    "mouvements": 19
    },
    "affaire": {
     "prix_habituel": 78.49,
-    "ecart": -1.0,
-    "ecart_pct": -1.3,
-    "part_moins_cher_pct": 93.2,
+    "ecart": -0.5,
+    "ecart_pct": -0.6,
+    "part_moins_cher_pct": 65.6,
     "deja_moins_cher": true,
     "saisir": false
    },
+   "min_mensuel": null
+  },
+  {
+   "id": "9781799508205",
+   "titre": "The Swamp Thing by Ram V and Mike Perkins Omnibus",
+   "artiste": "Ram V.",
+   "media": "Hardcover Book",
+   "image": "https://imusic.b-cdn.net/images/item/original/205/9781799508205.jpg",
+   "url": "https://imusic.fr/books/9781799508205/ram-v-2026-the-swamp-thing-by-ram-v-and-mike-perkins-omnibus-hardcover-book",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-11-20 - 2026-11-27",
+   "prix": 82.99,
+   "variation": null,
+   "variation_pct": null,
+   "variation_depuis": null,
+   "min_12m": 82.99,
+   "max_12m": 82.99,
+   "min_total": 82.99,
+   "max_total": 82.99,
+   "plus_bas_12m": true,
+   "plus_bas_total": true,
+   "suivi_depuis": "2026-11-10",
+   "releves": 1,
+   "series": [
+    [
+     "2026-11-10T09:43+00:00",
+     82.99
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-11-10T09:43+00:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 82.99,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": null,
+    "jours_observes": null,
+    "jours_moins_cher": null,
+    "position_pct": null,
+    "rythme_jours": null,
+    "amplitude_moyenne": null,
+    "mouvements": null
+   },
+   "affaire": null,
    "min_mensuel": null
   },
   {
@@ -3936,12 +4076,12 @@
    "media": "Hardcover Book",
    "image": "https://imusic.b-cdn.net/images/item/original/837/9781302969837.jpg",
    "url": "https://imusic.fr/books/9781302969837/jim-starlin-2026-silver-surfer-the-infinity-gauntlet-omnibus-hardcover-book",
-   "statut": "indisponible",
-   "livraison": "Date de livraison prévue inconnue",
-   "prix": null,
-   "variation": null,
-   "variation_pct": null,
-   "variation_depuis": null,
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-11-24 - 2026-12-08",
+   "prix": 112.99,
+   "variation": 0.5,
+   "variation_pct": 0.4,
+   "variation_depuis": "2026-11-10T09:43+00:00",
    "min_12m": 109.99,
    "max_12m": 112.99,
    "min_total": 109.99,
@@ -3949,7 +4089,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 13,
+   "releves": 14,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -4002,6 +4142,10 @@
     [
      "2026-11-03T09:29+00:00",
      112.99
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     112.99
     ]
    ],
    "a_saisir": false,
@@ -4017,9 +4161,21 @@
     [
      "2026-11-04T09:06+00:00",
      "indisponible"
+    ],
+    [
+     "2026-11-10T09:43+00:00",
+     "disponible"
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-10T09:43+00:00",
+     "prix": 112.99,
+     "precedent": 112.99,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-04T09:06+00:00",
      "prix": null,
@@ -4134,15 +4290,22 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": null,
-    "jours_observes": null,
-    "jours_moins_cher": null,
-    "position_pct": null,
-    "rythme_jours": null,
-    "amplitude_moyenne": null,
-    "mouvements": null
+    "jours_suivi": 61,
+    "jours_observes": 55,
+    "jours_moins_cher": 52,
+    "position_pct": 100,
+    "rythme_jours": 6,
+    "amplitude_moyenne": 0.5,
+    "mouvements": 11
    },
-   "affaire": null,
+   "affaire": {
+    "prix_habituel": 110.99,
+    "ecart": -2.0,
+    "ecart_pct": -1.8,
+    "part_moins_cher_pct": 94.6,
+    "deja_moins_cher": true,
+    "saisir": false
+   },
    "min_mensuel": null
   },
   {
