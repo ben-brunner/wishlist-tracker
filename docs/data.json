@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-11-13T09:28:17+00:00",
- "verifie_le": "2026-11-13T09:28:17+00:00",
+ "genere_le": "2026-11-14T08:55:58+00:00",
+ "verifie_le": "2026-11-14T08:55:58+00:00",
  "alertes": [],
  "articles": [
   {
@@ -84,11 +84,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 2,
     "position_pct": 50,
-    "rythme_jours": 21,
+    "rythme_jours": 22,
     "amplitude_moyenne": 0.5,
     "mouvements": 3
    },
@@ -96,7 +96,7 @@
     "prix_habituel": 13.99,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 3.2,
+    "part_moins_cher_pct": 3.1,
     "deja_moins_cher": false,
     "saisir": false
    },
@@ -211,8 +211,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 56,
+    "jours_suivi": 65,
+    "jours_observes": 57,
     "jours_moins_cher": 14,
     "position_pct": 12,
     "rythme_jours": 16,
@@ -223,7 +223,7 @@
     "prix_habituel": 30.49,
     "ecart": 7.5,
     "ecart_pct": 24.6,
-    "part_moins_cher_pct": 25.1,
+    "part_moins_cher_pct": 24.7,
     "deja_moins_cher": true,
     "saisir": true
    },
@@ -238,10 +238,10 @@
    "url": "https://imusic.fr/books/9781684157648/james-tynion-iv-2021-something-is-killing-the-children-book-one-deluxe-edition-something-is-killing-the-children-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-11-27 - 2026-12-22",
-   "prix": 30.49,
+   "prix": 30.99,
    "variation": 0.5,
-   "variation_pct": 1.7,
-   "variation_depuis": "2026-11-11T09:19+00:00",
+   "variation_pct": 1.6,
+   "variation_depuis": "2026-11-14T08:55+00:00",
    "min_12m": 29.99,
    "max_12m": 35.99,
    "min_total": 29.99,
@@ -249,7 +249,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 11,
+   "releves": 12,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -294,6 +294,10 @@
     [
      "2026-11-11T09:19+00:00",
      30.49
+    ],
+    [
+     "2026-11-14T08:55+00:00",
+     30.99
     ]
    ],
    "a_saisir": true,
@@ -328,6 +332,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-14T08:55+00:00",
+     "prix": 30.99,
+     "precedent": 30.49,
+     "variation": 0.5,
+     "variation_pct": 1.6,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-11T09:19+00:00",
      "prix": 30.49,
@@ -442,19 +454,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 43,
-    "jours_moins_cher": 5,
-    "position_pct": 8,
-    "rythme_jours": 8,
-    "amplitude_moyenne": 1.19,
-    "mouvements": 8
+    "jours_suivi": 65,
+    "jours_observes": 44,
+    "jours_moins_cher": 8,
+    "position_pct": 17,
+    "rythme_jours": 7,
+    "amplitude_moyenne": 1.11,
+    "mouvements": 9
    },
    "affaire": {
     "prix_habituel": 35.49,
-    "ecart": 5.0,
-    "ecart_pct": 14.1,
-    "part_moins_cher_pct": 11.6,
+    "ecart": 4.5,
+    "ecart_pct": 12.7,
+    "part_moins_cher_pct": 18.2,
     "deja_moins_cher": true,
     "saisir": true
    },
@@ -469,18 +481,18 @@
    "url": "https://imusic.fr/books/9781799500360/n-k-jemisin-2025-far-sector-the-deluxe-edition-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-11-27 - 2026-12-22",
-   "prix": 30.49,
+   "prix": 30.99,
    "variation": 0.5,
-   "variation_pct": 1.7,
-   "variation_depuis": "2026-11-11T09:19+00:00",
+   "variation_pct": 1.6,
+   "variation_depuis": "2026-11-14T08:55+00:00",
    "min_12m": 28.99,
-   "max_12m": 30.49,
+   "max_12m": 30.99,
    "min_total": 28.99,
-   "max_total": 30.49,
+   "max_total": 30.99,
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-30",
-   "releves": 6,
+   "releves": 7,
    "series": [
     [
      "2026-09-30T08:30+00:00",
@@ -505,6 +517,10 @@
     [
      "2026-11-11T09:19+00:00",
      30.49
+    ],
+    [
+     "2026-11-14T08:55+00:00",
+     30.99
     ]
    ],
    "a_saisir": false,
@@ -515,6 +531,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-14T08:55+00:00",
+     "prix": 30.99,
+     "precedent": 30.49,
+     "variation": 0.5,
+     "variation_pct": 1.6,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-11T09:19+00:00",
      "prix": 30.49,
@@ -565,19 +589,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 44,
-    "jours_observes": 44,
-    "jours_moins_cher": 42,
+    "jours_suivi": 45,
+    "jours_observes": 45,
+    "jours_moins_cher": 45,
     "position_pct": 100,
-    "rythme_jours": 9,
+    "rythme_jours": 8,
     "amplitude_moyenne": 0.5,
-    "mouvements": 5
+    "mouvements": 6
    },
    "affaire": {
     "prix_habituel": 29.49,
-    "ecart": -1.0,
-    "ecart_pct": -3.4,
-    "part_moins_cher_pct": 95.4,
+    "ecart": -1.5,
+    "ecart_pct": -5.1,
+    "part_moins_cher_pct": 100.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -592,18 +616,18 @@
    "url": "https://imusic.fr/books/9781799509219/g-willow-wilson-2026-poison-ivy-deluxe-edition-vol-1-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-11-27 - 2026-12-22",
-   "prix": 30.49,
+   "prix": 30.99,
    "variation": 0.5,
-   "variation_pct": 1.7,
-   "variation_depuis": "2026-11-11T09:19+00:00",
+   "variation_pct": 1.6,
+   "variation_depuis": "2026-11-14T08:55+00:00",
    "min_12m": 29.49,
-   "max_12m": 30.49,
+   "max_12m": 30.99,
    "min_total": 29.49,
-   "max_total": 30.49,
+   "max_total": 30.99,
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-10-15",
-   "releves": 5,
+   "releves": 6,
    "series": [
     [
      "2026-10-15T07:23+00:00",
@@ -624,6 +648,10 @@
     [
      "2026-11-11T09:19+00:00",
      30.49
+    ],
+    [
+     "2026-11-14T08:55+00:00",
+     30.99
     ]
    ],
    "a_saisir": false,
@@ -634,6 +662,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-14T08:55+00:00",
+     "prix": 30.99,
+     "precedent": 30.49,
+     "variation": 0.5,
+     "variation_pct": 1.6,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-11T09:19+00:00",
      "prix": 30.49,
@@ -676,19 +712,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 29,
-    "jours_observes": 29,
-    "jours_moins_cher": 27,
+    "jours_suivi": 30,
+    "jours_observes": 30,
+    "jours_moins_cher": 30,
     "position_pct": 100,
-    "rythme_jours": 7,
+    "rythme_jours": 6,
     "amplitude_moyenne": 0.5,
-    "mouvements": 4
+    "mouvements": 5
    },
    "affaire": {
     "prix_habituel": 29.49,
-    "ecart": -1.0,
-    "ecart_pct": -3.4,
-    "part_moins_cher_pct": 93.1,
+    "ecart": -1.5,
+    "ecart_pct": -5.1,
+    "part_moins_cher_pct": 100.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -703,10 +739,10 @@
    "url": "https://imusic.fr/books/9781799503224/tom-king-2025-the-human-target-by-tom-king-and-greg-smallwood-the-deluxe-edition-hardcover-book",
    "statut": "disponible",
    "livraison": "Livraison prévue 2026-11-27 - 2026-12-22",
-   "prix": 30.49,
-   "variation": -10.5,
-   "variation_pct": -25.6,
-   "variation_depuis": "2026-11-13T09:28+00:00",
+   "prix": 30.99,
+   "variation": 0.5,
+   "variation_pct": 1.6,
+   "variation_depuis": "2026-11-14T08:55+00:00",
    "min_12m": 29.49,
    "max_12m": 41.99,
    "min_total": 29.49,
@@ -714,7 +750,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-10-23",
-   "releves": 6,
+   "releves": 7,
    "series": [
     [
      "2026-10-23T07:27+00:00",
@@ -739,6 +775,10 @@
     [
      "2026-11-13T09:28+00:00",
      30.49
+    ],
+    [
+     "2026-11-14T08:55+00:00",
+     30.99
     ]
    ],
    "a_saisir": true,
@@ -749,6 +789,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-14T08:55+00:00",
+     "prix": 30.99,
+     "precedent": 30.49,
+     "variation": 0.5,
+     "variation_pct": 1.6,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-13T09:28+00:00",
      "prix": 30.49,
@@ -799,20 +847,20 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 21,
-    "jours_observes": 21,
-    "jours_moins_cher": 2,
-    "position_pct": 8,
+    "jours_suivi": 22,
+    "jours_observes": 22,
+    "jours_moins_cher": 3,
+    "position_pct": 12,
     "rythme_jours": 4,
-    "amplitude_moyenne": 5.0,
-    "mouvements": 5
+    "amplitude_moyenne": 4.25,
+    "mouvements": 6
    },
    "affaire": {
     "prix_habituel": 40.99,
-    "ecart": 10.5,
-    "ecart_pct": 25.6,
-    "part_moins_cher_pct": 9.5,
-    "deja_moins_cher": false,
+    "ecart": 10.0,
+    "ecart_pct": 24.4,
+    "part_moins_cher_pct": 13.5,
+    "deja_moins_cher": true,
     "saisir": true
    },
    "min_mensuel": null
@@ -910,8 +958,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 42,
     "position_pct": 100,
     "rythme_jours": 16,
@@ -922,7 +970,7 @@
     "prix_habituel": 33.99,
     "ecart": -0.5,
     "ecart_pct": -1.5,
-    "part_moins_cher_pct": 65.5,
+    "part_moins_cher_pct": 64.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1093,8 +1141,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 21,
     "position_pct": 40,
     "rythme_jours": 6,
@@ -1105,7 +1153,7 @@
     "prix_habituel": 40.49,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 32.7,
+    "part_moins_cher_pct": 32.2,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1292,8 +1340,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 62,
-    "jours_observes": 44,
+    "jours_suivi": 63,
+    "jours_observes": 45,
     "jours_moins_cher": 38,
     "position_pct": 100,
     "rythme_jours": 7,
@@ -1304,7 +1352,7 @@
     "prix_habituel": 40.99,
     "ecart": -1.0,
     "ecart_pct": -2.4,
-    "part_moins_cher_pct": 86.3,
+    "part_moins_cher_pct": 84.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1535,8 +1583,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 63,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -1547,7 +1595,7 @@
     "prix_habituel": 53.99,
     "ecart": -2.0,
     "ecart_pct": -3.7,
-    "part_moins_cher_pct": 98.5,
+    "part_moins_cher_pct": 97.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1814,8 +1862,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 63,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -1826,7 +1874,7 @@
     "prix_habituel": 53.99,
     "ecart": -2.0,
     "ecart_pct": -3.7,
-    "part_moins_cher_pct": 98.5,
+    "part_moins_cher_pct": 97.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2021,8 +2069,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 63,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -2033,7 +2081,7 @@
     "prix_habituel": 53.99,
     "ecart": -2.0,
     "ecart_pct": -3.7,
-    "part_moins_cher_pct": 98.5,
+    "part_moins_cher_pct": 97.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2284,8 +2332,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 64,
     "position_pct": 100,
     "rythme_jours": 6,
@@ -2296,7 +2344,7 @@
     "prix_habituel": 66.49,
     "ecart": -2.5,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2563,8 +2611,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 52,
     "position_pct": 14,
     "rythme_jours": 4,
@@ -2575,7 +2623,7 @@
     "prix_habituel": 66.49,
     "ecart": -2.5,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 81.1,
+    "part_moins_cher_pct": 79.9,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2806,8 +2854,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 64,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -2818,7 +2866,7 @@
     "prix_habituel": 66.49,
     "ecart": -2.5,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3049,8 +3097,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 62,
-    "jours_observes": 62,
+    "jours_suivi": 63,
+    "jours_observes": 63,
     "jours_moins_cher": 62,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -3061,7 +3109,7 @@
     "prix_habituel": 66.49,
     "ecart": -2.5,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.4,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3316,8 +3364,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 64,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -3328,7 +3376,7 @@
     "prix_habituel": 66.49,
     "ecart": -2.5,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3499,8 +3547,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 64,
     "position_pct": 100,
     "rythme_jours": 6,
@@ -3511,7 +3559,7 @@
     "prix_habituel": 66.49,
     "ecart": -2.5,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3754,8 +3802,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 64,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -3766,7 +3814,7 @@
     "prix_habituel": 78.49,
     "ecart": -3.0,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -4009,8 +4057,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 64,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -4021,7 +4069,7 @@
     "prix_habituel": 78.49,
     "ecart": -3.0,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -4264,8 +4312,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 64,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -4276,7 +4324,7 @@
     "prix_habituel": 78.49,
     "ecart": -3.0,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -4591,8 +4639,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 64,
-    "jours_observes": 64,
+    "jours_suivi": 65,
+    "jours_observes": 65,
     "jours_moins_cher": 64,
     "position_pct": 100,
     "rythme_jours": 3,
@@ -4603,7 +4651,7 @@
     "prix_habituel": 78.49,
     "ecart": -3.0,
     "ecart_pct": -3.8,
-    "part_moins_cher_pct": 100.0,
+    "part_moins_cher_pct": 98.5,
     "deja_moins_cher": true,
     "saisir": false
    },
