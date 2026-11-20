@@ -1,17 +1,17 @@
 {
- "genere_le": "2026-11-19T10:15:48+00:00",
- "verifie_le": "2026-11-19T10:15:48+00:00",
+ "genere_le": "2026-11-20T09:58:31+00:00",
+ "verifie_le": "2026-11-20T09:58:31+00:00",
  "alertes": [],
  "articles": [
   {
    "id": "9781401294052",
    "titre": "Batman: The Killing Joke Deluxe",
    "artiste": "Alan Moore",
-   "media": "Hardcover BookDC Black Label Edition",
+   "media": "livre reliéDC Black Label Edition",
    "image": "https://imusic.b-cdn.net/images/item/original/052/9781401294052.jpg",
-   "url": "https://imusic.fr/books/9781401294052/alan-moore-2019-batman-the-killing-joke-deluxe-hardcover-book",
+   "url": "https://imusic.fr/music/9781401294052/alan-moore-2019-batman-the-killing-joke-deluxe-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-01 - 2026-12-08",
+   "livraison": "Livraison prévue 2026-12-02 - 2026-12-09",
    "prix": 13.99,
    "variation": -0.5,
    "variation_pct": -3.5,
@@ -84,11 +84,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 2,
     "position_pct": 50,
-    "rythme_jours": 23,
+    "rythme_jours": 24,
     "amplitude_moyenne": 0.5,
     "mouvements": 3
    },
@@ -106,11 +106,11 @@
    "id": "9781779513441",
    "titre": "All Star Superman: The Deluxe Edition",
    "artiste": "Grant Morrison",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/441/9781779513441.jpg",
-   "url": "https://imusic.fr/books/9781779513441/grant-morrison-2022-all-star-superman-the-deluxe-edition-hardcover-book",
+   "url": "https://imusic.fr/music/9781779513441/grant-morrison-2022-all-star-superman-the-deluxe-edition-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 23.49,
    "variation": 0.5,
    "variation_pct": 2.2,
@@ -223,8 +223,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 62,
+    "jours_suivi": 71,
+    "jours_observes": 63,
     "jours_moins_cher": 20,
     "position_pct": 18,
     "rythme_jours": 14,
@@ -235,7 +235,7 @@
     "prix_habituel": 30.49,
     "ecart": 7.0,
     "ecart_pct": 23.0,
-    "part_moins_cher_pct": 32.4,
+    "part_moins_cher_pct": 31.9,
     "deja_moins_cher": true,
     "saisir": true
    },
@@ -245,11 +245,11 @@
    "id": "9781684157648",
    "titre": "Something is Killing the Children Book One Deluxe Edition - Something is Killing the Children",
    "artiste": "James Tynion IV",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/648/9781684157648.jpg",
-   "url": "https://imusic.fr/books/9781684157648/james-tynion-iv-2021-something-is-killing-the-children-book-one-deluxe-edition-something-is-killing-the-children-hardcover-book",
+   "url": "https://imusic.fr/music/9781684157648/james-tynion-iv-2021-something-is-killing-the-children-book-one-deluxe-edition-something-is-killing-the-children-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 30.99,
    "variation": 0.5,
    "variation_pct": 1.6,
@@ -466,8 +466,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 49,
+    "jours_suivi": 71,
+    "jours_observes": 50,
     "jours_moins_cher": 8,
     "position_pct": 17,
     "rythme_jours": 8,
@@ -478,7 +478,7 @@
     "prix_habituel": 35.49,
     "ecart": 4.5,
     "ecart_pct": 12.7,
-    "part_moins_cher_pct": 16.3,
+    "part_moins_cher_pct": 16.0,
     "deja_moins_cher": true,
     "saisir": true
    },
@@ -488,11 +488,11 @@
    "id": "9781799500360",
    "titre": "Far Sector: The Deluxe Edition",
    "artiste": "N.K. Jemisin",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/360/9781799500360.jpg",
-   "url": "https://imusic.fr/books/9781799500360/n-k-jemisin-2025-far-sector-the-deluxe-edition-hardcover-book",
+   "url": "https://imusic.fr/music/9781799500360/n-k-jemisin-2025-far-sector-the-deluxe-edition-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 30.99,
    "variation": 0.5,
    "variation_pct": 1.6,
@@ -601,11 +601,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 50,
-    "jours_observes": 50,
+    "jours_suivi": 51,
+    "jours_observes": 51,
     "jours_moins_cher": 45,
     "position_pct": 100,
-    "rythme_jours": 8,
+    "rythme_jours": 9,
     "amplitude_moyenne": 0.5,
     "mouvements": 6
    },
@@ -613,7 +613,7 @@
     "prix_habituel": 29.49,
     "ecart": -1.5,
     "ecart_pct": -5.1,
-    "part_moins_cher_pct": 89.9,
+    "part_moins_cher_pct": 88.2,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -623,11 +623,11 @@
    "id": "9781799509219",
    "titre": "Poison Ivy: Deluxe Edition Vol. 1",
    "artiste": "G. Willow Wilson",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/219/9781799509219.jpg",
-   "url": "https://imusic.fr/books/9781799509219/g-willow-wilson-2026-poison-ivy-deluxe-edition-vol-1-hardcover-book",
+   "url": "https://imusic.fr/music/9781799509219/g-willow-wilson-2026-poison-ivy-deluxe-edition-vol-1-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 30.99,
    "variation": 0.5,
    "variation_pct": 1.6,
@@ -724,8 +724,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 35,
-    "jours_observes": 35,
+    "jours_suivi": 36,
+    "jours_observes": 36,
     "jours_moins_cher": 30,
     "position_pct": 100,
     "rythme_jours": 7,
@@ -736,7 +736,7 @@
     "prix_habituel": 29.99,
     "ecart": -1.0,
     "ecart_pct": -3.3,
-    "part_moins_cher_pct": 85.6,
+    "part_moins_cher_pct": 83.3,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -746,11 +746,11 @@
    "id": "9781799503224",
    "titre": "The Human Target by Tom King and Greg Smallwood: The Deluxe Edition",
    "artiste": "Tom King",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/224/9781799503224.jpg",
-   "url": "https://imusic.fr/books/9781799503224/tom-king-2025-the-human-target-by-tom-king-and-greg-smallwood-the-deluxe-edition-hardcover-book",
+   "url": "https://imusic.fr/music/9781799503224/tom-king-2025-the-human-target-by-tom-king-and-greg-smallwood-the-deluxe-edition-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 30.99,
    "variation": 0.5,
    "variation_pct": 1.6,
@@ -859,8 +859,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 27,
-    "jours_observes": 27,
+    "jours_suivi": 28,
+    "jours_observes": 28,
     "jours_moins_cher": 3,
     "position_pct": 12,
     "rythme_jours": 5,
@@ -871,7 +871,7 @@
     "prix_habituel": 40.99,
     "ecart": 10.0,
     "ecart_pct": 24.4,
-    "part_moins_cher_pct": 11.0,
+    "part_moins_cher_pct": 10.6,
     "deja_moins_cher": true,
     "saisir": true
    },
@@ -881,9 +881,9 @@
    "id": "9781799513032",
    "titre": "Kingdom Come: 30th Anniversary Deluxe Edition",
    "artiste": "Mark Waid",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/032/9781799513032.jpg",
-   "url": "https://imusic.fr/books/9781799513032/mark-waid-2026-kingdom-come-30th-anniversary-deluxe-edition-hardcover-book",
+   "url": "https://imusic.fr/music/9781799513032/mark-waid-2026-kingdom-come-30th-anniversary-deluxe-edition-livre-relie",
    "statut": "precommande",
    "livraison": "Livraison prévue 2026-12-02 - 2026-12-07",
    "prix": 34.49,
@@ -970,11 +970,11 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 42,
     "position_pct": 100,
-    "rythme_jours": 17,
+    "rythme_jours": 18,
     "amplitude_moyenne": 0.5,
     "mouvements": 4
    },
@@ -982,7 +982,7 @@
     "prix_habituel": 33.99,
     "ecart": -0.5,
     "ecart_pct": -1.5,
-    "part_moins_cher_pct": 59.8,
+    "part_moins_cher_pct": 59.0,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -992,11 +992,11 @@
    "id": "9781799508199",
    "titre": "Batman / Superman: World's Finest: Deluxe Edition Vol. 1",
    "artiste": "Mark Waid",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/199/9781799508199.jpg",
-   "url": "https://imusic.fr/books/9781799508199/mark-waid-2026-batman-superman-world-s-finest-deluxe-edition-vol-1-hardcover-book",
+   "url": "https://imusic.fr/music/9781799508199/mark-waid-2026-batman-superman-world-s-finest-deluxe-edition-vol-1-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 40.49,
    "variation": -0.5,
    "variation_pct": -1.2,
@@ -1153,8 +1153,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 21,
     "position_pct": 40,
     "rythme_jours": 7,
@@ -1165,7 +1165,7 @@
     "prix_habituel": 40.49,
     "ecart": 0.0,
     "ecart_pct": 0.0,
-    "part_moins_cher_pct": 29.9,
+    "part_moins_cher_pct": 29.5,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1175,11 +1175,11 @@
    "id": "9781632159038",
    "titre": "Saga Book Two - Saga",
    "artiste": "Brian K Vaughan",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/038/9781632159038.jpg",
-   "url": "https://imusic.fr/books/9781632159038/brian-k-vaughan-2017-saga-book-two-saga-hardcover-book",
+   "url": "https://imusic.fr/music/9781632159038/brian-k-vaughan-2017-saga-book-two-saga-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-01 - 2026-12-08",
+   "livraison": "Livraison prévue 2026-12-02 - 2026-12-09",
    "prix": 41.99,
    "variation": 1.0,
    "variation_pct": 2.4,
@@ -1352,8 +1352,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 68,
-    "jours_observes": 50,
+    "jours_suivi": 69,
+    "jours_observes": 51,
     "jours_moins_cher": 38,
     "position_pct": 100,
     "rythme_jours": 8,
@@ -1364,7 +1364,7 @@
     "prix_habituel": 40.99,
     "ecart": -1.0,
     "ecart_pct": -2.4,
-    "part_moins_cher_pct": 75.9,
+    "part_moins_cher_pct": 74.4,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1374,11 +1374,11 @@
    "id": "9781401242381",
    "titre": "The Planetary Omnibus",
    "artiste": "Warren Ellis",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/381/9781401242381.jpg",
-   "url": "https://imusic.fr/books/9781401242381/warren-ellis-2014-the-planetary-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781401242381/warren-ellis-2014-the-planetary-omnibus-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 56.49,
    "variation": 0.5,
    "variation_pct": 0.9,
@@ -1607,8 +1607,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 68,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -1619,7 +1619,7 @@
     "prix_habituel": 53.99,
     "ecart": -2.5,
     "ecart_pct": -4.6,
-    "part_moins_cher_pct": 97.2,
+    "part_moins_cher_pct": 95.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1629,11 +1629,11 @@
    "id": "9781779506955",
    "titre": "Absolute Swamp Thing by Alan Moore Volume 1",
    "artiste": "Alan Moore",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/955/9781779506955.jpg",
-   "url": "https://imusic.fr/books/9781779506955/alan-moore-2020-absolute-swamp-thing-by-alan-moore-volume-1-hardcover-book",
+   "url": "https://imusic.fr/music/9781779506955/alan-moore-2020-absolute-swamp-thing-by-alan-moore-volume-1-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 56.49,
    "variation": 0.5,
    "variation_pct": 0.9,
@@ -1898,8 +1898,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 68,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -1910,7 +1910,7 @@
     "prix_habituel": 53.99,
     "ecart": -2.5,
     "ecart_pct": -4.6,
-    "part_moins_cher_pct": 97.2,
+    "part_moins_cher_pct": 95.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -1920,11 +1920,11 @@
    "id": "9781506722443",
    "titre": "Madman Library Edition Volume 1",
    "artiste": "Michael Allred",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/443/9781506722443.jpg",
-   "url": "https://imusic.fr/books/9781506722443/michael-allred-2021-madman-library-edition-volume-1-hardcover-book",
+   "url": "https://imusic.fr/music/9781506722443/michael-allred-2021-madman-library-edition-volume-1-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 56.49,
    "variation": 0.5,
    "variation_pct": 0.9,
@@ -2117,8 +2117,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 68,
     "position_pct": 100,
     "rythme_jours": 5,
@@ -2129,7 +2129,7 @@
     "prix_habituel": 53.99,
     "ecart": -2.5,
     "ecart_pct": -4.6,
-    "part_moins_cher_pct": 97.2,
+    "part_moins_cher_pct": 95.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2139,11 +2139,11 @@
    "id": "9781799508205",
    "titre": "The Swamp Thing by Ram V and Mike Perkins Omnibus",
    "artiste": "Ram V.",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/205/9781799508205.jpg",
-   "url": "https://imusic.fr/books/9781799508205/ram-v-2026-the-swamp-thing-by-ram-v-and-mike-perkins-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781799508205/ram-v-2026-the-swamp-thing-by-ram-v-and-mike-perkins-omnibus-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 56.49,
    "variation": 0.5,
    "variation_pct": 0.9,
@@ -2228,213 +2228,18 @@
    "min_mensuel": null
   },
   {
-   "id": "9781401294762",
-   "titre": "Lucifer Omnibus Volume 1",
-   "artiste": "Mike Carey",
-   "media": "Hardcover Book",
-   "image": "https://imusic.b-cdn.net/images/item/original/762/9781401294762.jpg",
-   "url": "https://imusic.fr/books/9781401294762/mike-carey-2019-lucifer-omnibus-volume-1-hardcover-book",
-   "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
-   "prix": 69.49,
-   "variation": 0.5,
-   "variation_pct": 0.7,
-   "variation_depuis": "2026-11-18T10:05+00:00",
-   "min_12m": 65.49,
-   "max_12m": 69.49,
-   "min_total": 65.49,
-   "max_total": 69.49,
-   "plus_bas_12m": false,
-   "plus_bas_total": false,
-   "suivi_depuis": "2026-09-10",
-   "releves": 12,
-   "series": [
-    [
-     "2026-09-10T13:00+02:00",
-     65.49
-    ],
-    [
-     "2026-10-02T08:28+00:00",
-     65.99
-    ],
-    [
-     "2026-10-03T08:03+00:00",
-     66.49
-    ],
-    [
-     "2026-10-29T08:25+00:00",
-     66.99
-    ],
-    [
-     "2026-10-31T08:23+00:00",
-     66.49
-    ],
-    [
-     "2026-11-03T09:29+00:00",
-     66.99
-    ],
-    [
-     "2026-11-05T09:26+00:00",
-     66.49
-    ],
-    [
-     "2026-11-07T08:44+00:00",
-     66.99
-    ],
-    [
-     "2026-11-11T09:19+00:00",
-     67.99
-    ],
-    [
-     "2026-11-12T09:46+00:00",
-     68.49
-    ],
-    [
-     "2026-11-13T09:28+00:00",
-     68.99
-    ],
-    [
-     "2026-11-18T10:05+00:00",
-     69.49
-    ]
-   ],
-   "a_saisir": false,
-   "statuts": [
-    [
-     "2026-09-10T13:00+02:00",
-     "disponible"
-    ]
-   ],
-   "journal": [
-    {
-     "date": "2026-11-18T10:05+00:00",
-     "prix": 69.49,
-     "precedent": 68.99,
-     "variation": 0.5,
-     "variation_pct": 0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-13T09:28+00:00",
-     "prix": 68.99,
-     "precedent": 68.49,
-     "variation": 0.5,
-     "variation_pct": 0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-12T09:46+00:00",
-     "prix": 68.49,
-     "precedent": 67.99,
-     "variation": 0.5,
-     "variation_pct": 0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-11T09:19+00:00",
-     "prix": 67.99,
-     "precedent": 66.99,
-     "variation": 1.0,
-     "variation_pct": 1.5,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-07T08:44+00:00",
-     "prix": 66.99,
-     "precedent": 66.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-05T09:26+00:00",
-     "prix": 66.49,
-     "precedent": 66.99,
-     "variation": -0.5,
-     "variation_pct": -0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-11-03T09:29+00:00",
-     "prix": 66.99,
-     "precedent": 66.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-31T08:23+00:00",
-     "prix": 66.49,
-     "precedent": 66.99,
-     "variation": -0.5,
-     "variation_pct": -0.7,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-29T08:25+00:00",
-     "prix": 66.99,
-     "precedent": 66.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-03T08:03+00:00",
-     "prix": 66.49,
-     "precedent": 65.99,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-10-02T08:28+00:00",
-     "prix": 65.99,
-     "precedent": 65.49,
-     "variation": 0.5,
-     "variation_pct": 0.8,
-     "statut": "disponible"
-    },
-    {
-     "date": "2026-09-10T13:00+02:00",
-     "prix": 65.49,
-     "precedent": null,
-     "variation": null,
-     "variation_pct": null,
-     "statut": "disponible"
-    }
-   ],
-   "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
-    "jours_moins_cher": 69,
-    "position_pct": 100,
-    "rythme_jours": 6,
-    "amplitude_moyenne": 0.55,
-    "mouvements": 11
-   },
-   "affaire": {
-    "prix_habituel": 66.49,
-    "ecart": -3.0,
-    "ecart_pct": -4.5,
-    "part_moins_cher_pct": 98.6,
-    "deja_moins_cher": true,
-    "saisir": false
-   },
-   "min_mensuel": null
-  },
-  {
    "id": "9781779509253",
    "titre": "Superman by Peter J. Tomasi and Patrick Gleason Omnibus",
    "artiste": "Peter J. Tomasi",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/253/9781779509253.jpg",
-   "url": "https://imusic.fr/books/9781779509253/peter-j-tomasi-2021-superman-by-peter-j-tomasi-and-patrick-gleason-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781779509253/peter-j-tomasi-2021-superman-by-peter-j-tomasi-and-patrick-gleason-omnibus-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
-   "prix": 69.49,
-   "variation": 0.5,
-   "variation_pct": 0.7,
-   "variation_depuis": "2026-11-19T10:15+00:00",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
+   "prix": 68.99,
+   "variation": -0.5,
+   "variation_pct": -0.7,
+   "variation_depuis": "2026-11-20T09:58+00:00",
    "min_12m": 65.49,
    "max_12m": 69.49,
    "min_total": 65.49,
@@ -2442,7 +2247,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 12,
+   "releves": 13,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -2491,6 +2296,10 @@
     [
      "2026-11-19T10:15+00:00",
      69.49
+    ],
+    [
+     "2026-11-20T09:58+00:00",
+     68.99
     ]
    ],
    "a_saisir": false,
@@ -2501,6 +2310,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-20T09:58+00:00",
+     "prix": 68.99,
+     "precedent": 69.49,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-19T10:15+00:00",
      "prix": 69.49,
@@ -2599,19 +2416,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
-    "jours_moins_cher": 70,
-    "position_pct": 100,
+    "jours_suivi": 71,
+    "jours_observes": 71,
+    "jours_moins_cher": 64,
+    "position_pct": 88,
     "rythme_jours": 6,
-    "amplitude_moyenne": 0.55,
-    "mouvements": 11
+    "amplitude_moyenne": 0.54,
+    "mouvements": 12
    },
    "affaire": {
     "prix_habituel": 66.49,
-    "ecart": -3.0,
-    "ecart_pct": -4.5,
-    "part_moins_cher_pct": 100.0,
+    "ecart": -2.5,
+    "ecart_pct": -3.8,
+    "part_moins_cher_pct": 90.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2621,15 +2438,15 @@
    "id": "9781799502937",
    "titre": "Birds of Prey by Gail Simone Omnibus Vol. 1",
    "artiste": "Gail Simone",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/937/9781799502937.jpg",
-   "url": "https://imusic.fr/books/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "url": "https://imusic.fr/music/9781799502937/gail-simone-2025-birds-of-prey-by-gail-simone-omnibus-vol-1-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
-   "prix": 69.49,
-   "variation": 0.5,
-   "variation_pct": 0.7,
-   "variation_depuis": "2026-11-18T10:05+00:00",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
+   "prix": 68.99,
+   "variation": -0.5,
+   "variation_pct": -0.7,
+   "variation_depuis": "2026-11-20T09:58+00:00",
    "min_12m": 63.99,
    "max_12m": 99.99,
    "min_total": 63.99,
@@ -2637,7 +2454,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 20,
+   "releves": 21,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -2718,6 +2535,10 @@
     [
      "2026-11-18T10:05+00:00",
      69.49
+    ],
+    [
+     "2026-11-20T09:58+00:00",
+     68.99
     ]
    ],
    "a_saisir": false,
@@ -2728,6 +2549,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-20T09:58+00:00",
+     "prix": 68.99,
+     "precedent": 69.49,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-18T10:05+00:00",
      "prix": 69.49,
@@ -2890,19 +2719,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
-    "jours_moins_cher": 57,
-    "position_pct": 15,
+    "jours_suivi": 71,
+    "jours_observes": 71,
+    "jours_moins_cher": 52,
+    "position_pct": 14,
     "rythme_jours": 4,
-    "amplitude_moyenne": 3.92,
-    "mouvements": 19
+    "amplitude_moyenne": 3.75,
+    "mouvements": 20
    },
    "affaire": {
     "prix_habituel": 66.49,
-    "ecart": -3.0,
-    "ecart_pct": -4.5,
-    "part_moins_cher_pct": 81.3,
+    "ecart": -2.5,
+    "ecart_pct": -3.8,
+    "part_moins_cher_pct": 73.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -2912,15 +2741,15 @@
    "id": "9781799502029",
    "titre": "Superman by Phillip Kennedy Johnson Omnibus Vol. 1",
    "artiste": "Michael Conrad",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/029/9781799502029.jpg",
-   "url": "https://imusic.fr/books/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-hardcover-book",
+   "url": "https://imusic.fr/music/9781799502029/michael-conrad-2025-superman-by-phillip-kennedy-johnson-omnibus-vol-1-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
-   "prix": 69.49,
-   "variation": 0.5,
-   "variation_pct": 0.7,
-   "variation_depuis": "2026-11-18T10:05+00:00",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
+   "prix": 68.99,
+   "variation": -0.5,
+   "variation_pct": -0.7,
+   "variation_depuis": "2026-11-20T09:58+00:00",
    "min_12m": 63.99,
    "max_12m": 69.49,
    "min_total": 63.99,
@@ -2928,7 +2757,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 17,
+   "releves": 18,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -2997,6 +2826,10 @@
     [
      "2026-11-18T10:05+00:00",
      69.49
+    ],
+    [
+     "2026-11-20T09:58+00:00",
+     68.99
     ]
    ],
    "a_saisir": false,
@@ -3007,6 +2840,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-20T09:58+00:00",
+     "prix": 68.99,
+     "precedent": 69.49,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-18T10:05+00:00",
      "prix": 69.49,
@@ -3145,19 +2986,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
-    "jours_moins_cher": 69,
-    "position_pct": 100,
+    "jours_suivi": 71,
+    "jours_observes": 71,
+    "jours_moins_cher": 64,
+    "position_pct": 91,
     "rythme_jours": 4,
-    "amplitude_moyenne": 0.66,
-    "mouvements": 16
+    "amplitude_moyenne": 0.65,
+    "mouvements": 17
    },
    "affaire": {
     "prix_habituel": 66.49,
-    "ecart": -3.0,
-    "ecart_pct": -4.5,
-    "part_moins_cher_pct": 98.6,
+    "ecart": -2.5,
+    "ecart_pct": -3.8,
+    "part_moins_cher_pct": 90.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3167,15 +3008,15 @@
    "id": "9781799501855",
    "titre": "DCeased Omnibus",
    "artiste": "Dceased Omnibus",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/855/9781799501855.jpg",
-   "url": "https://imusic.fr/books/9781799501855/dceased-omnibus-2025-dceased-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781799501855/dceased-omnibus-2025-dceased-omnibus-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
-   "prix": 69.49,
-   "variation": 0.5,
-   "variation_pct": 0.7,
-   "variation_depuis": "2026-11-19T10:15+00:00",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
+   "prix": 68.99,
+   "variation": -0.5,
+   "variation_pct": -0.7,
+   "variation_depuis": "2026-11-20T09:58+00:00",
    "min_12m": 64.49,
    "max_12m": 69.49,
    "min_total": 64.49,
@@ -3183,7 +3024,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-12",
-   "releves": 16,
+   "releves": 17,
    "series": [
     [
      "2026-09-12T11:35+00:00",
@@ -3248,6 +3089,10 @@
     [
      "2026-11-19T10:15+00:00",
      69.49
+    ],
+    [
+     "2026-11-20T09:58+00:00",
+     68.99
     ]
    ],
    "a_saisir": false,
@@ -3262,6 +3107,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-20T09:58+00:00",
+     "prix": 68.99,
+     "precedent": 69.49,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-19T10:15+00:00",
      "prix": 69.49,
@@ -3400,19 +3253,19 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 68,
-    "jours_observes": 68,
-    "jours_moins_cher": 68,
-    "position_pct": 100,
-    "rythme_jours": 5,
+    "jours_suivi": 69,
+    "jours_observes": 69,
+    "jours_moins_cher": 62,
+    "position_pct": 90,
+    "rythme_jours": 4,
     "amplitude_moyenne": 0.53,
-    "mouvements": 15
+    "mouvements": 16
    },
    "affaire": {
     "prix_habituel": 66.49,
-    "ecart": -3.0,
-    "ecart_pct": -4.5,
-    "part_moins_cher_pct": 100.0,
+    "ecart": -2.5,
+    "ecart_pct": -3.8,
+    "part_moins_cher_pct": 89.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3422,15 +3275,15 @@
    "id": "9781779525956",
    "titre": "Secret Six by Gail Simone Omnibus Vol. 1",
    "artiste": "Gail Simone",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/956/9781779525956.jpg",
-   "url": "https://imusic.fr/books/9781779525956/gail-simone-2024-secret-six-by-gail-simone-omnibus-vol-1-hardcover-book",
+   "url": "https://imusic.fr/music/9781779525956/gail-simone-2024-secret-six-by-gail-simone-omnibus-vol-1-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
-   "prix": 69.49,
-   "variation": 0.5,
-   "variation_pct": 0.7,
-   "variation_depuis": "2026-11-18T10:05+00:00",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
+   "prix": 68.99,
+   "variation": -0.5,
+   "variation_pct": -0.7,
+   "variation_depuis": "2026-11-20T09:58+00:00",
    "min_12m": 63.99,
    "max_12m": 69.49,
    "min_total": 63.99,
@@ -3438,7 +3291,7 @@
    "plus_bas_12m": false,
    "plus_bas_total": false,
    "suivi_depuis": "2026-09-10",
-   "releves": 19,
+   "releves": 20,
    "series": [
     [
      "2026-09-10T13:00+02:00",
@@ -3515,6 +3368,10 @@
     [
      "2026-11-18T10:05+00:00",
      69.49
+    ],
+    [
+     "2026-11-20T09:58+00:00",
+     68.99
     ]
    ],
    "a_saisir": false,
@@ -3525,6 +3382,14 @@
     ]
    ],
    "journal": [
+    {
+     "date": "2026-11-20T09:58+00:00",
+     "prix": 68.99,
+     "precedent": 69.49,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
     {
      "date": "2026-11-18T10:05+00:00",
      "prix": 69.49,
@@ -3679,19 +3544,226 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
-    "jours_moins_cher": 69,
-    "position_pct": 100,
+    "jours_suivi": 71,
+    "jours_observes": 71,
+    "jours_moins_cher": 64,
+    "position_pct": 91,
     "rythme_jours": 4,
     "amplitude_moyenne": 0.53,
-    "mouvements": 18
+    "mouvements": 19
    },
    "affaire": {
     "prix_habituel": 66.49,
-    "ecart": -3.0,
-    "ecart_pct": -4.5,
-    "part_moins_cher_pct": 98.6,
+    "ecart": -2.5,
+    "ecart_pct": -3.8,
+    "part_moins_cher_pct": 90.1,
+    "deja_moins_cher": true,
+    "saisir": false
+   },
+   "min_mensuel": null
+  },
+  {
+   "id": "9781401294762",
+   "titre": "Lucifer Omnibus Volume 1",
+   "artiste": "Mike Carey",
+   "media": "livre relié",
+   "image": "https://imusic.b-cdn.net/images/item/original/762/9781401294762.jpg",
+   "url": "https://imusic.fr/music/9781401294762/mike-carey-2019-lucifer-omnibus-volume-1-livre-relie",
+   "statut": "disponible",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
+   "prix": 68.99,
+   "variation": -0.5,
+   "variation_pct": -0.7,
+   "variation_depuis": "2026-11-20T09:58+00:00",
+   "min_12m": 65.49,
+   "max_12m": 69.49,
+   "min_total": 65.49,
+   "max_total": 69.49,
+   "plus_bas_12m": false,
+   "plus_bas_total": false,
+   "suivi_depuis": "2026-09-10",
+   "releves": 13,
+   "series": [
+    [
+     "2026-09-10T13:00+02:00",
+     65.49
+    ],
+    [
+     "2026-10-02T08:28+00:00",
+     65.99
+    ],
+    [
+     "2026-10-03T08:03+00:00",
+     66.49
+    ],
+    [
+     "2026-10-29T08:25+00:00",
+     66.99
+    ],
+    [
+     "2026-10-31T08:23+00:00",
+     66.49
+    ],
+    [
+     "2026-11-03T09:29+00:00",
+     66.99
+    ],
+    [
+     "2026-11-05T09:26+00:00",
+     66.49
+    ],
+    [
+     "2026-11-07T08:44+00:00",
+     66.99
+    ],
+    [
+     "2026-11-11T09:19+00:00",
+     67.99
+    ],
+    [
+     "2026-11-12T09:46+00:00",
+     68.49
+    ],
+    [
+     "2026-11-13T09:28+00:00",
+     68.99
+    ],
+    [
+     "2026-11-18T10:05+00:00",
+     69.49
+    ],
+    [
+     "2026-11-20T09:58+00:00",
+     68.99
+    ]
+   ],
+   "a_saisir": false,
+   "statuts": [
+    [
+     "2026-09-10T13:00+02:00",
+     "disponible"
+    ]
+   ],
+   "journal": [
+    {
+     "date": "2026-11-20T09:58+00:00",
+     "prix": 68.99,
+     "precedent": 69.49,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-18T10:05+00:00",
+     "prix": 69.49,
+     "precedent": 68.99,
+     "variation": 0.5,
+     "variation_pct": 0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-13T09:28+00:00",
+     "prix": 68.99,
+     "precedent": 68.49,
+     "variation": 0.5,
+     "variation_pct": 0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-12T09:46+00:00",
+     "prix": 68.49,
+     "precedent": 67.99,
+     "variation": 0.5,
+     "variation_pct": 0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-11T09:19+00:00",
+     "prix": 67.99,
+     "precedent": 66.99,
+     "variation": 1.0,
+     "variation_pct": 1.5,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-07T08:44+00:00",
+     "prix": 66.99,
+     "precedent": 66.49,
+     "variation": 0.5,
+     "variation_pct": 0.8,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-05T09:26+00:00",
+     "prix": 66.49,
+     "precedent": 66.99,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-11-03T09:29+00:00",
+     "prix": 66.99,
+     "precedent": 66.49,
+     "variation": 0.5,
+     "variation_pct": 0.8,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-31T08:23+00:00",
+     "prix": 66.49,
+     "precedent": 66.99,
+     "variation": -0.5,
+     "variation_pct": -0.7,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-29T08:25+00:00",
+     "prix": 66.99,
+     "precedent": 66.49,
+     "variation": 0.5,
+     "variation_pct": 0.8,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-03T08:03+00:00",
+     "prix": 66.49,
+     "precedent": 65.99,
+     "variation": 0.5,
+     "variation_pct": 0.8,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-10-02T08:28+00:00",
+     "prix": 65.99,
+     "precedent": 65.49,
+     "variation": 0.5,
+     "variation_pct": 0.8,
+     "statut": "disponible"
+    },
+    {
+     "date": "2026-09-10T13:00+02:00",
+     "prix": 65.49,
+     "precedent": null,
+     "variation": null,
+     "variation_pct": null,
+     "statut": "disponible"
+    }
+   ],
+   "indicateurs": {
+    "jours_suivi": 71,
+    "jours_observes": 71,
+    "jours_moins_cher": 64,
+    "position_pct": 88,
+    "rythme_jours": 6,
+    "amplitude_moyenne": 0.54,
+    "mouvements": 12
+   },
+   "affaire": {
+    "prix_habituel": 66.49,
+    "ecart": -2.5,
+    "ecart_pct": -3.8,
+    "part_moins_cher_pct": 90.1,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3701,11 +3773,11 @@
    "id": "9781779504999",
    "titre": "JLA by Grant Morrison Omnibus",
    "artiste": "Grant Morriso",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/999/9781779504999.jpg",
-   "url": "https://imusic.fr/books/9781779504999/grant-morriso-2020-jla-by-grant-morrison-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781779504999/grant-morriso-2020-jla-by-grant-morrison-omnibus-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 81.99,
    "variation": 0.5,
    "variation_pct": 0.6,
@@ -3946,8 +4018,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 68,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -3958,7 +4030,7 @@
     "prix_habituel": 78.49,
     "ecart": -3.5,
     "ecart_pct": -4.5,
-    "part_moins_cher_pct": 97.2,
+    "part_moins_cher_pct": 95.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -3968,11 +4040,11 @@
    "id": "9781779517043",
    "titre": "Batman & Robin By Tomasi and Gleason Omnibus (2022 Edition)",
    "artiste": "Peter J. Tomasi",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/043/9781779517043.jpg",
-   "url": "https://imusic.fr/books/9781779517043/peter-j-tomasi-2023-batman-robin-by-tomasi-and-gleason-omnibus-2022-edition-hardcover-book",
+   "url": "https://imusic.fr/music/9781779517043/peter-j-tomasi-2023-batman-robin-by-tomasi-and-gleason-omnibus-2022-edition-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 81.99,
    "variation": 0.5,
    "variation_pct": 0.6,
@@ -4213,8 +4285,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 68,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -4225,7 +4297,7 @@
     "prix_habituel": 78.49,
     "ecart": -3.5,
     "ecart_pct": -4.5,
-    "part_moins_cher_pct": 97.2,
+    "part_moins_cher_pct": 95.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -4235,11 +4307,11 @@
    "id": "9781779506658",
    "titre": "Batman: Detective Comics Omnibus",
    "artiste": "James Tynion IV",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/658/9781779506658.jpg",
-   "url": "https://imusic.fr/books/9781779506658/james-tynion-iv-2020-batman-detective-comics-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781779506658/james-tynion-iv-2020-batman-detective-comics-omnibus-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 81.99,
    "variation": 0.5,
    "variation_pct": 0.6,
@@ -4480,8 +4552,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 68,
     "position_pct": 100,
     "rythme_jours": 4,
@@ -4492,7 +4564,7 @@
     "prix_habituel": 78.49,
     "ecart": -3.5,
     "ecart_pct": -4.5,
-    "part_moins_cher_pct": 97.2,
+    "part_moins_cher_pct": 95.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -4502,11 +4574,11 @@
    "id": "9781779524713",
    "titre": "Absolute Superman by Geoff Johns & Gary Frank",
    "artiste": "Geoff Johns",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/713/9781779524713.jpg",
-   "url": "https://imusic.fr/books/9781779524713/geoff-johns-2024-absolute-superman-by-geoff-johns-gary-frank-hardcover-book",
+   "url": "https://imusic.fr/music/9781779524713/geoff-johns-2024-absolute-superman-by-geoff-johns-gary-frank-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 81.99,
    "variation": 0.5,
    "variation_pct": 0.6,
@@ -4819,8 +4891,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 70,
+    "jours_suivi": 71,
+    "jours_observes": 71,
     "jours_moins_cher": 68,
     "position_pct": 100,
     "rythme_jours": 3,
@@ -4831,7 +4903,7 @@
     "prix_habituel": 78.49,
     "ecart": -3.5,
     "ecart_pct": -4.5,
-    "part_moins_cher_pct": 97.2,
+    "part_moins_cher_pct": 95.8,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -4841,11 +4913,11 @@
    "id": "9781302969837",
    "titre": "Silver Surfer: The Infinity Gauntlet Omnibus",
    "artiste": "Jim Starlin",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/837/9781302969837.jpg",
-   "url": "https://imusic.fr/books/9781302969837/jim-starlin-2026-silver-surfer-the-infinity-gauntlet-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781302969837/jim-starlin-2026-silver-surfer-the-infinity-gauntlet-omnibus-livre-relie",
    "statut": "disponible",
-   "livraison": "Livraison prévue 2026-12-03 - 2026-12-28",
+   "livraison": "Livraison prévue 2026-12-04 - 2026-12-29",
    "prix": 112.99,
    "variation": 0.5,
    "variation_pct": 0.4,
@@ -5086,8 +5158,8 @@
     }
    ],
    "indicateurs": {
-    "jours_suivi": 70,
-    "jours_observes": 57,
+    "jours_suivi": 71,
+    "jours_observes": 58,
     "jours_moins_cher": 52,
     "position_pct": 100,
     "rythme_jours": 6,
@@ -5098,7 +5170,7 @@
     "prix_habituel": 110.99,
     "ecart": -2.0,
     "ecart_pct": -1.8,
-    "part_moins_cher_pct": 91.3,
+    "part_moins_cher_pct": 89.7,
     "deja_moins_cher": true,
     "saisir": false
    },
@@ -5108,9 +5180,9 @@
    "id": "9781799509066",
    "titre": "Batman: Detective Comics by Ram V Omnibus",
    "artiste": "Ram V.",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/066/9781799509066.jpg",
-   "url": "https://imusic.fr/books/9781799509066/ram-v-2026-batman-detective-comics-by-ram-v-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781799509066/ram-v-2026-batman-detective-comics-by-ram-v-omnibus-livre-relie",
    "statut": "indisponible",
    "livraison": "Date de livraison prévue inconnue",
    "prix": null,
@@ -5159,9 +5231,9 @@
    "id": "9781401245627",
    "titre": "The Doom Patrol Omnibus",
    "artiste": "Grant Morrison",
-   "media": "Hardcover Book",
+   "media": "livre relié",
    "image": "https://imusic.b-cdn.net/images/item/original/627/9781401245627.jpg",
-   "url": "https://imusic.fr/books/9781401245627/grant-morrison-2014-the-doom-patrol-omnibus-hardcover-book",
+   "url": "https://imusic.fr/music/9781401245627/grant-morrison-2014-the-doom-patrol-omnibus-livre-relie",
    "statut": "indisponible",
    "livraison": "Date de livraison prévue inconnue",
    "prix": null,
